@@ -1,0 +1,4177 @@
+acute_copd_exacerbation_infection: {'cluster': 7, 'description': 'respiratory_system'}
+bronchiectasis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+bronchiolitis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+bronchitis: {'cluster': 0, 'description': 'Do you feel pain somewhere?: lower chest'}
+bronchospasm_acute_asthma_exacerbation: {'cluster': 2, 'description': 'Triggered by allergens, cold air, or exercise'}
+pulmonary_embolism: {'cluster': 0, 'description': 'Does the pain radiate to another location?: side of the chest(L)'}
+pulmonary_neoplasm: {'cluster': 1, 'description': 'How intense is the pain?: 6'}
+spontaneous_pneumothorax: {'cluster': 0, 'description': 'Do you feel pain somewhere?: lower chest'}
+urti: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+viral_pharyngitis: {'cluster': 0, 'description': 'Do you feel pain somewhere?: tonsil(L)'}
+whooping_cough: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+acute_laryngitis: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+acute_pulmonary_edema: {'cluster': 0, 'description': 'Do you feel pain somewhere?: side of the chest(R)'}
+croup: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+larygospasm: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: N'}
+epiglottitis: {'cluster': 0, 'description': 'Do you feel pain somewhere?: back of the neck'}
+pneumonia: {'cluster': 1, 'description': 'How intense is the pain?: 0'}
+atrial_fibrillation: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+myocarditis: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+pericarditis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+psvt: {'cluster': 4, 'description': 'Characterize your pain:: tugging'}
+possible_nstemi_stemi: {'cluster': 2, 'description': 'Triggered by physical exertion or emotional stress'}
+stable_angina: {'cluster': 0, 'description': 'Do you feel pain somewhere?: biceps(L)'}
+unstable_angina: {'cluster': 0, 'description': 'Do you feel pain somewhere?: biceps(R)'}
+myasthenia_gravis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+guillain_barre_syndrome: {'cluster': 7, 'description': 'neurological_and_muscular_system'}
+cluster_headache: {'cluster': 0, 'description': 'Do you feel pain somewhere?: forehead'}
+acute_dystonic_reactions: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+sle: {'cluster': 0, 'description': 'Do you feel pain somewhere?: dorsal aspect of the wrist(R)'}
+sarcoidosis: {'cluster': 0, 'description': 'Do you feel pain somewhere?: breast(R)'}
+anaphylaxis: {'cluster': 0, 'description': 'Do you feel pain somewhere?: flank(R)'}
+allergic_sinusitis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+panic_attack: {'cluster': 0, 'description': 'Do you feel pain somewhere?: side of the chest(R)'}
+spontaneous_rib_fracture: {'cluster': 0, 'description': 'Do you feel pain somewhere?: lower chest'}
+inguinal_hernia: {'cluster': 1, 'description': 'How intense is the pain?: 0'}
+anemia: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+gerd: {'cluster': 4, 'description': 'Characterize your pain:: haunting'}
+boerhaave_syndrome: {'cluster': 7, 'description': 'gastrointestinal_system'}
+pancreatic_neoplasm: {'cluster': 1, 'description': 'How intense is the pain?: 0'}
+scombroid_food_poisoning: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+tuberculosis: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+hiv_initial_infection: {'cluster': 0, 'description': 'Do you feel pain somewhere?: back of head'}
+ebola: {'cluster': 6, 'description': 'Have you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE'}
+influenza: {'cluster': 0, 'description': 'Do you feel pain somewhere?: back of the neck'}
+chagas: {'cluster': 0, 'description': 'Do you feel pain somewhere?: flank(R)'}
+acute_otitis_media: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+acute_rhinosinusitis: {'cluster': 0, 'description': 'Does the pain radiate to another location?: back of head'}
+chronic_rhinosinusitis: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+respiratory_system: {'cluster': 7, 'description': 'internal_medicine'}
+cardiovascular_system: {'cluster': 7, 'description': 'internal_medicine'}
+gastrointestinal_system: {'cluster': 7, 'description': 'internal_medicine'}
+infectious_diseases: {'cluster': 7, 'description': 'internal_medicine'}
+neurological_and_muscular_system: {'cluster': 7, 'description': 'internal_medicine'}
+autoimmune_and_immunological_diseases: {'cluster': 7, 'description': 'internal_medicine'}
+hematological_disorders: {'cluster': 7, 'description': 'internal_medicine'}
+psychiatric_and_stress_related_disorders: {'cluster': 7, 'description': 'psychiatry'}
+trauma_and_injury_related_conditions: {'cluster': 7, 'description': 'surgery'}
+boerhaave: {'cluster': 1, 'description': 'How precisely is the pain located?: 0'}
+possible_nstemi__stemi: {'cluster': 0, 'description': 'Do you feel pain somewhere?: thoracic spine'}
+localized_edema: {'cluster': 0, 'description': 'Do you feel pain somewhere?: tibia(R)'}
+bronchospasm__acute_asthma_exacerbation: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+acute_copd_exacerbation__infection: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+guillainbarré_syndrome: {'cluster': 3, 'description': 'Have you traveled out of the country in the last 4 weeks?: North America'}
+1. acute_copd_exacerbation_infection: {}
+increased_cough_or_sputum_production: {}
+2. acute_copd_exacerbation_infection: {}
+respiratory_infections: {}
+3. acute_copd_exacerbation_infection: {}
+wheezing_or_breathlessness: {}
+4. acute_copd_exacerbation_infection: {}
+fever_or_malaise: {}
+5. acute_copd_exacerbation_infection: {}
+pneumonia_by_radiographic_findings: {}
+6. acute_copd_exacerbation_infection: {}
+heart_failure_by_echocardiography: {}
+7. acute_copd_exacerbation_infection: {}
+pulmonary_hyperinflation: {}
+8. acute_copd_exacerbation_infection: {}
+COPD_exacerbation: {}
+9. COPD: {}
+smoking: {}
+10. COPD: {}
+1. bronchiectasis: {}
+chronic_cough: {}
+2. bronchiectasis: {}
+sputum_production: {}
+3. bronchiectasis: {}
+hemoptysis: {}
+4. bronchiectasis: {}
+difficulty_breathing: {}
+5. bronchiectasis: {}
+recurring_respiratory_infections: {}
+6. bronchiectasis: {}
+lung_ct_scan_reveals_abnormal_dilated_airways: {}
+7. bronchiectasis: {}
+cystic_fibrosis_in_pathophysiology: {}
+8. bronchiectasis: {}
+asthma_in_response_to_bronchodilators: {}
+9. bronchiectasis: {}
+clubbed_fingers: {}
+10. bronchiectasis: {}
+antibiotics_for_infection_control: {}
+11. bronchiectasis: {}
+bronchial_inflammation: {}
+12. bronchiectasis: {}
+sputum_color_and_volume: {}
+13. bronchiectasis: {}
+chronic respiratory failure: {}
+14. bronchiectasis: {}
+recurrent_pneumonia: {}
+15. bronchiectasis: {}
+lung_function_tests_showing_obstructive_pattern: {}
+1. bronchiolitis: {}
+wheezing: {}
+2. bronchiolitis: {}
+3. bronchiolitis: {}
+infants_and_young_children: {}
+4. bronchiolitis: {}
+viral_infection: {}
+5. bronchiolitis: {}
+by_age_of_onset: {}
+6. bronchiolitis: {}
+compared_to_pneumonia: {}
+7. bronchiolitis: {}
+cough: {}
+8. bronchiolitis: {}
+bronchospasm: {}
+9. bronchiolitis: {}
+unlike_chronic_obstructive_pulmonary_disease: {}
+10. bronchiolitis: {}
+seasons(cold_months): {}
+11. bronchiolitis: {}
+by_symptom_onset: {}
+12. bronchiolitis: {}
+respiratory_syncytial_virus(RSV): {}
+13. bronchiolitis: {}
+fever: {}
+14. bronchiolitis: {}
+for_severe_cases: {}
+15. bronchiolitis: {}
+that_differ_from_other_respiratory_conditions: {}
+1. bronchitis: {}
+2. bronchitis: {}
+production_of_sputum: {}
+3. bronchitis: {}
+4. bronchitis: {}
+shortness_of_breath: {}
+5. bronchitis: {}
+infection (viral or bacterial): {}
+6. bronchitis: {}
+pneumonia (by absence of focal consolidation on chest X-ray): {}
+7. bronchitis: {}
+asthma (by responsiveness to bronchodilators): {}
+8. bronchitis: {}
+fever (mild): {}
+10. bronchitis: {}
+cough_variant_asthma (by different cough character and duration): {}
+11. bronchitis: {}
+bronchial_reactivity: {}
+12. bronchitis: {}
+smokers_and_individuals_with_allergies: {}
+13. bronchitis: {}
+air_pollution_or_allergens: {}
+1. bronchospasm_acute_asthma_exacerbation: {}
+2. bronchospasm_acute_asthma_exacerbation: {}
+3. bronchospasm_acute_asthma_exacerbation: {}
+coughing: {}
+4. bronchospasm_acute_asthma_exacerbation: {}
+certain_allergens: {}
+5. bronchospasm_acute_asthma_exacerbation: {}
+exercise: {}
+6. bronchospasm_acute_asthma_exacerbation: {}
+viral_infections: {}
+7. bronchospasm_acute_asthma_exacerbation: {}
+smoke: {}
+8. bronchospasm_acute_asthma_exacerbation: {}
+cold_air: {}
+9. bronchospasm_acute_asthma_exacerbation: {}
+chronic_obstructive_pulmonary_disease: {}
+10. bronchospasm_acute_asthma_exacerbation: {}
+11. bronchospasm_acute_asthma_exacerbation: {}
+bronchodilators: {}
+12. bronchospasm_acute_asthma_exacerbation: {}
+corticosteroids: {}
+13. bronchospasm_acute_asthma_exacerbation: {}
+family_history_of_asthma: {}
+14. bronchospasm_acute_asthma_exacerbation: {}
+allergic_rhinitis: {}
+15. bronchospasm_acute_asthma_exacerbation: {}
+chest_tightness: {}
+1. pulmonary_embolism: {}
+sudden_onset_shortness_of_breath: {}
+2. pulmonary_embolism: {}
+chest_pain_worsening_with_breathing: {}
+3. pulmonary_embolism: {}
+cough_with_blood_streaks: {}
+4. pulmonary_embolism: {}
+blood_clots_from_venous_system: {}
+5. pulmonary_embolism: {}
+d_dimer_test_positive: {}
+6. pulmonary_embolism: {}
+computed_tomography_angio_graphy_positive: {}
+7. pulmonary_embolism: {}
+prolonged immobility: {}
+8. pulmonary_embolism: {}
+history_of_deep_vein_thrombosis: {}
+9. pulmonary_embolism: {}
+heart_attack: {}
+10. heart_attack: {}
+chest_pain_not_worsening_with_breathing: {}
+11. heart_attack: {}
+electrocardiogram_changes: {}
+12. pulmonary_embolism: {}
+active_cancer: {}
+13. pulmonary_embolism: {}
+tachycardia: {}
+14. pulmonary_embolism: {}
+echocardiogram_findings: {}
+15. pulmonary_embolism: {}
+oxygen_saturation_levels: {}
+16. pulmonary_embolism: {}
+17. pneumonia: {}
+productive_cough: {}
+18. pneumonia: {}
+1. pulmonary_neoplasm: {}
+cough_with_blood: {}
+2. pulmonary_neoplasm: {}
+weight_loss: {}
+3. pulmonary_neoplasm: {}
+chest_pain: {}
+4. pulmonary_neoplasm: {}
+5. pulmonary_neoplasm: {}
+smoking_history: {}
+6. pulmonary_neoplasm: {}
+exposure_to_asbestos: {}
+7. pulmonary_neoplasm: {}
+previous_radical_radiation: {}
+11. pulmonary_neoplasm: {}
+metastatic_disease: {}
+12. pulmonary_neoplasm: {}
+lung_infection: {}
+13. pulmonary_neoplasm: {}
+pleural_effusion: {}
+14. pulmonary_neoplasm: {}
+paraneoplastic_syptoms: {}
+15. pulmonary_neoplasm: {}
+CT_scan: {}
+1. spontaneous_pneumothorax: {}
+sudden_sharp_chest_pain: {}
+2. spontaneous_pneumothorax: {}
+3. spontaneous_pneumothorax: {}
+young_male_population: {}
+4. spontaneous_pneumothorax: {}
+tension_pneumothorax: {}
+7. spontaneous_pneumothorax: {}
+cyanosis: {}
+8. spontaneous_pneumothorax: {}
+chest_X-ray: {}
+10. spontaneous_pneumothorax: {}
+thoracostomy: {}
+1. URTI: {}
+2. URTI: {}
+sore_throat: {}
+3. URTI: {}
+nasal_congestion: {}
+4. URTI: {}
+5. URTI: {}
+6. URTI: {}
+malaise: {}
+7. URTI: {}
+less_than_10_days: {}
+8. URTI: {}
+13. URTI: {}
+seasonal_changes: {}
+14. URTI: {}
+good_hygiene: {}
+15. URTI: {}
+pneumonia_in_at_risk_population: {}
+1. viral_pharyngitis: {}
+2. viral_pharyngitis: {}
+3. viral_pharyngitis: {}
+4. viral_pharyngitis: {}
+rhinorrhea: {}
+5. viral_pharyngitis: {}
+swollen_lymph_nodes: {}
+6. viral_pharyngitis: {}
+7. viral_pharyngitis: {}
+bacterial_pharyngitis: {}
+8. bacterial_pharyngitis: {}
+severe_sore_throat: {}
+9. bacterial_pharyngitis: {}
+tender_or_enlarged_lymph_nodes: {}
+10. bacterial_pharyngitis: {}
+foul_breath: {}
+11. viral_pharyngitis: {}
+upper_respiratory_infections: {}
+12. influenza: {}
+body_aches: {}
+13. influenza: {}
+headache: {}
+14. influenza: {}
+15. allergies: {}
+itchy_throat: {}
+16. allergies: {}
+sneezing: {}
+17. allergies: {}
+18. streptococcal_pharyngitis: {}
+white_patches_on_tonsils: {}
+19. streptococcal_pharyngitis: {}
+high_fever: {}
+20. mononucleosis: {}
+severe_fatigue: {}
+21. mononucleosis: {}
+enlarged_spleen: {}
+22. mononucleosis: {}
+23. viral_pharyngitis: {}
+1_to_2_weeks: {}
+24. bacterial_pharyngitis: {}
+antibiotic_treatment: {}
+25. viral_pharyngitis: {}
+symptomatic_care: {}
+1. whooping_cough: {}
+severe_cough_with_whooping_sound: {}
+2. whooping_cough: {}
+post_coughing_vomiting: {}
+3. whooping_cough: {}
+Bordetella_pertussis: {}
+4. whooping_cough: {}
+7_to_10_days: {}
+5. whooping_cough: {}
+paroxysmal_coughing: {}
+6. whooping_cough: {}
+complications_in_infants: {}
+7. whooping_cough: {}
+respiratory_droplets: {}
+8. whooping_cough: {}
+influenza_by_prescience_of_whooping_cough: {}
+9. whooping_cough: {}
+bronchitis_by_duration_and_character_of_cough: {}
+10. whooping_cough: {}
+DTaP_or_Tdap: {}
+1. acute_laryngitis: {}
+2. acute_laryngitis: {}
+hoarseness: {}
+3. acute_laryngitis: {}
+4. acute_laryngitis: {}
+difficulty_swallowing: {}
+5. acute_laryngitis: {}
+6. acute_laryngitis: {}
+bacterial_infection: {}
+7. acute_laryngitis: {}
+upper_respiratory_infection: {}
+8. acute_laryngitis: {}
+9. influenza: {}
+10. influenza: {}
+11. influenza: {}
+13. acute_laryngitis: {}
+influenza_by_duration_of_symptoms: {}
+14. acute_laryngitis: {}
+allergic_rhinitis_by_nasal_syptoms: {}
+15. allergic_rhinitis: {}
+16. allergic_rhinitis: {}
+17. acute_laryngitis: {}
+pharyngitis_by_location_of_inflammation: {}
+18. pharyngitis: {}
+19. pharyngitis: {}
+20. acute_laryngitis: {}
+resting_voice: {}
+21. acute_laryngitis: {}
+human_steam_inhalation: {}
+These relationships highlight key symptoms: {}
+and distinctions that are relevant for differentiating acute laryngitis from other similar conditions.: {}
+1. acute_pulmonary_edema: {}
+sudden_shortness_of_breath: {}
+2. acute_pulmonary_edema: {}
+orthopnea: {}
+3. acute_pulmonary_edema: {}
+peripheral_edema: {}
+4. acute_pulmonary_edema: {}
+heart_failure: {}
+5. acute_pulmonary_edema: {}
+hypertension: {}
+6. acute_pulmonary_edema: {}
+crackles_in_lungs: {}
+7. acute_pulmonary_edema: {}
+8. acute_pulmonary_edema: {}
+9. acute_pulmonary_edema: {}
+asthma_exacerbation: {}
+10. acute_pulmonary_edema: {}
+coronary_artery_disease: {}
+11. acute_pulmonary_edema: {}
+fluid_overload: {}
+12. acute_pulmonary_edema: {}
+chest_X-ray_showing_kerley_B_lines: {}
+13. acute_pulmonary_edema: {}
+tachypnea: {}
+14. acute_pulmonary_edema: {}
+diuretics: {}
+15. acute_pulmonary_edema: {}
+hypoxemia: {}
+1. croup: {}
+barking_cough: {}
+2. croup: {}
+stridor: {}
+3. croup: {}
+4. croup: {}
+5. croup: {}
+6. viral_infection: {}
+7. croup: {}
+upper_airway_inflammation: {}
+8. croup: {}
+children_under_5_years: {}
+9. croup: {}
+epiglottitis (by presence of drooling): {}
+10. croup: {}
+asthma (by absence of wheezing): {}
+11. croup: {}
+laryngotracheobronchitis: {}
+13. croup: {}
+seasonal_flu epidemics: {}
+14. croup: {}
+respiratory_distress (if severe): {}
+15. croup: {}
+allergic_reactions: {}
+1. laryngospasm: {}
+temporary_loss_of_ability_to_breath: {}
+2. laryngospasm: {}
+irritants_or_allergens: {}
+3. laryngospasm: {}
+asthma_in_presence_of_audible_stridor: {}
+4. laryngospasm: {}
+anxiety_or_stress: {}
+5. laryngospasm: {}
+hoarseness_or_change_in_voice: {}
+6. laryngospasm: {}
+foreign_body_obstruction_by_lack_of_audible_cough: {}
+7. laryngospasm: {}
+throat_tightness: {}
+8. laryngospasm: {}
+reflux_condition: {}
+9. laryngospasm: {}
+sleep_or_waking: {}
+10. laryngospasm: {}
+history_of_vocal_abuse_or_use: {}
+1. epiglottitis: {}
+2. epiglottitis: {}
+3. epiglottitis: {}
+4. epiglottitis: {}
+ablility_to_breathe_difficulty: {}
+5. epiglottitis: {}
+tripod_position: {}
+6. epiglottitis: {}
+haemophilus_influenzae_infection: {}
+7. epiglottitis: {}
+unvaccinated_children: {}
+8. epiglottitis: {}
+immunocompromised_state: {}
+9. epiglottitis: {}
+airway_obstruction: {}
+10. epiglottitis: {}
+laryngitis_by_epiglottal_swelling_on_imaging: {}
+11. epiglottitis: {}
+pharyngitis_due_to_more_severe_symptoms: {}
+12. epiglottitis: {}
+emergency_intervention_for_airway_protection: {}
+13. epiglottitis: {}
+croup_due_to_similar_symptoms: {}
+14. epiglottitis: {}
+swelling_of_the_epiglottis_visible_in_laryngoscopy: {}
+15. epiglottitis: {}
+hoarseness_or_stridor: {}
+1. pneumonia: {}
+cough_with_sputum: {}
+2. pneumonia: {}
+3. pneumonia: {}
+4. pneumonia: {}
+5. pneumonia: {}
+6. pneumonia: {}
+7. pneumonia: {}
+fungal_infection: {}
+8. pneumonia: {}
+antibiotics: {}
+9. pneumonia: {}
+antiviral_medications: {}
+10. pneumonia: {}
+11. pneumonia: {}
+advanced_age: {}
+12. pneumonia: {}
+chronic_illness: {}
+13. pneumonia: {}
+bronchitis_by_time_of_symptoms: {}
+14. pneumonia: {}
+asthma_by_imaging: {}
+15. pneumonia: {}
+chronic_obstructive_pulmonary_disease_by_symptom_duration: {}
+16. pneumonia: {}
+respiratory_failure: {}
+crackles_on_physical_exam: {}
+19. pneumonia: {}
+sputum_culture: {}
+20. pneumonia: {}
+vaccination: {}
+1. atrial_fibrillation: {}
+irregular_heartbeat: {}
+2. atrial_fibrillation: {}
+palpitations: {}
+3. atrial_fibrillation: {}
+4. atrial_fibrillation: {}
+5. atrial_fibrillation: {}
+stroke: {}
+6. atrial_fibrillation: {}
+7. atrial_fibrillation: {}
+8. atrial_fibrillation: {}
+valvular_heart_disease: {}
+9. atrial_fibrillation: {}
+excessive_alcohol_consumption: {}
+10. atrial_fibrillation: {}
+stress: {}
+11. atrial_fibrillation: {}
+supraventricular_tachycardia: {}
+12. atrial_fibrillation: {}
+ventricular_tachycardia: {}
+13. atrial_fibrillation: {}
+14. atrial_fibrillation: {}
+anticoagulant_medications: {}
+15. atrial_fibrillation: {}
+rate_control_medications: {}
+1. myocarditis: {}
+2. myocarditis: {}
+3. myocarditis: {}
+heart_palpitations: {}
+4. myocarditis: {}
+5. myocarditis: {}
+autoimmune_disorder: {}
+6. myocarditis: {}
+12. myocarditis: {}
+systemic_inflammatory_response: {}
+13. myocarditis: {}
+cardiac_biopsy: {}
+14. myocarditis: {}
+fever_and_fatigue: {}
+15. myocarditis: {}
+immunosuppressive_therapy_in_certain_cases: {}
+1. pericarditis: {}
+2. pericarditis: {}
+pericardial_friction_rub: {}
+3. pericarditis: {}
+myocardial_infarction: {}
+4. pericarditis: {}
+5. pericarditis: {}
+lying_down: {}
+6. pericarditis: {}
+8. pericarditis: {}
+by_lack_of_pleuritic_chest_pain: {}
+9. pericarditis: {}
+because_of_radiation_to_the_shoulders_or_neck: {}
+10. pericarditis: {}
+pleurisy: {}
+11. pericarditis: {}
+by_ECG_changes: {}
+12. pericarditis: {}
+pericardial_effusion: {}
+14. pericarditis: {}
+treatment_of_underlying_causes: {}
+15. pericarditis: {}
+lung_embolism: {}
+1. psvt: {}
+2. psvt: {}
+dizziness_or_lightheadedness: {}
+3. psvt: {}
+chest_discomfort: {}
+4. psvt: {}
+ectopic_atrial_tissue: {}
+5. psvt: {}
+accessory_conduction_pathways: {}
+6. psvt: {}
+hemodynamic_instability: {}
+7. psvt: {}
+8. psvt: {}
+caffeine: {}
+11. psvt: {}
+carotid_sinus_massage: {}
+12. psvt: {}
+12_lead_ecg: {}
+13. psvt: {}
+compared_to_sinus_tachycardia: {}
+14. psvt: {}
+left_untreated_long_term: {}
+15. psvt: {}
+hyperthyroidism: {}
+1. possible_nstemi_stemi: {}
+2. possible_nstemi_stemi: {}
+3. possible_nstemi_stemi: {}
+nausea_or_vomiting: {}
+4. possible_nstemi_stemi: {}
+sweating: {}
+5. possible_nstemi_stemi: {}
+ECG_abnormalities: {}
+6. possible_nstemi_stemi: {}
+cardiac_enzyme_levels: {}
+7. possible_nstemi_stemi: {}
+8. possible_nstemi_stemi: {}
+9. possible_nstemi_stemi: {}
+10. possible_nstemi_stemi: {}
+pleuritis: {}
+11. possible_nstemi_stemi: {}
+risk_factors_for_cardiovascular_disease: {}
+12. possible_nstemi_stemi: {}
+antiplatelet_agents: {}
+13. possible_nstemi_stemi: {}
+coronary_intervention: {}
+1. stable_angina: {}
+chest_pain_on_exertion: {}
+2. stable_angina: {}
+relief_with_rest_or_nitroglycerin: {}
+3. stable_angina: {}
+physical_exertion: {}
+4. stable_angina: {}
+5. stable_angina: {}
+6. stable_angina: {}
+7. stable_angina: {}
+esophageal_spasm: {}
+8. stable_angina: {}
+non-cardiac_chest_pain: {}
+9. stable_angina: {}
+10. stable_angina: {}
+stress_test: {}
+11. stable_angina: {}
+angiogram: {}
+13. stable_angina: {}
+14. stable_angina: {}
+hyperlipidemia: {}
+15. stable_angina: {}
+acute_coronary_syndrome if not managed: {}
+1. unstable_angina: {}
+2. unstable_angina: {}
+3. unstable_angina: {}
+physical_activity: {}
+4. unstable_angina: {}
+emotional_stress: {}
+5. unstable_angina: {}
+8. unstable_angina: {}
+9. unstable_angina: {}
+10. unstable_angina: {}
+11. unstable_angina: {}
+ECG_changes: {}
+12. unstable_angina: {}
+stress_testing: {}
+13. unstable_angina: {}
+antiplatelet_medications: {}
+14. unstable_angina: {}
+coronary_angiography: {}
+15. unstable_angina: {}
+increased_risk_of_heart_attack: {}
+1. myasthenia_gravis: {}
+fluctuating_muscle_weakness: {}
+2. myasthenia_gravis: {}
+lambert_eaton_myasthenic_syndrome: {}
+3. myasthenia_gravis: {}
+amyotrophic_lateral_sclerosis: {}
+4. myasthenia_gravis: {}
+thymoma: {}
+5. myasthenia_gravis: {}
+anticholinesterase_medications: {}
+6. myasthenia_gravis: {}
+respiratory_failure_if_severe: {}
+7. myasthenia_gravis: {}
+anti-acetylcholine_receptor_antibodies: {}
+8. myasthenia_gravis: {}
+edrophonium_test: {}
+9. myasthenia_gravis: {}
+stress_or_infection: {}
+10. myasthenia_gravis: {}
+ocular_muscles_first: {}
+1. guillain_barre_syndrome: {}
+rapid_onset_of_muscle_weakness: {}
+2. guillain_barre_syndrome: {}
+tingling_or_prickling_sensation: {}
+3. guillain_barre_syndrome: {}
+autoimmune_reaction: {}
+4. guillain_barre_syndrome: {}
+preceding_infection: {}
+5. guillain_barre_syndrome: {}
+loss_of_reflexes: {}
+6. guillain_barre_syndrome: {}
+7. guillain_barre_syndrome: {}
+8. guillain_barre_syndrome: {}
+peripheral_neuropathy: {}
+9. guillain_barre_syndrome: {}
+progressive_weakenings_and_recovery: {}
+10. guillain_barre_syndrome: {}
+respiratory_difficulty: {}
+11. guillain_barre_syndrome: {}
+autonomic_symptoms: {}
+12. guillain_barre_syndrome: {}
+intravenous_immunoglobulin: {}
+13. guillain_barre_syndrome: {}
+plasma_exchange: {}
+14. guillain_barre_syndrome: {}
+diabetes_related_neuropathy: {}
+15. guillain_barre_syndrome: {}
+primarily_affecting_young_and_middle-aged_adults: {}
+1. cluster_headache: {}
+severe_one_sided_headache: {}
+2. cluster_headache: {}
+tearing_of_the_eye: {}
+3. cluster_headache: {}
+nasal_congestion_on_the_affected_side: {}
+4. cluster_headache: {}
+ptosis_on_the_affected_side: {}
+5. cluster_headache: {}
+restlessness_or_agitation_during_attack: {}
+6. cluster_headache: {}
+yes: {}
+7. cluster_headache: {}
+alcohol_intake: {}
+8. cluster_headache: {}
+where_intensity_is_high: {}
+9. cluster_headache: {}
+migraine: {}
+10. migraine: {}
+photophobia_and_phonophobia: {}
+11. tension_headache: {}
+mild_to_moderate_pain_on_both_sides: {}
+12. cluster_headache: {}
+more_common_in_males: {}
+13. cluster_headache: {}
+15_minutes_to_3_hours: {}
+14. cluster_headache: {}
+sudden_onset: {}
+15. cluster_headache: {}
+other_clinical_conditions_like_unilateral_neuralgia: {}
+1. acute_dystonic_reactions: {}
+abnormal_postures: {}
+2. acute_dystonic_reactions: {}
+antipsychotic_medications: {}
+3. acute_dystonic_reactions: {}
+neuroleptic_malignant_syndrome: {}
+4. acute_dystonic_reactions: {}
+acute_torticollis: {}
+5. acute_dystonic_reactions: {}
+shortly_after_medication_change: {}
+6. acute_dystonic_reactions: {}
+anticholinergic_agents: {}
+7. acute_dystonic_reactions: {}
+facial_twitching: {}
+8. acute_dystonic_reactions: {}
+eye_movement_disorders: {}
+9. acute_dystonic_reactions: {}
+seizure_disorder: {}
+10. acute_dystonic_reactions: {}
+other_extrapyramidal_symptoms: {}
+1. sle: {}
+photosensitivity: {}
+2. sle: {}
+discoid_lesions: {}
+3. sle: {}
+renal_impairment: {}
+4. sle: {}
+oral_ulcers: {}
+5. sle: {}
+arthritis: {}
+6. sle: {}
+positive_antinuclear_antibody_(ANA): {}
+7. sle: {}
+positive_double_stranded_DNA_antibody: {}
+8. sle: {}
+anti_Smith_antibody: {}
+9. sle: {}
+10. sle: {}
+myalgia: {}
+11. rheumatoid_arthritis: {}
+morning_stiffness: {}
+12. rheumatoid_arthritis: {}
+symmetric_joint_swelling: {}
+13. rheumatoid_arthritis: {}
+positive_rheumatoid_factor: {}
+14. rheumatoid_arthritis: {}
+anti_citrullinated_protein_antibody: {}
+15. psoriasis: {}
+skin_scaling: {}
+16. psoriasis: {}
+joint_pain (psoriatic arthritis): {}
+17. psoriasis: {}
+negative_antinuclear_antibody: {}
+18. infection: {}
+19. infection: {}
+fatigue: {}
+20. infection: {}
+culture_of_pathogen: {}
+1. sarcoidosis: {}
+2. sarcoidosis: {}
+3. sarcoidosis: {}
+skin_rash: {}
+4. sarcoidosis: {}
+erythema_nodosum: {}
+5. sarcoidosis: {}
+lymphadenopathy: {}
+6. sarcoidosis: {}
+visual_disturbances: {}
+7. sarcoidosis: {}
+hypocalcemia: {}
+8. sarcoidosis: {}
+hypercalcemia: {}
+9. sarcoidosis: {}
+african_american_population: {}
+10. sarcoidosis: {}
+tuberculosis_by_biopsy_findings: {}
+11. sarcoidosis: {}
+lupus_by_serological_tests: {}
+12. sarcoidosis: {}
+pulmonary_fibrosis: {}
+13. sarcoidosis: {}
+noncaseating_granulomas: {}
+14. sarcoidosis: {}
+other_autoimmune_disorders: {}
+15. sarcoidosis: {}
+CT_scan_or_biopsy: {}
+These relationships can assist in differentiating sarcoidosis from diseases such as tuberculosis: {}
+or other systemic inflammatory conditions that may present similar symptoms.: {}
+1. anaphylaxis: {}
+2. anaphylaxis: {}
+urticaria_or_hives: {}
+3. anaphylaxis: {}
+swelling_of_face_or_throat: {}
+4. anaphylaxis: {}
+rapid_or_weak_pulse: {}
+5. anaphylaxis: {}
+exposure_to_allergen: {}
+6. anaphylaxis: {}
+abdominal_cramps_or_nausea: {}
+7. anaphylaxis: {}
+lightheadedness_or_fainting: {}
+8. anaphylaxis: {}
+asthma: {}
+9. anaphylaxis: {}
+10. anaphylaxis: {}
+cardiac_arrhythmias: {}
+11. anaphylaxis: {}
+minutes_after_exposure_to_allergen: {}
+12. anaphylaxis: {}
+epinephrine_administration: {}
+13. anaphylaxis: {}
+cardiovascular_collaps: {}
+14. anaphylaxis: {}
+15. anaphylaxis: {}
+throat_tightness_or_lump_in_throat: {}
+1. allergic_sinusitis: {}
+2. allergic_sinusitis: {}
+3. allergic_sinusitis: {}
+itchy_eyes: {}
+4. allergic_sinusitis: {}
+post_nasal_drip: {}
+5. allergic_sinusitis: {}
+allergens: {}
+6. allergic_sinusitis: {}
+clear_mucus_discharge: {}
+7. allergic_sinusitis: {}
+viral_sinusitis: {}
+8. viral_sinusitis: {}
+yellow_or_green_mucus_discharge: {}
+9. allergic_sinusitis: {}
+bacterial_sinusitis: {}
+10. bacterial_sinusitis: {}
+facial_pain_or_pressure: {}
+11. allergic_sinusitis: {}
+antihistamines: {}
+12. allergic_sinusitis: {}
+13. allergic_sinusitis: {}
+15. allergic_sinusitis: {}
+1. panic_attack: {}
+sudden_onset_of_intense_fear_or_discomfort: {}
+2. panic_attack: {}
+palpitations_or_acceleration_of_heart_rate: {}
+3. panic_attack: {}
+absence_of_threat_or_real_danger: {}
+4. panic_attack: {}
+shortness_of_breath_or_sensation_of_choking: {}
+5. panic_attack: {}
+6. panic_attack: {}
+anxiety_disorder_based_on_duration_of_symptoms: {}
+7. panic_attack: {}
+physical_symptoms_without_medical_explanation: {}
+8. panic_attack: {}
+agoraphobia_if_fear_of_future_attacks_develops: {}
+9. panic_attack: {}
+nausea_or_stomach_distress: {}
+10. panic_attack: {}
+myocardial_infarction_based_on_electrocardiogram_findings: {}
+11. panic_attack: {}
+sense_of_detachment_from_reality_or_self: {}
+12. panic_attack: {}
+cognitive_behavioral_therapy_and/or_medications: {}
+1. spontaneous_rib_fracture: {}
+acute_sharp_chest_pain: {}
+2. spontaneous_rib_fracture: {}
+crepitus_on_palpation_of_rib_area: {}
+3. spontaneous_rib_fracture: {}
+osteoporosis: {}
+4. spontaneous_rib_fracture: {}
+metabolic_bone_disease: {}
+5. spontaneous_rib_fracture: {}
+intercostal_muscle_strain: {}
+6. spontaneous_rib_fracture: {}
+pleuritic_chest_pain: {}
+7. spontaneous_rib_fracture: {}
+history_of_bone_density_issues: {}
+8. spontaneous_rib_fracture: {}
+X-ray_showing_rib_fractures_without_trauma: {}
+9. spontaneous_rib_fracture: {}
+pain_increased_with_breathing_or_movement: {}
+10. spontaneous_rib_fracture: {}
+patients_with_long-term_steroid_use: {}
+1. inguinal_hernia: {}
+pain_or_discomfort_in_the_groin: {}
+2. inguinal_hernia: {}
+visible_or_palpitating_bulge_in_the_groin: {}
+3. inguinal_hernia: {}
+incarceration_or_strangulation: {}
+4. inguinal_hernia: {}
+males: {}
+5. inguinal_hernia: {}
+nausea_or_vomiting_if_strangulated: {}
+6. inguinal_hernia: {}
+epididymitis: {}
+7. inguinal_hernia: {}
+heavy_lifting_or_straining: {}
+8. inguinal_hernia: {}
+indirect_and_direct_hernia: {}
+9. inguinal_hernia: {}
+varicocele_in_symptomatology: {}
+10. inguinal_hernia: {}
+spermatic_cord_or_round_ligament: {}
+1. anemia: {}
+fatigue_or_weakness: {}
+2. anemia: {}
+pallor_of_skin_and_mucous_membranes: {}
+3. anemia: {}
+4. anemia: {}
+dietary_deficiency_of_iron_or_vitamins: {}
+5. anemia: {}
+chronic_blood_loss: {}
+6. anemia: {}
+laboratory_test_for_hemoglobin_levels: {}
+7. anemia: {}
+peripheral_blood_smear: {}
+8. anemia: {}
+chronic_diseases: {}
+9. anemia: {}
+increased_heart_rate: {}
+10. anemia: {}
+shortness_of_breath_with_exertion: {}
+1. GERD: {}
+heartburn: {}
+2. GERD: {}
+regurgitation: {}
+3. GERD: {}
+esophagitis: {}
+4. GERD: {}
+obesity: {}
+5. GERD: {}
+antacids: {}
+6. GERD: {}
+8. GERD: {}
+chocolate: {}
+9. GERD: {}
+Barrett's_esophagus: {}
+10. GERD: {}
+11. GERD: {}
+hiatal_hernia: {}
+13. GERD: {}
+overweight_individuals: {}
+14. GERD: {}
+15. GERD: {}
+certain_medications: {}
+These relationships provide insights into symptoms: {}
+and differentiators between GERD and other conditions.: {}
+1. boerhaave_syndrome: {}
+vomiting_with_blood: {}
+2. boerhaave_syndrome: {}
+3. boerhaave_syndrome: {}
+dysphagia: {}
+4. boerhaave_syndrome: {}
+sudden_onset_of_substernal_pain: {}
+5. boerhaave_syndrome: {}
+forceful_vomiting: {}
+6. boerhaave_syndrome: {}
+esophageal_contrast_study: {}
+7. boerhaave_syndrome: {}
+chest_X-ray_showing_pneumothorax: {}
+8. boerhaave_syndrome: {}
+mallory-weiss_tear: {}
+9. boerhaave_syndrome: {}
+mediastinitis: {}
+10. boerhaave_syndrome: {}
+surgical_repair: {}
+11. boerhaave_syndrome: {}
+esophageal_perforation: {}
+12. esophageal_perforation: {}
+acute_abdominal_pain: {}
+13. esophageal_perforation: {}
+CT_scan_revealing_free_air: {}
+14. boerhaave_syndrome: {}
+alcohol_abuse: {}
+15. boerhaave_syndrome: {}
+emergency_intervention_required: {}
+1. pancreatic_neoplasm: {}
+jaundice: {}
+2. pancreatic_neoplasm: {}
+3. pancreatic_neoplasm: {}
+abdominal_pain: {}
+4. pancreatic_neoplasm: {}
+diabetes_mellitus: {}
+5. pancreatic_neoplasm: {}
+malabsorption: {}
+6. pancreatic_neoplasm: {}
+7. pancreatic_neoplasm: {}
+age_above_50: {}
+8. pancreatic_neoplasm: {}
+endoscopic_ultrasound: {}
+9. pancreatic_neoplasm: {}
+10. pancreatic_neoplasm: {}
+CA19-9_marker_level: {}
+11. pancreatic_neoplasm: {}
+acute_pancreatitis: {}
+12. pancreatic_neoplasm: {}
+chronic_pancreatitis: {}
+13. pancreatic_neoplasm: {}
+gastric_ulcer: {}
+14. pancreatic_neoplasm: {}
+liver_cirrhosis: {}
+15. pancreatic_neoplasm: {}
+thromboembolism: {}
+These relationships can assist healthcare professionals in recognizing and distinguishing pancreatic neoplasm from other similar conditions based on clinical symptoms: {}
+and associated risk factors.: {}
+1. scombroid_food_poisoning: {}
+nausea: {}
+2. scombroid_food_poisoning: {}
+vomiting: {}
+3. scombroid_food_poisoning: {}
+rash: {}
+4. scombroid_food_poisoning: {}
+abdominal_cramps: {}
+5. scombroid_food_poisoning: {}
+diarrhea: {}
+6. scombroid_food_poisoning: {}
+histamine_overproduction: {}
+7. scombroid_food_poisoning: {}
+histamine_intoxication_from_fish: {}
+8. scombroid_food_poisoning: {}
+within_minutes_to_hours_after_consummation: {}
+9. scombroid_food_poisoning: {}
+other_food_poisonings_due_to_histamine: {}
+10. scombroid_food_poisoning: {}
+salmonella_food_poisoning_due_to_vomiting_and_rash: {}
+11. scombroid_food_poisoning: {}
+detection_of_histamine_in_food: {}
+12. scombroid_food_poisoning: {}
+usually_resolves_in_24_hours: {}
+13. scombroid_food_poisoning: {}
+reactions_in_allergic_individuals: {}
+14. scombroid_food_poisoning: {}
+consumption_of_improperly_stored_tuna_or_mackerel: {}
+15. scombroid_food_poisoning: {}
+tachycardia_and_facial_flushing: {}
+1. tuberculosis: {}
+2. tuberculosis: {}
+night_sweats: {}
+3. tuberculosis: {}
+4. tuberculosis: {}
+5. tuberculosis: {}
+6. tuberculosis: {}
+7. tuberculosis: {}
+airborne_particles: {}
+8. tuberculosis: {}
+Tuberculin_skin_test: {}
+9. tuberculosis: {}
+10. tuberculosis: {}
+HIV/AIDS: {}
+11. tuberculosis: {}
+lung_infiltrates: {}
+12. tuberculosis: {}
+mycobacterium_tuberculosis: {}
+13. tuberculosis: {}
+antituberculosis_medications: {}
+14. tuberculosis: {}
+15. tuberculosis: {}
+extrapulmonary_tuberculosis: {}
+1. hiv_initial_infection: {}
+2. hiv_initial_infection: {}
+3. hiv_initial_infection: {}
+4. hiv_initial_infection: {}
+5. hiv_initial_infection: {}
+6. hiv_initial_infection: {}
+muscle_aches: {}
+7. hiv_initial_infection: {}
+8. hiv_initial_infection: {}
+acute_phase: {}
+9. hiv_initial_infection: {}
+positive_HIV_antibody_test: {}
+10. hiv_initial_infection: {}
+positive_HIV_p24_antigen_test: {}
+11. hiv_initial_infection: {}
+history_of_high-risk_behaviors: {}
+12. hiv_initial_infection: {}
+chronic_HIV_infection: {}
+13. hiv_initial_infection: {}
+14. hiv_initial_infection: {}
+15. hiv_initial_infection: {}
+syphilis: {}
+1. ebola: {}
+2. ebola: {}
+hemorrhagic_manifestations: {}
+3. ebola: {}
+muscle_pain: {}
+4. ebola: {}
+body_fluids: {}
+5. ebola: {}
+2_to_21_days: {}
+6. ebola: {}
+fruit_bats: {}
+7. ebola: {}
+8. ebola: {}
+9. ebola: {}
+RT-PCR: {}
+10. ebola: {}
+11. ebola: {}
+12. ebola: {}
+organ_failure: {}
+13. ebola: {}
+other_viral_infections: {}
+14. ebola: {}
+Africa: {}
+15. ebola: {}
+conjunctivitis: {}
+1. influenza: {}
+2. influenza: {}
+3. influenza: {}
+4. influenza: {}
+5. influenza: {}
+6. influenza: {}
+7. influenza: {}
+8. influenza: {}
+runny_or_stuffy_nose: {}
+cold_by_symptom(severity_and_duration): {}
+cold_by_onset(rapid_onset): {}
+strep_throat_by_symptom(absence_of_severe_sore_throat_and_enlarged_lymph_nodes): {}
+COVID-19_by_symptom(loss_of_taste_or_smell): {}
+allergy_by_symptom(seasonal_pattern): {}
+15. influenza: {}
+fall_and_winter_months: {}
+1. Chagas_disease: {}
+acute_fever: {}
+2. Chagas_disease: {}
+swelling_at_infection_site: {}
+3. Chagas_disease: {}
+4. Chagas_disease: {}
+Triatomine_bugs: {}
+5. Chagas_disease: {}
+Trypanosoma_cruzi: {}
+6. Chagas_disease: {}
+cardiomyopathy: {}
+7. Chagas_disease: {}
+megacolon: {}
+8. Chagas_disease: {}
+leishmaniasis: {}
+9. Chagas_disease: {}
+10. Chagas_disease: {}
+serological_testing: {}
+11. Chagas_disease: {}
+benznidazole: {}
+12. Chagas_disease: {}
+Latin_America_residence: {}
+13. Chagas_disease: {}
+asymptomatic_phase_in_chronic_stage: {}
+1. acute_otitis_media: {}
+ear_pain: {}
+2. acute_otitis_media: {}
+3. acute_otitis_media: {}
+hearing_loss: {}
+4. acute_otitis_media: {}
+cold_symptoms: {}
+5. acute_otitis_media: {}
+children: {}
+6. acute_otitis_media: {}
+bulging_ear_drum: {}
+7. acute_otitis_media: {}
+acute_sinusitis: {}
+8. acute_otitis_media: {}
+9. acute_otitis_media: {}
+antibiotics_if_bacterial: {}
+10. acute_otitis_media: {}
+hearing_impairment: {}
+11. acute_otitis_media: {}
+irritability_in_children: {}
+12. acute_otitis_media: {}
+presence_of_pus_in_middle_ear: {}
+13. acute_otitis_media: {}
+duration_of_symptoms: {}
+14. acute_otitis_media: {}
+updated_vaccination: {}
+15. acute_otitis_media: {}
+allergies_and_asthma: {}
+1. acute_rhinosinusitis: {}
+2. acute_rhinosinusitis: {}
+purulent_nasal_discharge: {}
+3. acute_rhinosinusitis: {}
+4. acute_rhinosinusitis: {}
+reduced_olfactory_function: {}
+5. acute_rhinosinusitis: {}
+6. acute_rhinosinusitis: {}
+7. acute_rhinosinusitis: {}
+8. acute_rhinosinusitis: {}
+9. acute_rhinosinusitis: {}
+decongestants: {}
+10. acute_rhinosinusitis: {}
+nasal_steroids: {}
+11. acute_rhinosinusitis: {}
+12. acute_rhinosinusitis: {}
+13. acute_rhinosinusitis: {}
+14. acute_rhinosinusitis: {}
+common_cold: {}
+15. acute_rhinosinusitis: {}
+16. acute_rhinosinusitis: {}
+17. acute_rhinosinusitis: {}
+less_than_4_weeks: {}
+18. acute_rhinosinusitis: {}
+acute: {}
+19. acute_rhinosinusitis: {}
+orbital_complications: {}
+20. acute_rhinosinusitis: {}
+mucocele: {}
+1. chronic_rhinosinusitis: {}
+persistent_nasal_congestion: {}
+2. chronic_rhinosinusitis: {}
+3. chronic_rhinosinusitis: {}
+reduced_or_lost_sense_of_smell: {}
+4. chronic_rhinosinusitis: {}
+5. chronic_rhinosinusitis: {}
+6. chronic_rhinosinusitis: {}
+acute_sinusitis_by_duration: {}
+7. chronic_rhinosinusitis: {}
+8. chronic_rhinosinusitis: {}
+polyp_formation: {}
+9. chronic_rhinosinusitis: {}
+chronic_allergies: {}
+10. chronic_rhinosinusitis: {}
+exposure_to_environmental_irritants: {}
+1. asthma: {}
+2. chronic_obstructive_pulmonary_disease: {}
+fever_and_chills: {}
+productive_cough_with_mucus: {}
+5. lung_cancer: {}
+unexplained_weight_loss: {}
+sudden_onset_of_shortness_of_breath: {}
+7. allergic_rhinitis: {}
+sneezing_and_nasal_congestion: {}
+persistent_cough_with_blood: {}
+9. respiratory_infection: {}
+mild_fever_and_body_aches: {}
+10. interstitial_lung_disease: {}
+progressive_shortness_of_breath_over_time: {}
+1. myocardial_infarction: {}
+2. heart_failure: {}
+3. arrhythmia: {}
+4. hypertension: {}
+5. coronary_artery_disease: {}
+angina_pectoris: {}
+6. peripheral_artery_disease: {}
+pain_in_legs_when_walking: {}
+7. aortic_aneurysm: {}
+8. valve_disease: {}
+fluid_retention: {}
+9. endocarditis: {}
+fever_with_chills: {}
+10. cardiomyopathy: {}
+swelling_of_legs_or_feet: {}
+1. gastrointestinal_system: {}
+2. gastrointestinal_system: {}
+3. gastrointestinal_system: {}
+4. gastrointestinal_system: {}
+constipation: {}
+5. gastrointestinal_system: {}
+bloating_or_gas: {}
+6. gastrointestinal_system: {}
+7. gastrointestinal_system: {}
+8. gastrointestinal_system: {}
+food_intolerance: {}
+9. gastrointestinal_system: {}
+inflammatory_conditions: {}
+10. gastrointestinal_system: {}
+dietary_modifications: {}
+11. gastrointestinal_system: {}
+12. gastrointestinal_system: {}
+13. gastrointestinal_system: {}
+irritable_bowel_syndrome: {}
+14. gastrointestinal_system: {}
+celiac_disease: {}
+15. gastrointestinal_system: {}
+peptic_ulcer_disease: {}
+16. gastrointestinal_system: {}
+intestinal_inflammation: {}
+17. gastrointestinal_system: {}
+mucosal_damage: {}
+18. gastrointestinal_system: {}
+endoscopy: {}
+19. gastrointestinal_system: {}
+laboratory_tests: {}
+20. gastrointestinal_system: {}
+malnutrition: {}
+1. infectious_diseases: {}
+2. infectious_diseases: {}
+3. infectious_diseases: {}
+runny_nose: {}
+4. infectious_diseases: {}
+5. infectious_diseases: {}
+6. infectious_diseases: {}
+7. infectious_diseases: {}
+person_to_person_contact: {}
+8. infectious_diseases: {}
+vector_borne: {}
+9. infectious_diseases: {}
+contaminated_food_or_water: {}
+10. infectious_diseases: {}
+2_to_14_days: {}
+11. infectious_diseases: {}
+12. infectious_diseases: {}
+13. infectious_diseases: {}
+immunocompromised_individuals: {}
+14. infectious_diseases: {}
+15. infectious_diseases: {}
+laboratory_test_results: {}
+1. amyotrophic_lateral_sclerosis: {}
+muscle_weakness: {}
+2. multiple_sclerosis: {}
+numbness_or_tingling: {}
+4. Guillain-Barré_syndrome: {}
+rapid_onset_weakness: {}
+5. Parkinson's_disease: {}
+tremors: {}
+6. diabetic_neuropathy: {}
+peripheral_numbness: {}
+7. peripheral_neuropathy: {}
+pain_in_limbs: {}
+8. stroke: {}
+sudden_numbness_or_weakness: {}
+9. spinal_muscular_atrophy: {}
+progressive_muscle_weakness: {}
+10. restless_legs_syndrome: {}
+urge_to_move_legs: {}
+11. Huntington's_disease: {}
+mood_changes_and_movement_disorders: {}
+12. cervical_spondylosis: {}
+neck_pain_and_radiculopathy: {}
+13. fibromyalgia: {}
+widespread_pain: {}
+14. myopathy: {}
+muscle_pain_and_weakness: {}
+15. neuropathy_due_to_vitamin_B12_deficiency: {}
+paresthesia_and_weakness: {}
+1. autoimmune_and_immunological_diseases: {}
+2. autoimmune_and_immunological_diseases: {}
+joint_pain: {}
+3. autoimmune_and_immunological_diseases: {}
+immune_system_malfunction: {}
+4. autoimmune_and_immunological_diseases: {}
+skin_rashes: {}
+5. autoimmune_and_immunological_diseases: {}
+rheumatoid_arthritis: {}
+6. autoimmune_and_immunological_diseases: {}
+lupus: {}
+7. autoimmune_and_immunological_diseases: {}
+organ_damage: {}
+8. autoimmune_and_immunological_diseases: {}
+autoimmune_anemia: {}
+9. autoimmune_and_immunological_diseases: {}
+10. autoimmune_and_immunological_diseases: {}
+autoantibodies: {}
+11. autoimmune_and_immunological_diseases: {}
+12. autoimmune_and_immunological_diseases: {}
+neurological_symptoms: {}
+13. autoimmune_and_immunological_diseases: {}
+febrile_illness: {}
+14. autoimmune_and_immunological_diseases: {}
+immunosuppressive_medications: {}
+15. autoimmune_and_immunological_diseases: {}
+histological_analysis: {}
+1. hematological_disorders: {}
+2. hematological_disorders: {}
+pallor: {}
+3. hematological_disorders: {}
+bleeding_or_bruising: {}
+4. hematological_disorders: {}
+5. hematological_disorders: {}
+rapid_heart_rate: {}
+6. hematological_disorders: {}
+abnormal_blood_cells: {}
+7. hematological_disorders: {}
+blood_smear: {}
+8. hematological_disorders: {}
+9. hematological_disorders: {}
+leukopenia: {}
+10. hematological_disorders: {}
+thrombocytopenia: {}
+11. hematological_disorders: {}
+iron_deficiency_anemia: {}
+12. hematological_disorders: {}
+autoimmune_disorders: {}
+13. hematological_disorders: {}
+malignant_conditions: {}
+14. hematological_disorders: {}
+chronic_fatigue: {}
+15. hematological_disorders: {}
+immunotherapy_or_chemo: {}
+1. psychiatric_and_stress_related_disorders: {}
+anxiety: {}
+2. psychiatric_and_stress_related_disorders: {}
+depression: {}
+3. psychiatric_and_stress_related_disorders: {}
+psychosomatic_symptoms: {}
+4. psychiatric_and_stress_related_disorders: {}
+psychological_stressors: {}
+5. psychiatric_and_stress_related_disorders: {}
+post_traumatic_stress_disorder: {}
+6. psychiatric_and_stress_related_disorders: {}
+adjustment_disorder: {}
+7. psychiatric_and_stress_related_disorders: {}
+clinical_interview: {}
+8. psychiatric_and_stress_related_disorders: {}
+psychological_testing: {}
+9. psychiatric_and_stress_related_disorders: {}
+cognitive_behavioral_therapy: {}
+10. psychiatric_and_stress_related_disorders: {}
+medication_antidepressants: {}
+11. psychiatric_and_stress_related_disorders: {}
+physical_health_conditions: {}
+12. psychiatric_and_stress_related_disorders: {}
+substance_use_disorders: {}
+13. psychiatric_and_stress_related_disorders: {}
+poor_coping_skills: {}
+1. trauma_and_injury_related_conditions: {}
+acute_pain_at_injury_site: {}
+2. trauma_and_injury_related_conditions: {}
+fractures_or_dislocations: {}
+3. trauma_and_injury_related_conditions: {}
+swelling_and_inflammation: {}
+4. trauma_and_injury_related_conditions: {}
+external_force_or_impact: {}
+5. trauma_and_injury_related_conditions: {}
+X-rays_or_MRI: {}
+6. trauma_and_injury_related_conditions: {}
+physical_therapy: {}
+7. trauma_and_injury_related_conditions: {}
+bruising_or_hematoma: {}
+8. trauma_and_injury_related_conditions: {}
+soft_tissue_injury: {}
+9. trauma_and_injury_related_conditions: {}
+osteoarthritis_in_the_presence_of_recent_injury: {}
+10. trauma_and_injury_related_conditions: {}
+increased_risk_of_complications_if_left_untreated: {}
+1. boerhaave: {}
+retching: {}
+2. boerhaave: {}
+3. boerhaave: {}
+subcutaneous_emphysema: {}
+4. boerhaave: {}
+dyspnea: {}
+5. boerhaave: {}
+6. boerhaave: {}
+violent_vomiting: {}
+7. boerhaave: {}
+8. boerhaave: {}
+9. boerhaave: {}
+10. boerhaave: {}
+esophageal_ct_scan: {}
+11. boerhaave: {}
+contrast_esophagography: {}
+12. boerhaave: {}
+13. boerhaave: {}
+high_intrathoracic_pressure: {}
+14. boerhaave: {}
+15. boerhaave: {}
+shock: {}
+1. possible_nstemi__stemi: {}
+2. possible_nstemi__stemi: {}
+3. possible_nstemi__stemi: {}
+4. possible_nstemi__stemi: {}
+diaphoresis: {}
+5. possible_nstemi__stemi: {}
+lightheadedness_or_dizziness: {}
+6. possible_nstemi__stemi: {}
+7. possible_nstemi__stemi: {}
+8. possible_nstemi__stemi: {}
+higher_age: {}
+9. possible_nstemi__stemi: {}
+family_history_of_heart_disease: {}
+13. possible_nstemi__stemi: {}
+cardiac_arrest: {}
+14. possible_nstemi__stemi: {}
+ECG: {}
+15. possible_nstemi__stemi: {}
+blood_biomarkers: {}
+16. possible_nstemi__stemi: {}
+ST_segment_changes_on_ECG: {}
+17. possible_nstemi__stemi: {}
+anxiety_attack: {}
+18. possible_nstemi__stemi: {}
+antiplatelet_therapy: {}
+19. possible_nstemi__stemi: {}
+beta_blockers: {}
+20. possible_nstemi__stemi: {}
+angioplasty_if_stemi_confirmed: {}
+1. localized_edema: {}
+swelling_in_a_specific_area: {}
+2. localized_edema: {}
+injury_or_trama: {}
+3. localized_edema: {}
+infection: {}
+4. localized_edema: {}
+allergic_reaction: {}
+5. localized_edema: {}
+venous_insufficiency: {}
+6. localized_edema: {}
+liver_disease: {}
+7. localized_edema: {}
+kidney_disease: {}
+8. localized_edema: {}
+9. localized_edema: {}
+lymphatic_obstruction: {}
+10. localized_edema: {}
+by_presentation_in_a_specific_region: {}
+11. localized_edema: {}
+with_elevation_of_the_afflicted_area: {}
+12. localized_edema: {}
+by_absence_of_skin_redness_and_heat: {}
+13. localized_edema: {}
+ultrasound_or_imaging_studies: {}
+14. localized_edema: {}
+with_other_conditions_like_venous_thrombosis: {}
+15. localized_edema: {}
+like_diabetes_or_hypertension: {}
+1. acute_asthma_exacerbation: {}
+2. acute_asthma_exacerbation: {}
+3. acute_asthma_exacerbation: {}
+4. acute_asthma_exacerbation: {}
+5. acute_asthma_exacerbation: {}
+6. acute_asthma_exacerbation: {}
+7. acute_asthma_exacerbation: {}
+8. acute_asthma_exacerbation: {}
+inhaled_corticosteroids: {}
+9. acute_asthma_exacerbation: {}
+10. acute_asthma_exacerbation: {}
+specific_allergic_conditions: {}
+These relationships can help in identifying and differentiating acute asthma exacerbation from other respiratory conditions based on their specific symptoms: {}
+and treatment protocols.: {}
+1. acute_copd_exacerbation__infection: {}
+increased_sputum_production: {}
+2. acute_copd_exacerbation__infection: {}
+worsening_dyspnea: {}
+4. acute_copd_exacerbation__infection: {}
+respiratory_infection: {}
+5. acute_copd_exacerbation__infection: {}
+pulmonary_function_tests: {}
+6. acute_copd_exacerbation__infection: {}
+7. acute_copd_exacerbation__infection: {}
+8. acute_copd_exacerbation__infection: {}
+air_pollution: {}
+9. acute_copd_exacerbation__infection: {}
+10. acute_copd_exacerbation__infection: {}
+fever_and_malaise: {}
+1. guillainbarré_syndrome: {}
+2. guillainbarré_syndrome: {}
+rapid_onset_of_symptoms: {}
+3. guillainbarré_syndrome: {}
+tingling_or_prickling_sensations: {}
+4. guillainbarré_syndrome: {}
+5. guillainbarré_syndrome: {}
+6. guillainbarré_syndrome: {}
+after_infection: {}
+7. guillainbarré_syndrome: {}
+8. guillainbarré_syndrome: {}
+9. guillainbarré_syndrome: {}
+common_in_young_adults_and_middle-aged_individuals: {}
+10. guillainbarré_syndrome: {}
+acute_flaccid_paralysis: {}
+11. guillainbarré_syndrome: {}
+often_resolves_within_months: {}
+12. guillainbarré_syndrome: {}
+positional_pain: {}
+13. guillainbarré_syndrome: {}
+diabetic_polyneuropathy: {}
+14. guillainbarré_syndrome: {}
+Campylobacter_jejuni_infection: {}
+15. guillainbarré_syndrome: {}
+paresthesia_in_lower_extremities: {}
+16. guillainbarré_syndrome: {}
+These relationships highlight specific symptoms: {}
+and other relevant clinical aspects that differentiate Guillain-Barré Syndrome from other similar conditions.: {}
+
+Danh sách Edges:
+acute_copd_exacerbation_infection -- acute_copd_exacerbation_infection: {}
+acute_copd_exacerbation_infection -- bronchiectasis: {}
+acute_copd_exacerbation_infection -- bronchiolitis: {}
+acute_copd_exacerbation_infection -- bronchitis: {}
+acute_copd_exacerbation_infection -- bronchospasm_acute_asthma_exacerbation: {}
+acute_copd_exacerbation_infection -- pulmonary_embolism: {}
+acute_copd_exacerbation_infection -- pulmonary_neoplasm: {}
+acute_copd_exacerbation_infection -- spontaneous_pneumothorax: {}
+acute_copd_exacerbation_infection -- urti: {}
+acute_copd_exacerbation_infection -- viral_pharyngitis: {}
+acute_copd_exacerbation_infection -- whooping_cough: {}
+acute_copd_exacerbation_infection -- acute_laryngitis: {}
+acute_copd_exacerbation_infection -- acute_pulmonary_edema: {}
+acute_copd_exacerbation_infection -- croup: {}
+acute_copd_exacerbation_infection -- larygospasm: {}
+acute_copd_exacerbation_infection -- epiglottitis: {}
+acute_copd_exacerbation_infection -- pneumonia: {}
+acute_copd_exacerbation_infection -- atrial_fibrillation: {}
+acute_copd_exacerbation_infection -- myocarditis: {}
+acute_copd_exacerbation_infection -- pericarditis: {}
+acute_copd_exacerbation_infection -- psvt: {}
+acute_copd_exacerbation_infection -- possible_nstemi_stemi: {}
+acute_copd_exacerbation_infection -- stable_angina: {}
+acute_copd_exacerbation_infection -- unstable_angina: {}
+acute_copd_exacerbation_infection -- myasthenia_gravis: {}
+acute_copd_exacerbation_infection -- guillain_barre_syndrome: {}
+acute_copd_exacerbation_infection -- cluster_headache: {}
+acute_copd_exacerbation_infection -- acute_dystonic_reactions: {}
+acute_copd_exacerbation_infection -- sle: {}
+acute_copd_exacerbation_infection -- sarcoidosis: {}
+acute_copd_exacerbation_infection -- anaphylaxis: {}
+acute_copd_exacerbation_infection -- allergic_sinusitis: {}
+acute_copd_exacerbation_infection -- panic_attack: {}
+acute_copd_exacerbation_infection -- spontaneous_rib_fracture: {}
+acute_copd_exacerbation_infection -- inguinal_hernia: {}
+acute_copd_exacerbation_infection -- anemia: {}
+acute_copd_exacerbation_infection -- gerd: {}
+acute_copd_exacerbation_infection -- boerhaave_syndrome: {}
+acute_copd_exacerbation_infection -- pancreatic_neoplasm: {}
+acute_copd_exacerbation_infection -- scombroid_food_poisoning: {}
+acute_copd_exacerbation_infection -- tuberculosis: {}
+acute_copd_exacerbation_infection -- hiv_initial_infection: {}
+acute_copd_exacerbation_infection -- ebola: {}
+acute_copd_exacerbation_infection -- influenza: {}
+acute_copd_exacerbation_infection -- chagas: {}
+acute_copd_exacerbation_infection -- acute_otitis_media: {}
+acute_copd_exacerbation_infection -- acute_rhinosinusitis: {}
+acute_copd_exacerbation_infection -- chronic_rhinosinusitis: {}
+acute_copd_exacerbation_infection -- respiratory_system: {}
+acute_copd_exacerbation_infection -- cardiovascular_system: {}
+acute_copd_exacerbation_infection -- gastrointestinal_system: {}
+acute_copd_exacerbation_infection -- infectious_diseases: {}
+acute_copd_exacerbation_infection -- neurological_and_muscular_system: {}
+acute_copd_exacerbation_infection -- autoimmune_and_immunological_diseases: {}
+acute_copd_exacerbation_infection -- hematological_disorders: {}
+acute_copd_exacerbation_infection -- psychiatric_and_stress_related_disorders: {}
+acute_copd_exacerbation_infection -- trauma_and_injury_related_conditions: {}
+bronchiectasis -- bronchiectasis: {}
+bronchiectasis -- bronchiolitis: {}
+bronchiectasis -- bronchitis: {}
+bronchiectasis -- bronchospasm_acute_asthma_exacerbation: {}
+bronchiectasis -- pulmonary_embolism: {}
+bronchiectasis -- pulmonary_neoplasm: {}
+bronchiectasis -- spontaneous_pneumothorax: {}
+bronchiectasis -- urti: {}
+bronchiectasis -- viral_pharyngitis: {}
+bronchiectasis -- whooping_cough: {}
+bronchiectasis -- acute_laryngitis: {}
+bronchiectasis -- acute_pulmonary_edema: {}
+bronchiectasis -- croup: {}
+bronchiectasis -- larygospasm: {}
+bronchiectasis -- epiglottitis: {}
+bronchiectasis -- pneumonia: {}
+bronchiectasis -- atrial_fibrillation: {}
+bronchiectasis -- myocarditis: {}
+bronchiectasis -- pericarditis: {}
+bronchiectasis -- psvt: {}
+bronchiectasis -- possible_nstemi_stemi: {}
+bronchiectasis -- stable_angina: {}
+bronchiectasis -- unstable_angina: {}
+bronchiectasis -- myasthenia_gravis: {}
+bronchiectasis -- guillain_barre_syndrome: {}
+bronchiectasis -- cluster_headache: {}
+bronchiectasis -- acute_dystonic_reactions: {}
+bronchiectasis -- sle: {}
+bronchiectasis -- sarcoidosis: {}
+bronchiectasis -- anaphylaxis: {}
+bronchiectasis -- allergic_sinusitis: {}
+bronchiectasis -- panic_attack: {}
+bronchiectasis -- spontaneous_rib_fracture: {}
+bronchiectasis -- inguinal_hernia: {}
+bronchiectasis -- anemia: {}
+bronchiectasis -- gerd: {}
+bronchiectasis -- boerhaave_syndrome: {}
+bronchiectasis -- pancreatic_neoplasm: {}
+bronchiectasis -- scombroid_food_poisoning: {}
+bronchiectasis -- tuberculosis: {}
+bronchiectasis -- hiv_initial_infection: {}
+bronchiectasis -- ebola: {}
+bronchiectasis -- influenza: {}
+bronchiectasis -- chagas: {}
+bronchiectasis -- acute_otitis_media: {}
+bronchiectasis -- acute_rhinosinusitis: {}
+bronchiectasis -- chronic_rhinosinusitis: {}
+bronchiectasis -- boerhaave: {}
+bronchiectasis -- possible_nstemi__stemi: {}
+bronchiectasis -- localized_edema: {}
+bronchiectasis -- bronchospasm__acute_asthma_exacerbation: {}
+bronchiectasis -- acute_copd_exacerbation__infection: {}
+bronchiectasis -- guillainbarré_syndrome: {}
+bronchiectasis -- respiratory_system: {}
+bronchiectasis -- cardiovascular_system: {}
+bronchiectasis -- gastrointestinal_system: {}
+bronchiectasis -- infectious_diseases: {}
+bronchiectasis -- neurological_and_muscular_system: {}
+bronchiectasis -- autoimmune_and_immunological_diseases: {}
+bronchiectasis -- hematological_disorders: {}
+bronchiectasis -- psychiatric_and_stress_related_disorders: {}
+bronchiectasis -- trauma_and_injury_related_conditions: {}
+bronchiectasis -- 10. COPD: {'relationship': 'has_related_condition'}
+bronchiolitis -- bronchiolitis: {}
+bronchiolitis -- bronchitis: {}
+bronchiolitis -- bronchospasm_acute_asthma_exacerbation: {}
+bronchiolitis -- pulmonary_embolism: {}
+bronchiolitis -- pulmonary_neoplasm: {}
+bronchiolitis -- spontaneous_pneumothorax: {}
+bronchiolitis -- urti: {}
+bronchiolitis -- viral_pharyngitis: {}
+bronchiolitis -- whooping_cough: {}
+bronchiolitis -- acute_laryngitis: {}
+bronchiolitis -- acute_pulmonary_edema: {}
+bronchiolitis -- croup: {}
+bronchiolitis -- larygospasm: {}
+bronchiolitis -- epiglottitis: {}
+bronchiolitis -- pneumonia: {}
+bronchiolitis -- atrial_fibrillation: {}
+bronchiolitis -- myocarditis: {}
+bronchiolitis -- pericarditis: {}
+bronchiolitis -- psvt: {}
+bronchiolitis -- possible_nstemi_stemi: {}
+bronchiolitis -- stable_angina: {}
+bronchiolitis -- unstable_angina: {}
+bronchiolitis -- myasthenia_gravis: {}
+bronchiolitis -- guillain_barre_syndrome: {}
+bronchiolitis -- cluster_headache: {}
+bronchiolitis -- acute_dystonic_reactions: {}
+bronchiolitis -- sle: {}
+bronchiolitis -- sarcoidosis: {}
+bronchiolitis -- anaphylaxis: {}
+bronchiolitis -- allergic_sinusitis: {}
+bronchiolitis -- panic_attack: {}
+bronchiolitis -- spontaneous_rib_fracture: {}
+bronchiolitis -- inguinal_hernia: {}
+bronchiolitis -- anemia: {}
+bronchiolitis -- gerd: {}
+bronchiolitis -- boerhaave_syndrome: {}
+bronchiolitis -- pancreatic_neoplasm: {}
+bronchiolitis -- scombroid_food_poisoning: {}
+bronchiolitis -- tuberculosis: {}
+bronchiolitis -- hiv_initial_infection: {}
+bronchiolitis -- ebola: {}
+bronchiolitis -- influenza: {}
+bronchiolitis -- chagas: {}
+bronchiolitis -- acute_otitis_media: {}
+bronchiolitis -- acute_rhinosinusitis: {}
+bronchiolitis -- chronic_rhinosinusitis: {}
+bronchiolitis -- boerhaave: {}
+bronchiolitis -- possible_nstemi__stemi: {}
+bronchiolitis -- localized_edema: {}
+bronchiolitis -- bronchospasm__acute_asthma_exacerbation: {}
+bronchiolitis -- acute_copd_exacerbation__infection: {}
+bronchiolitis -- guillainbarré_syndrome: {}
+bronchiolitis -- respiratory_system: {}
+bronchiolitis -- cardiovascular_system: {}
+bronchiolitis -- gastrointestinal_system: {}
+bronchiolitis -- infectious_diseases: {}
+bronchiolitis -- neurological_and_muscular_system: {}
+bronchiolitis -- autoimmune_and_immunological_diseases: {}
+bronchiolitis -- hematological_disorders: {}
+bronchiolitis -- psychiatric_and_stress_related_disorders: {}
+bronchiolitis -- trauma_and_injury_related_conditions: {}
+bronchitis -- urti: {}
+bronchitis -- hiv_initial_infection: {}
+bronchitis -- pneumonia: {}
+bronchitis -- chronic_rhinosinusitis: {}
+bronchitis -- viral_pharyngitis: {}
+bronchitis -- anemia: {}
+bronchitis -- cluster_headache: {}
+bronchitis -- anaphylaxis: {}
+bronchitis -- spontaneous_pneumothorax: {}
+bronchitis -- acute_pulmonary_edema: {}
+bronchitis -- panic_attack: {}
+bronchitis -- epiglottitis: {}
+bronchitis -- inguinal_hernia: {}
+bronchitis -- boerhaave: {}
+bronchitis -- pancreatic_neoplasm: {}
+bronchitis -- bronchitis: {}
+bronchitis -- sle: {}
+bronchitis -- acute_laryngitis: {}
+bronchitis -- unstable_angina: {}
+bronchitis -- possible_nstemi__stemi: {}
+bronchitis -- chagas: {}
+bronchitis -- localized_edema: {}
+bronchitis -- sarcoidosis: {}
+bronchitis -- spontaneous_rib_fracture: {}
+bronchitis -- gerd: {}
+bronchitis -- influenza: {}
+bronchitis -- pulmonary_embolism: {}
+bronchitis -- stable_angina: {}
+bronchitis -- pericarditis: {}
+bronchitis -- acute_rhinosinusitis: {}
+bronchitis -- myocarditis: {}
+bronchitis -- pulmonary_neoplasm: {}
+bronchitis -- acute_otitis_media: {}
+bronchitis -- psvt: {}
+bronchitis -- bronchospasm_acute_asthma_exacerbation: {}
+bronchitis -- whooping_cough: {}
+bronchitis -- croup: {}
+bronchitis -- larygospasm: {}
+bronchitis -- atrial_fibrillation: {}
+bronchitis -- possible_nstemi_stemi: {}
+bronchitis -- myasthenia_gravis: {}
+bronchitis -- guillain_barre_syndrome: {}
+bronchitis -- acute_dystonic_reactions: {}
+bronchitis -- allergic_sinusitis: {}
+bronchitis -- boerhaave_syndrome: {}
+bronchitis -- scombroid_food_poisoning: {}
+bronchitis -- tuberculosis: {}
+bronchitis -- ebola: {}
+bronchitis -- bronchospasm__acute_asthma_exacerbation: {}
+bronchitis -- acute_copd_exacerbation__infection: {}
+bronchitis -- guillainbarré_syndrome: {}
+bronchitis -- respiratory_system: {}
+bronchitis -- cardiovascular_system: {}
+bronchitis -- gastrointestinal_system: {}
+bronchitis -- infectious_diseases: {}
+bronchitis -- neurological_and_muscular_system: {}
+bronchitis -- autoimmune_and_immunological_diseases: {}
+bronchitis -- hematological_disorders: {}
+bronchitis -- psychiatric_and_stress_related_disorders: {}
+bronchitis -- trauma_and_injury_related_conditions: {}
+bronchitis -- 10. bronchospasm_acute_asthma_exacerbation: {'relationship': 'can_be_differentiated_from'}
+bronchitis -- 8. acute_pulmonary_edema: {'relationship': 'differentiates_from'}
+bronchitis -- 5. acute_asthma_exacerbation: {'relationship': 'differentiates_from'}
+bronchitis -- 6. acute_copd_exacerbation__infection: {'relationship': 'has_related_condition'}
+bronchospasm_acute_asthma_exacerbation -- bronchospasm_acute_asthma_exacerbation: {}
+bronchospasm_acute_asthma_exacerbation -- pulmonary_embolism: {}
+bronchospasm_acute_asthma_exacerbation -- pulmonary_neoplasm: {}
+bronchospasm_acute_asthma_exacerbation -- spontaneous_pneumothorax: {}
+bronchospasm_acute_asthma_exacerbation -- urti: {}
+bronchospasm_acute_asthma_exacerbation -- viral_pharyngitis: {}
+bronchospasm_acute_asthma_exacerbation -- whooping_cough: {}
+bronchospasm_acute_asthma_exacerbation -- acute_laryngitis: {}
+bronchospasm_acute_asthma_exacerbation -- acute_pulmonary_edema: {}
+bronchospasm_acute_asthma_exacerbation -- croup: {}
+bronchospasm_acute_asthma_exacerbation -- larygospasm: {}
+bronchospasm_acute_asthma_exacerbation -- epiglottitis: {}
+bronchospasm_acute_asthma_exacerbation -- pneumonia: {}
+bronchospasm_acute_asthma_exacerbation -- atrial_fibrillation: {}
+bronchospasm_acute_asthma_exacerbation -- myocarditis: {}
+bronchospasm_acute_asthma_exacerbation -- pericarditis: {}
+bronchospasm_acute_asthma_exacerbation -- psvt: {}
+bronchospasm_acute_asthma_exacerbation -- possible_nstemi_stemi: {}
+bronchospasm_acute_asthma_exacerbation -- stable_angina: {}
+bronchospasm_acute_asthma_exacerbation -- unstable_angina: {}
+bronchospasm_acute_asthma_exacerbation -- myasthenia_gravis: {}
+bronchospasm_acute_asthma_exacerbation -- guillain_barre_syndrome: {}
+bronchospasm_acute_asthma_exacerbation -- cluster_headache: {}
+bronchospasm_acute_asthma_exacerbation -- acute_dystonic_reactions: {}
+bronchospasm_acute_asthma_exacerbation -- sle: {}
+bronchospasm_acute_asthma_exacerbation -- sarcoidosis: {}
+bronchospasm_acute_asthma_exacerbation -- anaphylaxis: {}
+bronchospasm_acute_asthma_exacerbation -- allergic_sinusitis: {}
+bronchospasm_acute_asthma_exacerbation -- panic_attack: {}
+bronchospasm_acute_asthma_exacerbation -- spontaneous_rib_fracture: {}
+bronchospasm_acute_asthma_exacerbation -- inguinal_hernia: {}
+bronchospasm_acute_asthma_exacerbation -- anemia: {}
+bronchospasm_acute_asthma_exacerbation -- gerd: {}
+bronchospasm_acute_asthma_exacerbation -- boerhaave_syndrome: {}
+bronchospasm_acute_asthma_exacerbation -- pancreatic_neoplasm: {}
+bronchospasm_acute_asthma_exacerbation -- scombroid_food_poisoning: {}
+bronchospasm_acute_asthma_exacerbation -- tuberculosis: {}
+bronchospasm_acute_asthma_exacerbation -- hiv_initial_infection: {}
+bronchospasm_acute_asthma_exacerbation -- ebola: {}
+bronchospasm_acute_asthma_exacerbation -- influenza: {}
+bronchospasm_acute_asthma_exacerbation -- chagas: {}
+bronchospasm_acute_asthma_exacerbation -- acute_otitis_media: {}
+bronchospasm_acute_asthma_exacerbation -- acute_rhinosinusitis: {}
+bronchospasm_acute_asthma_exacerbation -- chronic_rhinosinusitis: {}
+pulmonary_embolism -- urti: {}
+pulmonary_embolism -- hiv_initial_infection: {}
+pulmonary_embolism -- pneumonia: {}
+pulmonary_embolism -- chronic_rhinosinusitis: {}
+pulmonary_embolism -- viral_pharyngitis: {}
+pulmonary_embolism -- anemia: {}
+pulmonary_embolism -- cluster_headache: {}
+pulmonary_embolism -- anaphylaxis: {}
+pulmonary_embolism -- spontaneous_pneumothorax: {}
+pulmonary_embolism -- acute_pulmonary_edema: {}
+pulmonary_embolism -- panic_attack: {}
+pulmonary_embolism -- epiglottitis: {}
+pulmonary_embolism -- inguinal_hernia: {}
+pulmonary_embolism -- boerhaave: {}
+pulmonary_embolism -- pancreatic_neoplasm: {}
+pulmonary_embolism -- sle: {}
+pulmonary_embolism -- acute_laryngitis: {}
+pulmonary_embolism -- unstable_angina: {}
+pulmonary_embolism -- possible_nstemi__stemi: {}
+pulmonary_embolism -- chagas: {}
+pulmonary_embolism -- localized_edema: {}
+pulmonary_embolism -- sarcoidosis: {}
+pulmonary_embolism -- spontaneous_rib_fracture: {}
+pulmonary_embolism -- gerd: {}
+pulmonary_embolism -- influenza: {}
+pulmonary_embolism -- pulmonary_embolism: {}
+pulmonary_embolism -- stable_angina: {}
+pulmonary_embolism -- pericarditis: {}
+pulmonary_embolism -- acute_rhinosinusitis: {}
+pulmonary_embolism -- myocarditis: {}
+pulmonary_embolism -- pulmonary_neoplasm: {}
+pulmonary_embolism -- acute_otitis_media: {}
+pulmonary_embolism -- psvt: {}
+pulmonary_embolism -- whooping_cough: {}
+pulmonary_embolism -- croup: {}
+pulmonary_embolism -- larygospasm: {}
+pulmonary_embolism -- atrial_fibrillation: {}
+pulmonary_embolism -- possible_nstemi_stemi: {}
+pulmonary_embolism -- myasthenia_gravis: {}
+pulmonary_embolism -- guillain_barre_syndrome: {}
+pulmonary_embolism -- acute_dystonic_reactions: {}
+pulmonary_embolism -- allergic_sinusitis: {}
+pulmonary_embolism -- boerhaave_syndrome: {}
+pulmonary_embolism -- scombroid_food_poisoning: {}
+pulmonary_embolism -- tuberculosis: {}
+pulmonary_embolism -- ebola: {}
+pulmonary_embolism -- bronchospasm__acute_asthma_exacerbation: {}
+pulmonary_embolism -- acute_copd_exacerbation__infection: {}
+pulmonary_embolism -- guillainbarré_syndrome: {}
+pulmonary_neoplasm -- urti: {}
+pulmonary_neoplasm -- hiv_initial_infection: {}
+pulmonary_neoplasm -- pneumonia: {}
+pulmonary_neoplasm -- chronic_rhinosinusitis: {}
+pulmonary_neoplasm -- viral_pharyngitis: {}
+pulmonary_neoplasm -- anemia: {}
+pulmonary_neoplasm -- cluster_headache: {}
+pulmonary_neoplasm -- anaphylaxis: {}
+pulmonary_neoplasm -- spontaneous_pneumothorax: {}
+pulmonary_neoplasm -- acute_pulmonary_edema: {}
+pulmonary_neoplasm -- panic_attack: {}
+pulmonary_neoplasm -- epiglottitis: {}
+pulmonary_neoplasm -- inguinal_hernia: {}
+pulmonary_neoplasm -- boerhaave: {}
+pulmonary_neoplasm -- pancreatic_neoplasm: {}
+pulmonary_neoplasm -- sle: {}
+pulmonary_neoplasm -- acute_laryngitis: {}
+pulmonary_neoplasm -- unstable_angina: {}
+pulmonary_neoplasm -- possible_nstemi__stemi: {}
+pulmonary_neoplasm -- chagas: {}
+pulmonary_neoplasm -- localized_edema: {}
+pulmonary_neoplasm -- sarcoidosis: {}
+pulmonary_neoplasm -- spontaneous_rib_fracture: {}
+pulmonary_neoplasm -- gerd: {}
+pulmonary_neoplasm -- influenza: {}
+pulmonary_neoplasm -- stable_angina: {}
+pulmonary_neoplasm -- pericarditis: {}
+pulmonary_neoplasm -- acute_rhinosinusitis: {}
+pulmonary_neoplasm -- myocarditis: {}
+pulmonary_neoplasm -- pulmonary_neoplasm: {}
+pulmonary_neoplasm -- acute_otitis_media: {}
+pulmonary_neoplasm -- psvt: {}
+pulmonary_neoplasm -- whooping_cough: {}
+pulmonary_neoplasm -- croup: {}
+pulmonary_neoplasm -- larygospasm: {}
+pulmonary_neoplasm -- atrial_fibrillation: {}
+pulmonary_neoplasm -- possible_nstemi_stemi: {}
+pulmonary_neoplasm -- myasthenia_gravis: {}
+pulmonary_neoplasm -- guillain_barre_syndrome: {}
+pulmonary_neoplasm -- acute_dystonic_reactions: {}
+pulmonary_neoplasm -- allergic_sinusitis: {}
+pulmonary_neoplasm -- boerhaave_syndrome: {}
+pulmonary_neoplasm -- scombroid_food_poisoning: {}
+pulmonary_neoplasm -- tuberculosis: {}
+pulmonary_neoplasm -- ebola: {}
+pulmonary_neoplasm -- bronchospasm__acute_asthma_exacerbation: {}
+pulmonary_neoplasm -- acute_copd_exacerbation__infection: {}
+pulmonary_neoplasm -- guillainbarré_syndrome: {}
+pulmonary_neoplasm -- respiratory_system: {}
+pulmonary_neoplasm -- cardiovascular_system: {}
+pulmonary_neoplasm -- gastrointestinal_system: {}
+pulmonary_neoplasm -- infectious_diseases: {}
+pulmonary_neoplasm -- neurological_and_muscular_system: {}
+pulmonary_neoplasm -- autoimmune_and_immunological_diseases: {}
+pulmonary_neoplasm -- hematological_disorders: {}
+pulmonary_neoplasm -- psychiatric_and_stress_related_disorders: {}
+pulmonary_neoplasm -- trauma_and_injury_related_conditions: {}
+spontaneous_pneumothorax -- urti: {}
+spontaneous_pneumothorax -- hiv_initial_infection: {}
+spontaneous_pneumothorax -- pneumonia: {}
+spontaneous_pneumothorax -- chronic_rhinosinusitis: {}
+spontaneous_pneumothorax -- viral_pharyngitis: {}
+spontaneous_pneumothorax -- anemia: {}
+spontaneous_pneumothorax -- cluster_headache: {}
+spontaneous_pneumothorax -- anaphylaxis: {}
+spontaneous_pneumothorax -- spontaneous_pneumothorax: {}
+spontaneous_pneumothorax -- acute_pulmonary_edema: {}
+spontaneous_pneumothorax -- panic_attack: {}
+spontaneous_pneumothorax -- epiglottitis: {}
+spontaneous_pneumothorax -- inguinal_hernia: {}
+spontaneous_pneumothorax -- boerhaave: {}
+spontaneous_pneumothorax -- pancreatic_neoplasm: {}
+spontaneous_pneumothorax -- sle: {}
+spontaneous_pneumothorax -- acute_laryngitis: {}
+spontaneous_pneumothorax -- unstable_angina: {}
+spontaneous_pneumothorax -- possible_nstemi__stemi: {}
+spontaneous_pneumothorax -- chagas: {}
+spontaneous_pneumothorax -- localized_edema: {}
+spontaneous_pneumothorax -- sarcoidosis: {}
+spontaneous_pneumothorax -- spontaneous_rib_fracture: {}
+spontaneous_pneumothorax -- gerd: {}
+spontaneous_pneumothorax -- influenza: {}
+spontaneous_pneumothorax -- stable_angina: {}
+spontaneous_pneumothorax -- pericarditis: {}
+spontaneous_pneumothorax -- acute_rhinosinusitis: {}
+spontaneous_pneumothorax -- myocarditis: {}
+spontaneous_pneumothorax -- acute_otitis_media: {}
+spontaneous_pneumothorax -- psvt: {}
+spontaneous_pneumothorax -- whooping_cough: {}
+spontaneous_pneumothorax -- croup: {}
+spontaneous_pneumothorax -- larygospasm: {}
+spontaneous_pneumothorax -- atrial_fibrillation: {}
+spontaneous_pneumothorax -- possible_nstemi_stemi: {}
+spontaneous_pneumothorax -- myasthenia_gravis: {}
+spontaneous_pneumothorax -- guillain_barre_syndrome: {}
+spontaneous_pneumothorax -- acute_dystonic_reactions: {}
+spontaneous_pneumothorax -- allergic_sinusitis: {}
+spontaneous_pneumothorax -- boerhaave_syndrome: {}
+spontaneous_pneumothorax -- scombroid_food_poisoning: {}
+spontaneous_pneumothorax -- tuberculosis: {}
+spontaneous_pneumothorax -- ebola: {}
+spontaneous_pneumothorax -- bronchospasm__acute_asthma_exacerbation: {}
+spontaneous_pneumothorax -- acute_copd_exacerbation__infection: {}
+spontaneous_pneumothorax -- guillainbarré_syndrome: {}
+urti -- urti: {}
+urti -- hiv_initial_infection: {}
+urti -- pneumonia: {}
+urti -- chronic_rhinosinusitis: {}
+urti -- viral_pharyngitis: {}
+urti -- anemia: {}
+urti -- cluster_headache: {}
+urti -- anaphylaxis: {}
+urti -- acute_pulmonary_edema: {}
+urti -- panic_attack: {}
+urti -- epiglottitis: {}
+urti -- inguinal_hernia: {}
+urti -- boerhaave: {}
+urti -- pancreatic_neoplasm: {}
+urti -- sle: {}
+urti -- acute_laryngitis: {}
+urti -- unstable_angina: {}
+urti -- possible_nstemi__stemi: {}
+urti -- chagas: {}
+urti -- localized_edema: {}
+urti -- sarcoidosis: {}
+urti -- spontaneous_rib_fracture: {}
+urti -- gerd: {}
+urti -- influenza: {}
+urti -- stable_angina: {}
+urti -- pericarditis: {}
+urti -- acute_rhinosinusitis: {}
+urti -- myocarditis: {}
+urti -- acute_otitis_media: {}
+urti -- psvt: {}
+urti -- whooping_cough: {}
+urti -- croup: {}
+urti -- larygospasm: {}
+urti -- atrial_fibrillation: {}
+urti -- possible_nstemi_stemi: {}
+urti -- myasthenia_gravis: {}
+urti -- guillain_barre_syndrome: {}
+urti -- acute_dystonic_reactions: {}
+urti -- allergic_sinusitis: {}
+urti -- boerhaave_syndrome: {}
+urti -- scombroid_food_poisoning: {}
+urti -- tuberculosis: {}
+urti -- ebola: {}
+urti -- bronchospasm__acute_asthma_exacerbation: {}
+urti -- acute_copd_exacerbation__infection: {}
+urti -- guillainbarré_syndrome: {}
+viral_pharyngitis -- hiv_initial_infection: {}
+viral_pharyngitis -- pneumonia: {}
+viral_pharyngitis -- chronic_rhinosinusitis: {}
+viral_pharyngitis -- viral_pharyngitis: {}
+viral_pharyngitis -- anemia: {}
+viral_pharyngitis -- cluster_headache: {}
+viral_pharyngitis -- anaphylaxis: {}
+viral_pharyngitis -- acute_pulmonary_edema: {}
+viral_pharyngitis -- panic_attack: {}
+viral_pharyngitis -- epiglottitis: {}
+viral_pharyngitis -- inguinal_hernia: {}
+viral_pharyngitis -- boerhaave: {}
+viral_pharyngitis -- pancreatic_neoplasm: {}
+viral_pharyngitis -- sle: {}
+viral_pharyngitis -- acute_laryngitis: {}
+viral_pharyngitis -- unstable_angina: {}
+viral_pharyngitis -- possible_nstemi__stemi: {}
+viral_pharyngitis -- chagas: {}
+viral_pharyngitis -- localized_edema: {}
+viral_pharyngitis -- sarcoidosis: {}
+viral_pharyngitis -- spontaneous_rib_fracture: {}
+viral_pharyngitis -- gerd: {}
+viral_pharyngitis -- influenza: {}
+viral_pharyngitis -- stable_angina: {}
+viral_pharyngitis -- pericarditis: {}
+viral_pharyngitis -- acute_rhinosinusitis: {}
+viral_pharyngitis -- myocarditis: {}
+viral_pharyngitis -- acute_otitis_media: {}
+viral_pharyngitis -- psvt: {}
+viral_pharyngitis -- whooping_cough: {}
+viral_pharyngitis -- croup: {}
+viral_pharyngitis -- larygospasm: {}
+viral_pharyngitis -- atrial_fibrillation: {}
+viral_pharyngitis -- possible_nstemi_stemi: {}
+viral_pharyngitis -- myasthenia_gravis: {}
+viral_pharyngitis -- guillain_barre_syndrome: {}
+viral_pharyngitis -- acute_dystonic_reactions: {}
+viral_pharyngitis -- allergic_sinusitis: {}
+viral_pharyngitis -- boerhaave_syndrome: {}
+viral_pharyngitis -- scombroid_food_poisoning: {}
+viral_pharyngitis -- tuberculosis: {}
+viral_pharyngitis -- ebola: {}
+viral_pharyngitis -- bronchospasm__acute_asthma_exacerbation: {}
+viral_pharyngitis -- acute_copd_exacerbation__infection: {}
+viral_pharyngitis -- guillainbarré_syndrome: {}
+viral_pharyngitis -- 14. influenza: {'relationship': 'can_cause'}
+viral_pharyngitis -- 17. allergies: {'relationship': 'distinguished_from'}
+viral_pharyngitis -- 22. mononucleosis: {'relationship': 'can_cause'}
+viral_pharyngitis -- 14. hiv_initial_infection: {'relationship': 'can_present_similarly_to'}
+viral_pharyngitis -- 8. acute_otitis_media: {'relationship': 'compared_to'}
+whooping_cough -- whooping_cough: {}
+whooping_cough -- acute_laryngitis: {}
+whooping_cough -- acute_pulmonary_edema: {}
+whooping_cough -- croup: {}
+whooping_cough -- larygospasm: {}
+whooping_cough -- epiglottitis: {}
+whooping_cough -- pneumonia: {}
+whooping_cough -- atrial_fibrillation: {}
+whooping_cough -- myocarditis: {}
+whooping_cough -- pericarditis: {}
+whooping_cough -- psvt: {}
+whooping_cough -- possible_nstemi_stemi: {}
+whooping_cough -- stable_angina: {}
+whooping_cough -- unstable_angina: {}
+whooping_cough -- myasthenia_gravis: {}
+whooping_cough -- guillain_barre_syndrome: {}
+whooping_cough -- cluster_headache: {}
+whooping_cough -- acute_dystonic_reactions: {}
+whooping_cough -- sle: {}
+whooping_cough -- sarcoidosis: {}
+whooping_cough -- anaphylaxis: {}
+whooping_cough -- allergic_sinusitis: {}
+whooping_cough -- panic_attack: {}
+whooping_cough -- spontaneous_rib_fracture: {}
+whooping_cough -- inguinal_hernia: {}
+whooping_cough -- anemia: {}
+whooping_cough -- gerd: {}
+whooping_cough -- boerhaave_syndrome: {}
+whooping_cough -- pancreatic_neoplasm: {}
+whooping_cough -- scombroid_food_poisoning: {}
+whooping_cough -- tuberculosis: {}
+whooping_cough -- hiv_initial_infection: {}
+whooping_cough -- ebola: {}
+whooping_cough -- influenza: {}
+whooping_cough -- chagas: {}
+whooping_cough -- acute_otitis_media: {}
+whooping_cough -- acute_rhinosinusitis: {}
+whooping_cough -- chronic_rhinosinusitis: {}
+whooping_cough -- boerhaave: {}
+whooping_cough -- possible_nstemi__stemi: {}
+whooping_cough -- localized_edema: {}
+whooping_cough -- bronchospasm__acute_asthma_exacerbation: {}
+whooping_cough -- acute_copd_exacerbation__infection: {}
+whooping_cough -- guillainbarré_syndrome: {}
+acute_laryngitis -- hiv_initial_infection: {}
+acute_laryngitis -- pneumonia: {}
+acute_laryngitis -- chronic_rhinosinusitis: {}
+acute_laryngitis -- anemia: {}
+acute_laryngitis -- cluster_headache: {}
+acute_laryngitis -- anaphylaxis: {}
+acute_laryngitis -- acute_pulmonary_edema: {}
+acute_laryngitis -- panic_attack: {}
+acute_laryngitis -- epiglottitis: {}
+acute_laryngitis -- inguinal_hernia: {}
+acute_laryngitis -- boerhaave: {}
+acute_laryngitis -- pancreatic_neoplasm: {}
+acute_laryngitis -- sle: {}
+acute_laryngitis -- acute_laryngitis: {}
+acute_laryngitis -- unstable_angina: {}
+acute_laryngitis -- possible_nstemi__stemi: {}
+acute_laryngitis -- chagas: {}
+acute_laryngitis -- localized_edema: {}
+acute_laryngitis -- sarcoidosis: {}
+acute_laryngitis -- spontaneous_rib_fracture: {}
+acute_laryngitis -- gerd: {}
+acute_laryngitis -- influenza: {}
+acute_laryngitis -- stable_angina: {}
+acute_laryngitis -- pericarditis: {}
+acute_laryngitis -- acute_rhinosinusitis: {}
+acute_laryngitis -- myocarditis: {}
+acute_laryngitis -- acute_otitis_media: {}
+acute_laryngitis -- psvt: {}
+acute_laryngitis -- croup: {}
+acute_laryngitis -- larygospasm: {}
+acute_laryngitis -- atrial_fibrillation: {}
+acute_laryngitis -- possible_nstemi_stemi: {}
+acute_laryngitis -- myasthenia_gravis: {}
+acute_laryngitis -- guillain_barre_syndrome: {}
+acute_laryngitis -- acute_dystonic_reactions: {}
+acute_laryngitis -- allergic_sinusitis: {}
+acute_laryngitis -- boerhaave_syndrome: {}
+acute_laryngitis -- scombroid_food_poisoning: {}
+acute_laryngitis -- tuberculosis: {}
+acute_laryngitis -- ebola: {}
+acute_laryngitis -- bronchospasm__acute_asthma_exacerbation: {}
+acute_laryngitis -- acute_copd_exacerbation__infection: {}
+acute_laryngitis -- guillainbarré_syndrome: {}
+acute_pulmonary_edema -- hiv_initial_infection: {}
+acute_pulmonary_edema -- pneumonia: {}
+acute_pulmonary_edema -- chronic_rhinosinusitis: {}
+acute_pulmonary_edema -- anemia: {}
+acute_pulmonary_edema -- cluster_headache: {}
+acute_pulmonary_edema -- anaphylaxis: {}
+acute_pulmonary_edema -- acute_pulmonary_edema: {}
+acute_pulmonary_edema -- panic_attack: {}
+acute_pulmonary_edema -- epiglottitis: {}
+acute_pulmonary_edema -- inguinal_hernia: {}
+acute_pulmonary_edema -- boerhaave: {}
+acute_pulmonary_edema -- pancreatic_neoplasm: {}
+acute_pulmonary_edema -- sle: {}
+acute_pulmonary_edema -- unstable_angina: {}
+acute_pulmonary_edema -- possible_nstemi__stemi: {}
+acute_pulmonary_edema -- chagas: {}
+acute_pulmonary_edema -- localized_edema: {}
+acute_pulmonary_edema -- sarcoidosis: {}
+acute_pulmonary_edema -- spontaneous_rib_fracture: {}
+acute_pulmonary_edema -- gerd: {}
+acute_pulmonary_edema -- influenza: {}
+acute_pulmonary_edema -- stable_angina: {}
+acute_pulmonary_edema -- pericarditis: {}
+acute_pulmonary_edema -- acute_rhinosinusitis: {}
+acute_pulmonary_edema -- myocarditis: {}
+acute_pulmonary_edema -- acute_otitis_media: {}
+acute_pulmonary_edema -- psvt: {}
+acute_pulmonary_edema -- croup: {}
+acute_pulmonary_edema -- larygospasm: {}
+acute_pulmonary_edema -- atrial_fibrillation: {}
+acute_pulmonary_edema -- possible_nstemi_stemi: {}
+acute_pulmonary_edema -- myasthenia_gravis: {}
+acute_pulmonary_edema -- guillain_barre_syndrome: {}
+acute_pulmonary_edema -- acute_dystonic_reactions: {}
+acute_pulmonary_edema -- allergic_sinusitis: {}
+acute_pulmonary_edema -- boerhaave_syndrome: {}
+acute_pulmonary_edema -- scombroid_food_poisoning: {}
+acute_pulmonary_edema -- tuberculosis: {}
+acute_pulmonary_edema -- ebola: {}
+acute_pulmonary_edema -- bronchospasm__acute_asthma_exacerbation: {}
+acute_pulmonary_edema -- acute_copd_exacerbation__infection: {}
+acute_pulmonary_edema -- guillainbarré_syndrome: {}
+croup -- croup: {}
+croup -- larygospasm: {}
+croup -- epiglottitis: {}
+croup -- pneumonia: {}
+croup -- atrial_fibrillation: {}
+croup -- myocarditis: {}
+croup -- pericarditis: {}
+croup -- psvt: {}
+croup -- possible_nstemi_stemi: {}
+croup -- stable_angina: {}
+croup -- unstable_angina: {}
+croup -- myasthenia_gravis: {}
+croup -- guillain_barre_syndrome: {}
+croup -- cluster_headache: {}
+croup -- acute_dystonic_reactions: {}
+croup -- sle: {}
+croup -- sarcoidosis: {}
+croup -- anaphylaxis: {}
+croup -- allergic_sinusitis: {}
+croup -- panic_attack: {}
+croup -- spontaneous_rib_fracture: {}
+croup -- inguinal_hernia: {}
+croup -- anemia: {}
+croup -- gerd: {}
+croup -- boerhaave_syndrome: {}
+croup -- pancreatic_neoplasm: {}
+croup -- scombroid_food_poisoning: {}
+croup -- tuberculosis: {}
+croup -- hiv_initial_infection: {}
+croup -- ebola: {}
+croup -- influenza: {}
+croup -- chagas: {}
+croup -- acute_otitis_media: {}
+croup -- acute_rhinosinusitis: {}
+croup -- chronic_rhinosinusitis: {}
+croup -- boerhaave: {}
+croup -- possible_nstemi__stemi: {}
+croup -- localized_edema: {}
+croup -- bronchospasm__acute_asthma_exacerbation: {}
+croup -- acute_copd_exacerbation__infection: {}
+croup -- guillainbarré_syndrome: {}
+croup -- 6. viral_infection: {'relationship': 'can_present_as'}
+larygospasm -- larygospasm: {}
+larygospasm -- epiglottitis: {}
+larygospasm -- pneumonia: {}
+larygospasm -- atrial_fibrillation: {}
+larygospasm -- myocarditis: {}
+larygospasm -- pericarditis: {}
+larygospasm -- psvt: {}
+larygospasm -- possible_nstemi_stemi: {}
+larygospasm -- stable_angina: {}
+larygospasm -- unstable_angina: {}
+larygospasm -- myasthenia_gravis: {}
+larygospasm -- guillain_barre_syndrome: {}
+larygospasm -- cluster_headache: {}
+larygospasm -- acute_dystonic_reactions: {}
+larygospasm -- sle: {}
+larygospasm -- sarcoidosis: {}
+larygospasm -- anaphylaxis: {}
+larygospasm -- allergic_sinusitis: {}
+larygospasm -- panic_attack: {}
+larygospasm -- spontaneous_rib_fracture: {}
+larygospasm -- inguinal_hernia: {}
+larygospasm -- anemia: {}
+larygospasm -- gerd: {}
+larygospasm -- boerhaave_syndrome: {}
+larygospasm -- pancreatic_neoplasm: {}
+larygospasm -- scombroid_food_poisoning: {}
+larygospasm -- tuberculosis: {}
+larygospasm -- hiv_initial_infection: {}
+larygospasm -- ebola: {}
+larygospasm -- influenza: {}
+larygospasm -- chagas: {}
+larygospasm -- acute_otitis_media: {}
+larygospasm -- acute_rhinosinusitis: {}
+larygospasm -- chronic_rhinosinusitis: {}
+larygospasm -- boerhaave: {}
+larygospasm -- possible_nstemi__stemi: {}
+larygospasm -- localized_edema: {}
+larygospasm -- bronchospasm__acute_asthma_exacerbation: {}
+larygospasm -- acute_copd_exacerbation__infection: {}
+larygospasm -- guillainbarré_syndrome: {}
+larygospasm -- respiratory_system: {}
+larygospasm -- cardiovascular_system: {}
+larygospasm -- gastrointestinal_system: {}
+larygospasm -- infectious_diseases: {}
+larygospasm -- neurological_and_muscular_system: {}
+larygospasm -- autoimmune_and_immunological_diseases: {}
+larygospasm -- hematological_disorders: {}
+larygospasm -- psychiatric_and_stress_related_disorders: {}
+larygospasm -- trauma_and_injury_related_conditions: {}
+epiglottitis -- hiv_initial_infection: {}
+epiglottitis -- pneumonia: {}
+epiglottitis -- chronic_rhinosinusitis: {}
+epiglottitis -- anemia: {}
+epiglottitis -- cluster_headache: {}
+epiglottitis -- anaphylaxis: {}
+epiglottitis -- panic_attack: {}
+epiglottitis -- epiglottitis: {}
+epiglottitis -- inguinal_hernia: {}
+epiglottitis -- boerhaave: {}
+epiglottitis -- pancreatic_neoplasm: {}
+epiglottitis -- sle: {}
+epiglottitis -- unstable_angina: {}
+epiglottitis -- possible_nstemi__stemi: {}
+epiglottitis -- chagas: {}
+epiglottitis -- localized_edema: {}
+epiglottitis -- sarcoidosis: {}
+epiglottitis -- spontaneous_rib_fracture: {}
+epiglottitis -- gerd: {}
+epiglottitis -- influenza: {}
+epiglottitis -- stable_angina: {}
+epiglottitis -- pericarditis: {}
+epiglottitis -- acute_rhinosinusitis: {}
+epiglottitis -- myocarditis: {}
+epiglottitis -- acute_otitis_media: {}
+epiglottitis -- psvt: {}
+epiglottitis -- atrial_fibrillation: {}
+epiglottitis -- possible_nstemi_stemi: {}
+epiglottitis -- myasthenia_gravis: {}
+epiglottitis -- guillain_barre_syndrome: {}
+epiglottitis -- acute_dystonic_reactions: {}
+epiglottitis -- allergic_sinusitis: {}
+epiglottitis -- boerhaave_syndrome: {}
+epiglottitis -- scombroid_food_poisoning: {}
+epiglottitis -- tuberculosis: {}
+epiglottitis -- ebola: {}
+epiglottitis -- bronchospasm__acute_asthma_exacerbation: {}
+epiglottitis -- acute_copd_exacerbation__infection: {}
+epiglottitis -- guillainbarré_syndrome: {}
+pneumonia -- hiv_initial_infection: {}
+pneumonia -- pneumonia: {}
+pneumonia -- chronic_rhinosinusitis: {}
+pneumonia -- anemia: {}
+pneumonia -- cluster_headache: {}
+pneumonia -- anaphylaxis: {}
+pneumonia -- panic_attack: {}
+pneumonia -- inguinal_hernia: {}
+pneumonia -- boerhaave: {}
+pneumonia -- pancreatic_neoplasm: {}
+pneumonia -- sle: {}
+pneumonia -- unstable_angina: {}
+pneumonia -- possible_nstemi__stemi: {}
+pneumonia -- chagas: {}
+pneumonia -- localized_edema: {}
+pneumonia -- sarcoidosis: {}
+pneumonia -- spontaneous_rib_fracture: {}
+pneumonia -- gerd: {}
+pneumonia -- influenza: {}
+pneumonia -- stable_angina: {}
+pneumonia -- pericarditis: {}
+pneumonia -- acute_rhinosinusitis: {}
+pneumonia -- myocarditis: {}
+pneumonia -- acute_otitis_media: {}
+pneumonia -- psvt: {}
+pneumonia -- atrial_fibrillation: {}
+pneumonia -- possible_nstemi_stemi: {}
+pneumonia -- myasthenia_gravis: {}
+pneumonia -- guillain_barre_syndrome: {}
+pneumonia -- acute_dystonic_reactions: {}
+pneumonia -- allergic_sinusitis: {}
+pneumonia -- boerhaave_syndrome: {}
+pneumonia -- scombroid_food_poisoning: {}
+pneumonia -- tuberculosis: {}
+pneumonia -- ebola: {}
+pneumonia -- bronchospasm__acute_asthma_exacerbation: {}
+pneumonia -- acute_copd_exacerbation__infection: {}
+pneumonia -- guillainbarré_syndrome: {}
+pneumonia -- 16. pulmonary_embolism: {'relationship': 'is_similar_to'}
+pneumonia -- 7. acute_pulmonary_edema: {'relationship': 'differentiates_from'}
+atrial_fibrillation -- atrial_fibrillation: {}
+atrial_fibrillation -- myocarditis: {}
+atrial_fibrillation -- pericarditis: {}
+atrial_fibrillation -- psvt: {}
+atrial_fibrillation -- possible_nstemi_stemi: {}
+atrial_fibrillation -- stable_angina: {}
+atrial_fibrillation -- unstable_angina: {}
+atrial_fibrillation -- myasthenia_gravis: {}
+atrial_fibrillation -- guillain_barre_syndrome: {}
+atrial_fibrillation -- cluster_headache: {}
+atrial_fibrillation -- acute_dystonic_reactions: {}
+atrial_fibrillation -- sle: {}
+atrial_fibrillation -- sarcoidosis: {}
+atrial_fibrillation -- anaphylaxis: {}
+atrial_fibrillation -- allergic_sinusitis: {}
+atrial_fibrillation -- panic_attack: {}
+atrial_fibrillation -- spontaneous_rib_fracture: {}
+atrial_fibrillation -- inguinal_hernia: {}
+atrial_fibrillation -- anemia: {}
+atrial_fibrillation -- gerd: {}
+atrial_fibrillation -- boerhaave_syndrome: {}
+atrial_fibrillation -- pancreatic_neoplasm: {}
+atrial_fibrillation -- scombroid_food_poisoning: {}
+atrial_fibrillation -- tuberculosis: {}
+atrial_fibrillation -- hiv_initial_infection: {}
+atrial_fibrillation -- ebola: {}
+atrial_fibrillation -- influenza: {}
+atrial_fibrillation -- chagas: {}
+atrial_fibrillation -- acute_otitis_media: {}
+atrial_fibrillation -- acute_rhinosinusitis: {}
+atrial_fibrillation -- chronic_rhinosinusitis: {}
+atrial_fibrillation -- boerhaave: {}
+atrial_fibrillation -- possible_nstemi__stemi: {}
+atrial_fibrillation -- localized_edema: {}
+atrial_fibrillation -- bronchospasm__acute_asthma_exacerbation: {}
+atrial_fibrillation -- acute_copd_exacerbation__infection: {}
+atrial_fibrillation -- guillainbarré_syndrome: {}
+atrial_fibrillation -- respiratory_system: {}
+atrial_fibrillation -- cardiovascular_system: {}
+atrial_fibrillation -- gastrointestinal_system: {}
+atrial_fibrillation -- infectious_diseases: {}
+atrial_fibrillation -- neurological_and_muscular_system: {}
+atrial_fibrillation -- autoimmune_and_immunological_diseases: {}
+atrial_fibrillation -- hematological_disorders: {}
+atrial_fibrillation -- psychiatric_and_stress_related_disorders: {}
+atrial_fibrillation -- trauma_and_injury_related_conditions: {}
+myocarditis -- hiv_initial_infection: {}
+myocarditis -- chronic_rhinosinusitis: {}
+myocarditis -- anemia: {}
+myocarditis -- cluster_headache: {}
+myocarditis -- anaphylaxis: {}
+myocarditis -- panic_attack: {}
+myocarditis -- inguinal_hernia: {}
+myocarditis -- boerhaave: {}
+myocarditis -- pancreatic_neoplasm: {}
+myocarditis -- sle: {}
+myocarditis -- unstable_angina: {}
+myocarditis -- possible_nstemi__stemi: {}
+myocarditis -- chagas: {}
+myocarditis -- localized_edema: {}
+myocarditis -- sarcoidosis: {}
+myocarditis -- spontaneous_rib_fracture: {}
+myocarditis -- gerd: {}
+myocarditis -- influenza: {}
+myocarditis -- stable_angina: {}
+myocarditis -- pericarditis: {}
+myocarditis -- acute_rhinosinusitis: {}
+myocarditis -- myocarditis: {}
+myocarditis -- acute_otitis_media: {}
+myocarditis -- psvt: {}
+myocarditis -- possible_nstemi_stemi: {}
+myocarditis -- myasthenia_gravis: {}
+myocarditis -- guillain_barre_syndrome: {}
+myocarditis -- acute_dystonic_reactions: {}
+myocarditis -- allergic_sinusitis: {}
+myocarditis -- boerhaave_syndrome: {}
+myocarditis -- scombroid_food_poisoning: {}
+myocarditis -- tuberculosis: {}
+myocarditis -- ebola: {}
+myocarditis -- bronchospasm__acute_asthma_exacerbation: {}
+myocarditis -- acute_copd_exacerbation__infection: {}
+myocarditis -- guillainbarré_syndrome: {}
+myocarditis -- respiratory_system: {}
+myocarditis -- cardiovascular_system: {}
+myocarditis -- gastrointestinal_system: {}
+myocarditis -- infectious_diseases: {}
+myocarditis -- neurological_and_muscular_system: {}
+myocarditis -- autoimmune_and_immunological_diseases: {}
+myocarditis -- hematological_disorders: {}
+myocarditis -- psychiatric_and_stress_related_disorders: {}
+myocarditis -- trauma_and_injury_related_conditions: {}
+pericarditis -- hiv_initial_infection: {}
+pericarditis -- chronic_rhinosinusitis: {}
+pericarditis -- anemia: {}
+pericarditis -- cluster_headache: {}
+pericarditis -- anaphylaxis: {}
+pericarditis -- panic_attack: {}
+pericarditis -- inguinal_hernia: {}
+pericarditis -- boerhaave: {}
+pericarditis -- pancreatic_neoplasm: {}
+pericarditis -- sle: {}
+pericarditis -- unstable_angina: {}
+pericarditis -- possible_nstemi__stemi: {}
+pericarditis -- chagas: {}
+pericarditis -- localized_edema: {}
+pericarditis -- sarcoidosis: {}
+pericarditis -- spontaneous_rib_fracture: {}
+pericarditis -- gerd: {}
+pericarditis -- influenza: {}
+pericarditis -- stable_angina: {}
+pericarditis -- pericarditis: {}
+pericarditis -- acute_rhinosinusitis: {}
+pericarditis -- acute_otitis_media: {}
+pericarditis -- psvt: {}
+pericarditis -- possible_nstemi_stemi: {}
+pericarditis -- myasthenia_gravis: {}
+pericarditis -- guillain_barre_syndrome: {}
+pericarditis -- acute_dystonic_reactions: {}
+pericarditis -- allergic_sinusitis: {}
+pericarditis -- boerhaave_syndrome: {}
+pericarditis -- scombroid_food_poisoning: {}
+pericarditis -- tuberculosis: {}
+pericarditis -- ebola: {}
+pericarditis -- bronchospasm__acute_asthma_exacerbation: {}
+pericarditis -- acute_copd_exacerbation__infection: {}
+pericarditis -- guillainbarré_syndrome: {}
+pericarditis -- respiratory_system: {}
+pericarditis -- cardiovascular_system: {}
+pericarditis -- gastrointestinal_system: {}
+pericarditis -- infectious_diseases: {}
+pericarditis -- neurological_and_muscular_system: {}
+pericarditis -- autoimmune_and_immunological_diseases: {}
+pericarditis -- hematological_disorders: {}
+pericarditis -- psychiatric_and_stress_related_disorders: {}
+pericarditis -- trauma_and_injury_related_conditions: {}
+pericarditis -- 9. possible_nstemi_stemi: {'relationship': 'can_be_differentiated_from'}
+pericarditis -- 6. stable_angina: {'relationship': 'has_differential_diagnosis'}
+psvt -- hiv_initial_infection: {}
+psvt -- chronic_rhinosinusitis: {}
+psvt -- anemia: {}
+psvt -- cluster_headache: {}
+psvt -- anaphylaxis: {}
+psvt -- panic_attack: {}
+psvt -- inguinal_hernia: {}
+psvt -- boerhaave: {}
+psvt -- pancreatic_neoplasm: {}
+psvt -- sle: {}
+psvt -- unstable_angina: {}
+psvt -- possible_nstemi__stemi: {}
+psvt -- chagas: {}
+psvt -- localized_edema: {}
+psvt -- sarcoidosis: {}
+psvt -- spontaneous_rib_fracture: {}
+psvt -- gerd: {}
+psvt -- influenza: {}
+psvt -- stable_angina: {}
+psvt -- acute_rhinosinusitis: {}
+psvt -- acute_otitis_media: {}
+psvt -- psvt: {}
+psvt -- possible_nstemi_stemi: {}
+psvt -- myasthenia_gravis: {}
+psvt -- guillain_barre_syndrome: {}
+psvt -- acute_dystonic_reactions: {}
+psvt -- allergic_sinusitis: {}
+psvt -- boerhaave_syndrome: {}
+psvt -- scombroid_food_poisoning: {}
+psvt -- tuberculosis: {}
+psvt -- ebola: {}
+psvt -- bronchospasm__acute_asthma_exacerbation: {}
+psvt -- acute_copd_exacerbation__infection: {}
+psvt -- guillainbarré_syndrome: {}
+psvt -- respiratory_system: {}
+psvt -- cardiovascular_system: {}
+psvt -- gastrointestinal_system: {}
+psvt -- infectious_diseases: {}
+psvt -- neurological_and_muscular_system: {}
+psvt -- autoimmune_and_immunological_diseases: {}
+psvt -- hematological_disorders: {}
+psvt -- psychiatric_and_stress_related_disorders: {}
+psvt -- trauma_and_injury_related_conditions: {}
+possible_nstemi_stemi -- possible_nstemi_stemi: {}
+possible_nstemi_stemi -- stable_angina: {}
+possible_nstemi_stemi -- unstable_angina: {}
+possible_nstemi_stemi -- myasthenia_gravis: {}
+possible_nstemi_stemi -- guillain_barre_syndrome: {}
+possible_nstemi_stemi -- cluster_headache: {}
+possible_nstemi_stemi -- acute_dystonic_reactions: {}
+possible_nstemi_stemi -- sle: {}
+possible_nstemi_stemi -- sarcoidosis: {}
+possible_nstemi_stemi -- anaphylaxis: {}
+possible_nstemi_stemi -- allergic_sinusitis: {}
+possible_nstemi_stemi -- panic_attack: {}
+possible_nstemi_stemi -- spontaneous_rib_fracture: {}
+possible_nstemi_stemi -- inguinal_hernia: {}
+possible_nstemi_stemi -- anemia: {}
+possible_nstemi_stemi -- gerd: {}
+possible_nstemi_stemi -- boerhaave_syndrome: {}
+possible_nstemi_stemi -- pancreatic_neoplasm: {}
+possible_nstemi_stemi -- scombroid_food_poisoning: {}
+possible_nstemi_stemi -- tuberculosis: {}
+possible_nstemi_stemi -- hiv_initial_infection: {}
+possible_nstemi_stemi -- ebola: {}
+possible_nstemi_stemi -- influenza: {}
+possible_nstemi_stemi -- chagas: {}
+possible_nstemi_stemi -- acute_otitis_media: {}
+possible_nstemi_stemi -- acute_rhinosinusitis: {}
+possible_nstemi_stemi -- chronic_rhinosinusitis: {}
+stable_angina -- hiv_initial_infection: {}
+stable_angina -- chronic_rhinosinusitis: {}
+stable_angina -- anemia: {}
+stable_angina -- cluster_headache: {}
+stable_angina -- anaphylaxis: {}
+stable_angina -- panic_attack: {}
+stable_angina -- inguinal_hernia: {}
+stable_angina -- boerhaave: {}
+stable_angina -- pancreatic_neoplasm: {}
+stable_angina -- sle: {}
+stable_angina -- unstable_angina: {}
+stable_angina -- possible_nstemi__stemi: {}
+stable_angina -- chagas: {}
+stable_angina -- localized_edema: {}
+stable_angina -- sarcoidosis: {}
+stable_angina -- spontaneous_rib_fracture: {}
+stable_angina -- gerd: {}
+stable_angina -- influenza: {}
+stable_angina -- stable_angina: {}
+stable_angina -- acute_rhinosinusitis: {}
+stable_angina -- acute_otitis_media: {}
+stable_angina -- myasthenia_gravis: {}
+stable_angina -- guillain_barre_syndrome: {}
+stable_angina -- acute_dystonic_reactions: {}
+stable_angina -- allergic_sinusitis: {}
+stable_angina -- boerhaave_syndrome: {}
+stable_angina -- scombroid_food_poisoning: {}
+stable_angina -- tuberculosis: {}
+stable_angina -- ebola: {}
+stable_angina -- bronchospasm__acute_asthma_exacerbation: {}
+stable_angina -- acute_copd_exacerbation__infection: {}
+stable_angina -- guillainbarré_syndrome: {}
+unstable_angina -- hiv_initial_infection: {}
+unstable_angina -- chronic_rhinosinusitis: {}
+unstable_angina -- anemia: {}
+unstable_angina -- cluster_headache: {}
+unstable_angina -- anaphylaxis: {}
+unstable_angina -- panic_attack: {}
+unstable_angina -- inguinal_hernia: {}
+unstable_angina -- boerhaave: {}
+unstable_angina -- pancreatic_neoplasm: {}
+unstable_angina -- sle: {}
+unstable_angina -- unstable_angina: {}
+unstable_angina -- possible_nstemi__stemi: {}
+unstable_angina -- chagas: {}
+unstable_angina -- localized_edema: {}
+unstable_angina -- sarcoidosis: {}
+unstable_angina -- spontaneous_rib_fracture: {}
+unstable_angina -- gerd: {}
+unstable_angina -- influenza: {}
+unstable_angina -- acute_rhinosinusitis: {}
+unstable_angina -- acute_otitis_media: {}
+unstable_angina -- myasthenia_gravis: {}
+unstable_angina -- guillain_barre_syndrome: {}
+unstable_angina -- acute_dystonic_reactions: {}
+unstable_angina -- allergic_sinusitis: {}
+unstable_angina -- boerhaave_syndrome: {}
+unstable_angina -- scombroid_food_poisoning: {}
+unstable_angina -- tuberculosis: {}
+unstable_angina -- ebola: {}
+unstable_angina -- bronchospasm__acute_asthma_exacerbation: {}
+unstable_angina -- acute_copd_exacerbation__infection: {}
+unstable_angina -- guillainbarré_syndrome: {}
+unstable_angina -- 7. possible_nstemi_stemi: {'relationship': 'can_be_differentiated_from'}
+unstable_angina -- 4. stable_angina: {'relationship': 'is_different_from'}
+myasthenia_gravis -- myasthenia_gravis: {}
+myasthenia_gravis -- guillain_barre_syndrome: {}
+myasthenia_gravis -- cluster_headache: {}
+myasthenia_gravis -- acute_dystonic_reactions: {}
+myasthenia_gravis -- sle: {}
+myasthenia_gravis -- sarcoidosis: {}
+myasthenia_gravis -- anaphylaxis: {}
+myasthenia_gravis -- allergic_sinusitis: {}
+myasthenia_gravis -- panic_attack: {}
+myasthenia_gravis -- spontaneous_rib_fracture: {}
+myasthenia_gravis -- inguinal_hernia: {}
+myasthenia_gravis -- anemia: {}
+myasthenia_gravis -- gerd: {}
+myasthenia_gravis -- boerhaave_syndrome: {}
+myasthenia_gravis -- pancreatic_neoplasm: {}
+myasthenia_gravis -- scombroid_food_poisoning: {}
+myasthenia_gravis -- tuberculosis: {}
+myasthenia_gravis -- hiv_initial_infection: {}
+myasthenia_gravis -- ebola: {}
+myasthenia_gravis -- influenza: {}
+myasthenia_gravis -- chagas: {}
+myasthenia_gravis -- acute_otitis_media: {}
+myasthenia_gravis -- acute_rhinosinusitis: {}
+myasthenia_gravis -- chronic_rhinosinusitis: {}
+myasthenia_gravis -- boerhaave: {}
+myasthenia_gravis -- possible_nstemi__stemi: {}
+myasthenia_gravis -- localized_edema: {}
+myasthenia_gravis -- bronchospasm__acute_asthma_exacerbation: {}
+myasthenia_gravis -- acute_copd_exacerbation__infection: {}
+myasthenia_gravis -- guillainbarré_syndrome: {}
+myasthenia_gravis -- respiratory_system: {}
+myasthenia_gravis -- cardiovascular_system: {}
+myasthenia_gravis -- gastrointestinal_system: {}
+myasthenia_gravis -- infectious_diseases: {}
+myasthenia_gravis -- neurological_and_muscular_system: {}
+myasthenia_gravis -- autoimmune_and_immunological_diseases: {}
+myasthenia_gravis -- hematological_disorders: {}
+myasthenia_gravis -- psychiatric_and_stress_related_disorders: {}
+myasthenia_gravis -- trauma_and_injury_related_conditions: {}
+myasthenia_gravis -- 7. guillain_barre_syndrome: {'relationship': 'differentiated_from'}
+myasthenia_gravis -- 8. guillainbarré_syndrome: {'relationship': 'is_differentiated_from'}
+guillain_barre_syndrome -- guillain_barre_syndrome: {}
+guillain_barre_syndrome -- cluster_headache: {}
+guillain_barre_syndrome -- acute_dystonic_reactions: {}
+guillain_barre_syndrome -- sle: {}
+guillain_barre_syndrome -- sarcoidosis: {}
+guillain_barre_syndrome -- anaphylaxis: {}
+guillain_barre_syndrome -- allergic_sinusitis: {}
+guillain_barre_syndrome -- panic_attack: {}
+guillain_barre_syndrome -- spontaneous_rib_fracture: {}
+guillain_barre_syndrome -- inguinal_hernia: {}
+guillain_barre_syndrome -- anemia: {}
+guillain_barre_syndrome -- gerd: {}
+guillain_barre_syndrome -- boerhaave_syndrome: {}
+guillain_barre_syndrome -- pancreatic_neoplasm: {}
+guillain_barre_syndrome -- scombroid_food_poisoning: {}
+guillain_barre_syndrome -- tuberculosis: {}
+guillain_barre_syndrome -- hiv_initial_infection: {}
+guillain_barre_syndrome -- ebola: {}
+guillain_barre_syndrome -- influenza: {}
+guillain_barre_syndrome -- chagas: {}
+guillain_barre_syndrome -- acute_otitis_media: {}
+guillain_barre_syndrome -- acute_rhinosinusitis: {}
+guillain_barre_syndrome -- chronic_rhinosinusitis: {}
+guillain_barre_syndrome -- respiratory_system: {}
+guillain_barre_syndrome -- cardiovascular_system: {}
+guillain_barre_syndrome -- gastrointestinal_system: {}
+guillain_barre_syndrome -- infectious_diseases: {}
+guillain_barre_syndrome -- neurological_and_muscular_system: {}
+guillain_barre_syndrome -- autoimmune_and_immunological_diseases: {}
+guillain_barre_syndrome -- hematological_disorders: {}
+guillain_barre_syndrome -- psychiatric_and_stress_related_disorders: {}
+guillain_barre_syndrome -- trauma_and_injury_related_conditions: {}
+cluster_headache -- hiv_initial_infection: {}
+cluster_headache -- chronic_rhinosinusitis: {}
+cluster_headache -- anemia: {}
+cluster_headache -- cluster_headache: {}
+cluster_headache -- anaphylaxis: {}
+cluster_headache -- panic_attack: {}
+cluster_headache -- inguinal_hernia: {}
+cluster_headache -- boerhaave: {}
+cluster_headache -- pancreatic_neoplasm: {}
+cluster_headache -- sle: {}
+cluster_headache -- possible_nstemi__stemi: {}
+cluster_headache -- chagas: {}
+cluster_headache -- localized_edema: {}
+cluster_headache -- sarcoidosis: {}
+cluster_headache -- spontaneous_rib_fracture: {}
+cluster_headache -- gerd: {}
+cluster_headache -- influenza: {}
+cluster_headache -- acute_rhinosinusitis: {}
+cluster_headache -- acute_otitis_media: {}
+cluster_headache -- acute_dystonic_reactions: {}
+cluster_headache -- allergic_sinusitis: {}
+cluster_headache -- boerhaave_syndrome: {}
+cluster_headache -- scombroid_food_poisoning: {}
+cluster_headache -- tuberculosis: {}
+cluster_headache -- ebola: {}
+cluster_headache -- bronchospasm__acute_asthma_exacerbation: {}
+cluster_headache -- acute_copd_exacerbation__infection: {}
+cluster_headache -- guillainbarré_syndrome: {}
+acute_dystonic_reactions -- acute_dystonic_reactions: {}
+acute_dystonic_reactions -- sle: {}
+acute_dystonic_reactions -- sarcoidosis: {}
+acute_dystonic_reactions -- anaphylaxis: {}
+acute_dystonic_reactions -- allergic_sinusitis: {}
+acute_dystonic_reactions -- panic_attack: {}
+acute_dystonic_reactions -- spontaneous_rib_fracture: {}
+acute_dystonic_reactions -- inguinal_hernia: {}
+acute_dystonic_reactions -- anemia: {}
+acute_dystonic_reactions -- gerd: {}
+acute_dystonic_reactions -- boerhaave_syndrome: {}
+acute_dystonic_reactions -- pancreatic_neoplasm: {}
+acute_dystonic_reactions -- scombroid_food_poisoning: {}
+acute_dystonic_reactions -- tuberculosis: {}
+acute_dystonic_reactions -- hiv_initial_infection: {}
+acute_dystonic_reactions -- ebola: {}
+acute_dystonic_reactions -- influenza: {}
+acute_dystonic_reactions -- chagas: {}
+acute_dystonic_reactions -- acute_otitis_media: {}
+acute_dystonic_reactions -- acute_rhinosinusitis: {}
+acute_dystonic_reactions -- chronic_rhinosinusitis: {}
+acute_dystonic_reactions -- boerhaave: {}
+acute_dystonic_reactions -- possible_nstemi__stemi: {}
+acute_dystonic_reactions -- localized_edema: {}
+acute_dystonic_reactions -- bronchospasm__acute_asthma_exacerbation: {}
+acute_dystonic_reactions -- acute_copd_exacerbation__infection: {}
+acute_dystonic_reactions -- guillainbarré_syndrome: {}
+sle -- hiv_initial_infection: {}
+sle -- chronic_rhinosinusitis: {}
+sle -- anemia: {}
+sle -- anaphylaxis: {}
+sle -- panic_attack: {}
+sle -- inguinal_hernia: {}
+sle -- boerhaave: {}
+sle -- pancreatic_neoplasm: {}
+sle -- sle: {}
+sle -- possible_nstemi__stemi: {}
+sle -- chagas: {}
+sle -- localized_edema: {}
+sle -- sarcoidosis: {}
+sle -- spontaneous_rib_fracture: {}
+sle -- gerd: {}
+sle -- influenza: {}
+sle -- acute_rhinosinusitis: {}
+sle -- acute_otitis_media: {}
+sle -- allergic_sinusitis: {}
+sle -- boerhaave_syndrome: {}
+sle -- scombroid_food_poisoning: {}
+sle -- tuberculosis: {}
+sle -- ebola: {}
+sle -- bronchospasm__acute_asthma_exacerbation: {}
+sle -- acute_copd_exacerbation__infection: {}
+sle -- guillainbarré_syndrome: {}
+sle -- respiratory_system: {}
+sle -- cardiovascular_system: {}
+sle -- gastrointestinal_system: {}
+sle -- infectious_diseases: {}
+sle -- neurological_and_muscular_system: {}
+sle -- autoimmune_and_immunological_diseases: {}
+sle -- hematological_disorders: {}
+sle -- psychiatric_and_stress_related_disorders: {}
+sle -- trauma_and_injury_related_conditions: {}
+sarcoidosis -- hiv_initial_infection: {}
+sarcoidosis -- chronic_rhinosinusitis: {}
+sarcoidosis -- anemia: {}
+sarcoidosis -- anaphylaxis: {}
+sarcoidosis -- panic_attack: {}
+sarcoidosis -- inguinal_hernia: {}
+sarcoidosis -- boerhaave: {}
+sarcoidosis -- pancreatic_neoplasm: {}
+sarcoidosis -- possible_nstemi__stemi: {}
+sarcoidosis -- chagas: {}
+sarcoidosis -- localized_edema: {}
+sarcoidosis -- sarcoidosis: {}
+sarcoidosis -- spontaneous_rib_fracture: {}
+sarcoidosis -- gerd: {}
+sarcoidosis -- influenza: {}
+sarcoidosis -- acute_rhinosinusitis: {}
+sarcoidosis -- acute_otitis_media: {}
+sarcoidosis -- allergic_sinusitis: {}
+sarcoidosis -- boerhaave_syndrome: {}
+sarcoidosis -- scombroid_food_poisoning: {}
+sarcoidosis -- tuberculosis: {}
+sarcoidosis -- ebola: {}
+sarcoidosis -- bronchospasm__acute_asthma_exacerbation: {}
+sarcoidosis -- acute_copd_exacerbation__infection: {}
+sarcoidosis -- guillainbarré_syndrome: {}
+sarcoidosis -- respiratory_system: {}
+sarcoidosis -- cardiovascular_system: {}
+sarcoidosis -- gastrointestinal_system: {}
+sarcoidosis -- infectious_diseases: {}
+sarcoidosis -- neurological_and_muscular_system: {}
+sarcoidosis -- autoimmune_and_immunological_diseases: {}
+sarcoidosis -- hematological_disorders: {}
+sarcoidosis -- psychiatric_and_stress_related_disorders: {}
+sarcoidosis -- trauma_and_injury_related_conditions: {}
+anaphylaxis -- hiv_initial_infection: {}
+anaphylaxis -- chronic_rhinosinusitis: {}
+anaphylaxis -- anemia: {}
+anaphylaxis -- anaphylaxis: {}
+anaphylaxis -- panic_attack: {}
+anaphylaxis -- inguinal_hernia: {}
+anaphylaxis -- boerhaave: {}
+anaphylaxis -- pancreatic_neoplasm: {}
+anaphylaxis -- possible_nstemi__stemi: {}
+anaphylaxis -- chagas: {}
+anaphylaxis -- localized_edema: {}
+anaphylaxis -- spontaneous_rib_fracture: {}
+anaphylaxis -- gerd: {}
+anaphylaxis -- influenza: {}
+anaphylaxis -- acute_rhinosinusitis: {}
+anaphylaxis -- acute_otitis_media: {}
+anaphylaxis -- allergic_sinusitis: {}
+anaphylaxis -- boerhaave_syndrome: {}
+anaphylaxis -- scombroid_food_poisoning: {}
+anaphylaxis -- tuberculosis: {}
+anaphylaxis -- ebola: {}
+anaphylaxis -- bronchospasm__acute_asthma_exacerbation: {}
+anaphylaxis -- acute_copd_exacerbation__infection: {}
+anaphylaxis -- guillainbarré_syndrome: {}
+allergic_sinusitis -- allergic_sinusitis: {}
+allergic_sinusitis -- panic_attack: {}
+allergic_sinusitis -- spontaneous_rib_fracture: {}
+allergic_sinusitis -- inguinal_hernia: {}
+allergic_sinusitis -- anemia: {}
+allergic_sinusitis -- gerd: {}
+allergic_sinusitis -- boerhaave_syndrome: {}
+allergic_sinusitis -- pancreatic_neoplasm: {}
+allergic_sinusitis -- scombroid_food_poisoning: {}
+allergic_sinusitis -- tuberculosis: {}
+allergic_sinusitis -- hiv_initial_infection: {}
+allergic_sinusitis -- ebola: {}
+allergic_sinusitis -- influenza: {}
+allergic_sinusitis -- chagas: {}
+allergic_sinusitis -- acute_otitis_media: {}
+allergic_sinusitis -- acute_rhinosinusitis: {}
+allergic_sinusitis -- chronic_rhinosinusitis: {}
+allergic_sinusitis -- boerhaave: {}
+allergic_sinusitis -- possible_nstemi__stemi: {}
+allergic_sinusitis -- localized_edema: {}
+allergic_sinusitis -- bronchospasm__acute_asthma_exacerbation: {}
+allergic_sinusitis -- acute_copd_exacerbation__infection: {}
+allergic_sinusitis -- guillainbarré_syndrome: {}
+panic_attack -- hiv_initial_infection: {}
+panic_attack -- chronic_rhinosinusitis: {}
+panic_attack -- anemia: {}
+panic_attack -- panic_attack: {}
+panic_attack -- inguinal_hernia: {}
+panic_attack -- boerhaave: {}
+panic_attack -- pancreatic_neoplasm: {}
+panic_attack -- possible_nstemi__stemi: {}
+panic_attack -- chagas: {}
+panic_attack -- localized_edema: {}
+panic_attack -- spontaneous_rib_fracture: {}
+panic_attack -- gerd: {}
+panic_attack -- influenza: {}
+panic_attack -- acute_rhinosinusitis: {}
+panic_attack -- acute_otitis_media: {}
+panic_attack -- boerhaave_syndrome: {}
+panic_attack -- scombroid_food_poisoning: {}
+panic_attack -- tuberculosis: {}
+panic_attack -- ebola: {}
+panic_attack -- bronchospasm__acute_asthma_exacerbation: {}
+panic_attack -- acute_copd_exacerbation__infection: {}
+panic_attack -- guillainbarré_syndrome: {}
+panic_attack -- respiratory_system: {}
+panic_attack -- cardiovascular_system: {}
+panic_attack -- gastrointestinal_system: {}
+panic_attack -- infectious_diseases: {}
+panic_attack -- neurological_and_muscular_system: {}
+panic_attack -- autoimmune_and_immunological_diseases: {}
+panic_attack -- hematological_disorders: {}
+panic_attack -- psychiatric_and_stress_related_disorders: {}
+panic_attack -- trauma_and_injury_related_conditions: {}
+panic_attack -- 9. anaphylaxis: {'relationship': 'differentiates_from'}
+spontaneous_rib_fracture -- hiv_initial_infection: {}
+spontaneous_rib_fracture -- chronic_rhinosinusitis: {}
+spontaneous_rib_fracture -- anemia: {}
+spontaneous_rib_fracture -- inguinal_hernia: {}
+spontaneous_rib_fracture -- boerhaave: {}
+spontaneous_rib_fracture -- pancreatic_neoplasm: {}
+spontaneous_rib_fracture -- possible_nstemi__stemi: {}
+spontaneous_rib_fracture -- chagas: {}
+spontaneous_rib_fracture -- localized_edema: {}
+spontaneous_rib_fracture -- spontaneous_rib_fracture: {}
+spontaneous_rib_fracture -- gerd: {}
+spontaneous_rib_fracture -- influenza: {}
+spontaneous_rib_fracture -- acute_rhinosinusitis: {}
+spontaneous_rib_fracture -- acute_otitis_media: {}
+spontaneous_rib_fracture -- boerhaave_syndrome: {}
+spontaneous_rib_fracture -- scombroid_food_poisoning: {}
+spontaneous_rib_fracture -- tuberculosis: {}
+spontaneous_rib_fracture -- ebola: {}
+spontaneous_rib_fracture -- bronchospasm__acute_asthma_exacerbation: {}
+spontaneous_rib_fracture -- acute_copd_exacerbation__infection: {}
+spontaneous_rib_fracture -- guillainbarré_syndrome: {}
+spontaneous_rib_fracture -- respiratory_system: {}
+spontaneous_rib_fracture -- cardiovascular_system: {}
+spontaneous_rib_fracture -- gastrointestinal_system: {}
+spontaneous_rib_fracture -- infectious_diseases: {}
+spontaneous_rib_fracture -- neurological_and_muscular_system: {}
+spontaneous_rib_fracture -- autoimmune_and_immunological_diseases: {}
+spontaneous_rib_fracture -- hematological_disorders: {}
+spontaneous_rib_fracture -- psychiatric_and_stress_related_disorders: {}
+spontaneous_rib_fracture -- trauma_and_injury_related_conditions: {}
+inguinal_hernia -- hiv_initial_infection: {}
+inguinal_hernia -- chronic_rhinosinusitis: {}
+inguinal_hernia -- anemia: {}
+inguinal_hernia -- inguinal_hernia: {}
+inguinal_hernia -- boerhaave: {}
+inguinal_hernia -- pancreatic_neoplasm: {}
+inguinal_hernia -- possible_nstemi__stemi: {}
+inguinal_hernia -- chagas: {}
+inguinal_hernia -- localized_edema: {}
+inguinal_hernia -- gerd: {}
+inguinal_hernia -- influenza: {}
+inguinal_hernia -- acute_rhinosinusitis: {}
+inguinal_hernia -- acute_otitis_media: {}
+inguinal_hernia -- boerhaave_syndrome: {}
+inguinal_hernia -- scombroid_food_poisoning: {}
+inguinal_hernia -- tuberculosis: {}
+inguinal_hernia -- ebola: {}
+inguinal_hernia -- bronchospasm__acute_asthma_exacerbation: {}
+inguinal_hernia -- acute_copd_exacerbation__infection: {}
+inguinal_hernia -- guillainbarré_syndrome: {}
+anemia -- hiv_initial_infection: {}
+anemia -- chronic_rhinosinusitis: {}
+anemia -- anemia: {}
+anemia -- boerhaave: {}
+anemia -- pancreatic_neoplasm: {}
+anemia -- possible_nstemi__stemi: {}
+anemia -- chagas: {}
+anemia -- localized_edema: {}
+anemia -- gerd: {}
+anemia -- influenza: {}
+anemia -- acute_rhinosinusitis: {}
+anemia -- acute_otitis_media: {}
+anemia -- boerhaave_syndrome: {}
+anemia -- scombroid_food_poisoning: {}
+anemia -- tuberculosis: {}
+anemia -- ebola: {}
+anemia -- bronchospasm__acute_asthma_exacerbation: {}
+anemia -- acute_copd_exacerbation__infection: {}
+anemia -- guillainbarré_syndrome: {}
+anemia -- respiratory_system: {}
+anemia -- cardiovascular_system: {}
+anemia -- gastrointestinal_system: {}
+anemia -- infectious_diseases: {}
+anemia -- neurological_and_muscular_system: {}
+anemia -- autoimmune_and_immunological_diseases: {}
+anemia -- hematological_disorders: {}
+anemia -- psychiatric_and_stress_related_disorders: {}
+anemia -- trauma_and_injury_related_conditions: {}
+anemia -- 8. hematological_disorders: {'relationship': 'can_lead_to'}
+gerd -- hiv_initial_infection: {}
+gerd -- chronic_rhinosinusitis: {}
+gerd -- boerhaave: {}
+gerd -- pancreatic_neoplasm: {}
+gerd -- possible_nstemi__stemi: {}
+gerd -- chagas: {}
+gerd -- localized_edema: {}
+gerd -- gerd: {}
+gerd -- influenza: {}
+gerd -- acute_rhinosinusitis: {}
+gerd -- acute_otitis_media: {}
+gerd -- boerhaave_syndrome: {}
+gerd -- scombroid_food_poisoning: {}
+gerd -- tuberculosis: {}
+gerd -- ebola: {}
+gerd -- bronchospasm__acute_asthma_exacerbation: {}
+gerd -- acute_copd_exacerbation__infection: {}
+gerd -- guillainbarré_syndrome: {}
+gerd -- respiratory_system: {}
+gerd -- cardiovascular_system: {}
+gerd -- gastrointestinal_system: {}
+gerd -- infectious_diseases: {}
+gerd -- neurological_and_muscular_system: {}
+gerd -- autoimmune_and_immunological_diseases: {}
+gerd -- hematological_disorders: {}
+gerd -- psychiatric_and_stress_related_disorders: {}
+gerd -- trauma_and_injury_related_conditions: {}
+boerhaave_syndrome -- boerhaave_syndrome: {}
+boerhaave_syndrome -- pancreatic_neoplasm: {}
+boerhaave_syndrome -- scombroid_food_poisoning: {}
+boerhaave_syndrome -- tuberculosis: {}
+boerhaave_syndrome -- hiv_initial_infection: {}
+boerhaave_syndrome -- ebola: {}
+boerhaave_syndrome -- influenza: {}
+boerhaave_syndrome -- chagas: {}
+boerhaave_syndrome -- acute_otitis_media: {}
+boerhaave_syndrome -- acute_rhinosinusitis: {}
+boerhaave_syndrome -- chronic_rhinosinusitis: {}
+boerhaave_syndrome -- respiratory_system: {}
+boerhaave_syndrome -- cardiovascular_system: {}
+boerhaave_syndrome -- gastrointestinal_system: {}
+boerhaave_syndrome -- infectious_diseases: {}
+boerhaave_syndrome -- neurological_and_muscular_system: {}
+boerhaave_syndrome -- autoimmune_and_immunological_diseases: {}
+boerhaave_syndrome -- hematological_disorders: {}
+boerhaave_syndrome -- psychiatric_and_stress_related_disorders: {}
+boerhaave_syndrome -- trauma_and_injury_related_conditions: {}
+pancreatic_neoplasm -- hiv_initial_infection: {}
+pancreatic_neoplasm -- chronic_rhinosinusitis: {}
+pancreatic_neoplasm -- boerhaave: {}
+pancreatic_neoplasm -- pancreatic_neoplasm: {}
+pancreatic_neoplasm -- possible_nstemi__stemi: {}
+pancreatic_neoplasm -- chagas: {}
+pancreatic_neoplasm -- localized_edema: {}
+pancreatic_neoplasm -- influenza: {}
+pancreatic_neoplasm -- acute_rhinosinusitis: {}
+pancreatic_neoplasm -- acute_otitis_media: {}
+pancreatic_neoplasm -- scombroid_food_poisoning: {}
+pancreatic_neoplasm -- tuberculosis: {}
+pancreatic_neoplasm -- ebola: {}
+pancreatic_neoplasm -- bronchospasm__acute_asthma_exacerbation: {}
+pancreatic_neoplasm -- acute_copd_exacerbation__infection: {}
+pancreatic_neoplasm -- guillainbarré_syndrome: {}
+pancreatic_neoplasm -- respiratory_system: {}
+pancreatic_neoplasm -- cardiovascular_system: {}
+pancreatic_neoplasm -- gastrointestinal_system: {}
+pancreatic_neoplasm -- infectious_diseases: {}
+pancreatic_neoplasm -- neurological_and_muscular_system: {}
+pancreatic_neoplasm -- autoimmune_and_immunological_diseases: {}
+pancreatic_neoplasm -- hematological_disorders: {}
+pancreatic_neoplasm -- psychiatric_and_stress_related_disorders: {}
+pancreatic_neoplasm -- trauma_and_injury_related_conditions: {}
+scombroid_food_poisoning -- scombroid_food_poisoning: {}
+scombroid_food_poisoning -- tuberculosis: {}
+scombroid_food_poisoning -- hiv_initial_infection: {}
+scombroid_food_poisoning -- ebola: {}
+scombroid_food_poisoning -- influenza: {}
+scombroid_food_poisoning -- chagas: {}
+scombroid_food_poisoning -- acute_otitis_media: {}
+scombroid_food_poisoning -- acute_rhinosinusitis: {}
+scombroid_food_poisoning -- chronic_rhinosinusitis: {}
+scombroid_food_poisoning -- boerhaave: {}
+scombroid_food_poisoning -- possible_nstemi__stemi: {}
+scombroid_food_poisoning -- localized_edema: {}
+scombroid_food_poisoning -- bronchospasm__acute_asthma_exacerbation: {}
+scombroid_food_poisoning -- acute_copd_exacerbation__infection: {}
+scombroid_food_poisoning -- guillainbarré_syndrome: {}
+tuberculosis -- tuberculosis: {}
+tuberculosis -- hiv_initial_infection: {}
+tuberculosis -- ebola: {}
+tuberculosis -- influenza: {}
+tuberculosis -- chagas: {}
+tuberculosis -- acute_otitis_media: {}
+tuberculosis -- acute_rhinosinusitis: {}
+tuberculosis -- chronic_rhinosinusitis: {}
+tuberculosis -- boerhaave: {}
+tuberculosis -- possible_nstemi__stemi: {}
+tuberculosis -- localized_edema: {}
+tuberculosis -- bronchospasm__acute_asthma_exacerbation: {}
+tuberculosis -- acute_copd_exacerbation__infection: {}
+tuberculosis -- guillainbarré_syndrome: {}
+tuberculosis -- respiratory_system: {}
+tuberculosis -- cardiovascular_system: {}
+tuberculosis -- gastrointestinal_system: {}
+tuberculosis -- infectious_diseases: {}
+tuberculosis -- neurological_and_muscular_system: {}
+tuberculosis -- autoimmune_and_immunological_diseases: {}
+tuberculosis -- hematological_disorders: {}
+tuberculosis -- psychiatric_and_stress_related_disorders: {}
+tuberculosis -- trauma_and_injury_related_conditions: {}
+hiv_initial_infection -- hiv_initial_infection: {}
+hiv_initial_infection -- chronic_rhinosinusitis: {}
+hiv_initial_infection -- boerhaave: {}
+hiv_initial_infection -- possible_nstemi__stemi: {}
+hiv_initial_infection -- chagas: {}
+hiv_initial_infection -- localized_edema: {}
+hiv_initial_infection -- influenza: {}
+hiv_initial_infection -- acute_rhinosinusitis: {}
+hiv_initial_infection -- acute_otitis_media: {}
+hiv_initial_infection -- ebola: {}
+hiv_initial_infection -- bronchospasm__acute_asthma_exacerbation: {}
+hiv_initial_infection -- acute_copd_exacerbation__infection: {}
+hiv_initial_infection -- guillainbarré_syndrome: {}
+hiv_initial_infection -- respiratory_system: {}
+hiv_initial_infection -- cardiovascular_system: {}
+hiv_initial_infection -- gastrointestinal_system: {}
+hiv_initial_infection -- infectious_diseases: {}
+hiv_initial_infection -- neurological_and_muscular_system: {}
+hiv_initial_infection -- autoimmune_and_immunological_diseases: {}
+hiv_initial_infection -- hematological_disorders: {}
+hiv_initial_infection -- psychiatric_and_stress_related_disorders: {}
+hiv_initial_infection -- trauma_and_injury_related_conditions: {}
+ebola -- ebola: {}
+ebola -- influenza: {}
+ebola -- chagas: {}
+ebola -- acute_otitis_media: {}
+ebola -- acute_rhinosinusitis: {}
+ebola -- chronic_rhinosinusitis: {}
+ebola -- boerhaave: {}
+ebola -- possible_nstemi__stemi: {}
+ebola -- localized_edema: {}
+ebola -- bronchospasm__acute_asthma_exacerbation: {}
+ebola -- acute_copd_exacerbation__infection: {}
+ebola -- guillainbarré_syndrome: {}
+influenza -- chronic_rhinosinusitis: {}
+influenza -- boerhaave: {}
+influenza -- possible_nstemi__stemi: {}
+influenza -- chagas: {}
+influenza -- localized_edema: {}
+influenza -- influenza: {}
+influenza -- acute_rhinosinusitis: {}
+influenza -- acute_otitis_media: {}
+influenza -- bronchospasm__acute_asthma_exacerbation: {}
+influenza -- acute_copd_exacerbation__infection: {}
+influenza -- guillainbarré_syndrome: {}
+influenza -- respiratory_system: {}
+influenza -- cardiovascular_system: {}
+influenza -- gastrointestinal_system: {}
+influenza -- infectious_diseases: {}
+influenza -- neurological_and_muscular_system: {}
+influenza -- autoimmune_and_immunological_diseases: {}
+influenza -- hematological_disorders: {}
+influenza -- psychiatric_and_stress_related_disorders: {}
+influenza -- trauma_and_injury_related_conditions: {}
+influenza -- 13. hiv_initial_infection: {'relationship': 'can_present_similarly_to'}
+influenza -- 13. acute_rhinosinusitis: {'relationship': 'differentiates_from'}
+chagas -- chronic_rhinosinusitis: {}
+chagas -- boerhaave: {}
+chagas -- possible_nstemi__stemi: {}
+chagas -- chagas: {}
+chagas -- localized_edema: {}
+chagas -- acute_rhinosinusitis: {}
+chagas -- acute_otitis_media: {}
+chagas -- bronchospasm__acute_asthma_exacerbation: {}
+chagas -- acute_copd_exacerbation__infection: {}
+chagas -- guillainbarré_syndrome: {}
+acute_otitis_media -- chronic_rhinosinusitis: {}
+acute_otitis_media -- boerhaave: {}
+acute_otitis_media -- possible_nstemi__stemi: {}
+acute_otitis_media -- localized_edema: {}
+acute_otitis_media -- acute_rhinosinusitis: {}
+acute_otitis_media -- acute_otitis_media: {}
+acute_otitis_media -- bronchospasm__acute_asthma_exacerbation: {}
+acute_otitis_media -- acute_copd_exacerbation__infection: {}
+acute_otitis_media -- guillainbarré_syndrome: {}
+acute_rhinosinusitis -- chronic_rhinosinusitis: {}
+acute_rhinosinusitis -- boerhaave: {}
+acute_rhinosinusitis -- possible_nstemi__stemi: {}
+acute_rhinosinusitis -- localized_edema: {}
+acute_rhinosinusitis -- acute_rhinosinusitis: {}
+acute_rhinosinusitis -- bronchospasm__acute_asthma_exacerbation: {}
+acute_rhinosinusitis -- acute_copd_exacerbation__infection: {}
+acute_rhinosinusitis -- guillainbarré_syndrome: {}
+chronic_rhinosinusitis -- chronic_rhinosinusitis: {}
+chronic_rhinosinusitis -- boerhaave: {}
+chronic_rhinosinusitis -- possible_nstemi__stemi: {}
+chronic_rhinosinusitis -- localized_edema: {}
+chronic_rhinosinusitis -- bronchospasm__acute_asthma_exacerbation: {}
+chronic_rhinosinusitis -- acute_copd_exacerbation__infection: {}
+chronic_rhinosinusitis -- guillainbarré_syndrome: {}
+chronic_rhinosinusitis -- 11. acute_rhinosinusitis: {'relationship': 'differentiates_from'}
+respiratory_system -- cardiovascular_system: {}
+respiratory_system -- gastrointestinal_system: {}
+respiratory_system -- infectious_diseases: {}
+respiratory_system -- neurological_and_muscular_system: {}
+respiratory_system -- autoimmune_and_immunological_diseases: {}
+respiratory_system -- hematological_disorders: {}
+respiratory_system -- psychiatric_and_stress_related_disorders: {}
+respiratory_system -- trauma_and_injury_related_conditions: {}
+cardiovascular_system -- gastrointestinal_system: {}
+cardiovascular_system -- infectious_diseases: {}
+cardiovascular_system -- neurological_and_muscular_system: {}
+cardiovascular_system -- autoimmune_and_immunological_diseases: {}
+cardiovascular_system -- hematological_disorders: {}
+cardiovascular_system -- psychiatric_and_stress_related_disorders: {}
+cardiovascular_system -- trauma_and_injury_related_conditions: {}
+gastrointestinal_system -- infectious_diseases: {}
+gastrointestinal_system -- neurological_and_muscular_system: {}
+gastrointestinal_system -- autoimmune_and_immunological_diseases: {}
+gastrointestinal_system -- hematological_disorders: {}
+gastrointestinal_system -- psychiatric_and_stress_related_disorders: {}
+gastrointestinal_system -- trauma_and_injury_related_conditions: {}
+infectious_diseases -- neurological_and_muscular_system: {}
+infectious_diseases -- autoimmune_and_immunological_diseases: {}
+infectious_diseases -- hematological_disorders: {}
+infectious_diseases -- psychiatric_and_stress_related_disorders: {}
+infectious_diseases -- trauma_and_injury_related_conditions: {}
+infectious_diseases -- 9. autoimmune_and_immunological_diseases: {'relationship': 'distinguished_from'}
+neurological_and_muscular_system -- autoimmune_and_immunological_diseases: {}
+neurological_and_muscular_system -- hematological_disorders: {}
+neurological_and_muscular_system -- psychiatric_and_stress_related_disorders: {}
+neurological_and_muscular_system -- trauma_and_injury_related_conditions: {}
+autoimmune_and_immunological_diseases -- hematological_disorders: {}
+autoimmune_and_immunological_diseases -- psychiatric_and_stress_related_disorders: {}
+autoimmune_and_immunological_diseases -- trauma_and_injury_related_conditions: {}
+hematological_disorders -- psychiatric_and_stress_related_disorders: {}
+hematological_disorders -- trauma_and_injury_related_conditions: {}
+hematological_disorders -- 9. sle: {'relationship': 'has_symptom'}
+psychiatric_and_stress_related_disorders -- trauma_and_injury_related_conditions: {}
+boerhaave -- boerhaave: {}
+boerhaave -- possible_nstemi__stemi: {}
+boerhaave -- localized_edema: {}
+boerhaave -- bronchospasm__acute_asthma_exacerbation: {}
+boerhaave -- acute_copd_exacerbation__infection: {}
+boerhaave -- guillainbarré_syndrome: {}
+possible_nstemi__stemi -- possible_nstemi__stemi: {}
+possible_nstemi__stemi -- localized_edema: {}
+possible_nstemi__stemi -- bronchospasm__acute_asthma_exacerbation: {}
+possible_nstemi__stemi -- acute_copd_exacerbation__infection: {}
+possible_nstemi__stemi -- guillainbarré_syndrome: {}
+localized_edema -- localized_edema: {}
+localized_edema -- bronchospasm__acute_asthma_exacerbation: {}
+localized_edema -- acute_copd_exacerbation__infection: {}
+localized_edema -- guillainbarré_syndrome: {}
+bronchospasm__acute_asthma_exacerbation -- acute_copd_exacerbation__infection: {}
+bronchospasm__acute_asthma_exacerbation -- guillainbarré_syndrome: {}
+bronchospasm__acute_asthma_exacerbation -- bronchospasm__acute_asthma_exacerbation: {}
+acute_copd_exacerbation__infection -- guillainbarré_syndrome: {}
+acute_copd_exacerbation__infection -- acute_copd_exacerbation__infection: {}
+guillainbarré_syndrome -- guillainbarré_syndrome: {}
+1. acute_copd_exacerbation_infection -- increased_cough_or_sputum_production: {'relationship': 'has_symptom'}
+2. acute_copd_exacerbation_infection -- respiratory_infections: {'relationship': 'has_trigger'}
+3. acute_copd_exacerbation_infection -- wheezing_or_breathlessness: {'relationship': 'has_symptom'}
+4. acute_copd_exacerbation_infection -- fever_or_malaise: {'relationship': 'has_symptom'}
+5. acute_copd_exacerbation_infection -- pneumonia_by_radiographic_findings: {'relationship': 'distinguished_from'}
+6. acute_copd_exacerbation_infection -- heart_failure_by_echocardiography: {'relationship': 'distinguished_from'}
+7. acute_copd_exacerbation_infection -- pulmonary_hyperinflation: {'relationship': 'can_lead_to'}
+8. acute_copd_exacerbation_infection -- COPD_exacerbation: {'relationship': 'is_a_type_of'}
+COPD_exacerbation -- 6. acute_asthma_exacerbation: {'relationship': 'differentiates_from'}
+9. COPD -- smoking: {'relationship': 'has_risk_factor'}
+smoking -- 10. pneumonia: {'relationship': 'has_risk_factor'}
+smoking -- 6. pancreatic_neoplasm: {'relationship': 'has_risk_factor'}
+1. bronchiectasis -- chronic_cough: {'relationship': 'has_symptom'}
+chronic_cough -- 1. tuberculosis: {'relationship': 'has_symptom'}
+chronic_cough -- 2. chronic_obstructive_pulmonary_disease: {'relationship': 'has_symptom'}
+2. bronchiectasis -- sputum_production: {'relationship': 'has_symptom'}
+3. bronchiectasis -- hemoptysis: {'relationship': 'has_symptom'}
+4. bronchiectasis -- difficulty_breathing: {'relationship': 'has_symptom'}
+difficulty_breathing -- 2. bronchiolitis: {'relationship': 'has_symptom'}
+difficulty_breathing -- 2. spontaneous_pneumothorax: {'relationship': 'has_symptom'}
+difficulty_breathing -- 2. acute_asthma_exacerbation: {'relationship': 'has_symptom'}
+5. bronchiectasis -- recurring_respiratory_infections: {'relationship': 'is_caused_by'}
+6. bronchiectasis -- lung_ct_scan_reveals_abnormal_dilated_airways: {'relationship': 'has_imaging_feature'}
+7. bronchiectasis -- cystic_fibrosis_in_pathophysiology: {'relationship': 'differs_from'}
+8. bronchiectasis -- asthma_in_response_to_bronchodilators: {'relationship': 'differs_from'}
+9. bronchiectasis -- clubbed_fingers: {'relationship': 'associated_with'}
+10. bronchiectasis -- antibiotics_for_infection_control: {'relationship': 'is_treated_with'}
+11. bronchiectasis -- bronchial_inflammation: {'relationship': 'can_present_with'}
+12. bronchiectasis -- sputum_color_and_volume: {'relationship': 'distinguished_from_chronic_obstructive_pulmonary_disease_by'}
+13. bronchiectasis -- chronic respiratory failure: {'relationship': 'can_lead_to'}
+14. bronchiectasis -- recurrent_pneumonia: {'relationship': 'can_present_with'}
+15. bronchiectasis -- lung_function_tests_showing_obstructive_pattern: {'relationship': 'differentiated_by'}
+1. bronchiolitis -- wheezing: {'relationship': 'has_symptom'}
+wheezing -- 3. bronchitis: {'relationship': 'has_symptom'}
+wheezing -- 1. bronchospasm_acute_asthma_exacerbation: {'relationship': 'has_symptom'}
+wheezing -- 1. acute_asthma_exacerbation: {'relationship': 'has_symptom'}
+3. bronchiolitis -- infants_and_young_children: {'relationship': 'occurs_in_population'}
+4. bronchiolitis -- viral_infection: {'relationship': 'is_caused_by'}
+viral_infection -- 5. URTI: {'relationship': 'is_caused_by'}
+viral_infection -- 6. viral_pharyngitis: {'relationship': 'caused_by'}
+viral_infection -- 5. acute_laryngitis: {'relationship': 'is_caused_by'}
+viral_infection -- 5. croup: {'relationship': 'is_caused_by'}
+viral_infection -- 6. pneumonia: {'relationship': 'is_caused_by'}
+viral_infection -- 4. myocarditis: {'relationship': 'is_caused_by'}
+viral_infection -- 15. acute_rhinosinusitis: {'relationship': 'causes_by'}
+viral_infection -- 7. gastrointestinal_system: {'relationship': 'is_caused_by'}
+5. bronchiolitis -- by_age_of_onset: {'relationship': 'can_be_differentiated_from_asthma'}
+6. bronchiolitis -- compared_to_pneumonia: {'relationship': 'has_different_treatment'}
+7. bronchiolitis -- cough: {'relationship': 'can_present_with'}
+cough -- 1. bronchitis: {'relationship': 'has_symptom'}
+cough -- 1. URTI: {'relationship': 'has_symptom'}
+cough -- 2. viral_pharyngitis: {'relationship': 'has_symptom'}
+cough -- 3. acute_laryngitis: {'relationship': 'has_symptom'}
+cough -- 12. influenza: {'relationship': 'has_symptom'}
+cough -- 13. allergic_sinusitis: {'relationship': 'has_symptom'}
+cough -- 2. influenza: {'relationship': 'has_symptom'}
+cough -- 5. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+cough -- 4. chronic_rhinosinusitis: {'relationship': 'has_symptom'}
+cough -- 2. infectious_diseases: {'relationship': 'has_symptom'}
+8. bronchiolitis -- bronchospasm: {'relationship': 'may_lead_to'}
+9. bronchiolitis -- unlike_chronic_obstructive_pulmonary_disease: {'relationship': 'is_self-limiting'}
+10. bronchiolitis -- seasons(cold_months): {'relationship': 'associated_with'}
+11. bronchiolitis -- by_symptom_onset: {'relationship': 'can_be_differentiated_from_laryngotracheobronchitis'}
+12. bronchiolitis -- respiratory_syncytial_virus(RSV): {'relationship': 'commonly_associated_with'}
+13. bronchiolitis -- fever: {'relationship': 'can_present_with'}
+fever -- 18. pneumonia: {'relationship': 'has_symptom'}
+fever -- 4. URTI: {'relationship': 'has_symptom'}
+fever -- 3. viral_pharyngitis: {'relationship': 'has_symptom'}
+fever -- 8. acute_laryngitis: {'relationship': 'has_symptom'}
+fever -- 9. influenza: {'relationship': 'has_symptom'}
+fever -- 3. epiglottitis: {'relationship': 'has_symptom'}
+fever -- 2. pneumonia: {'relationship': 'has_symptom'}
+fever -- 6. pericarditis: {'relationship': 'may_present_with'}
+fever -- 18. infection: {'relationship': 'has_symptom'}
+fever -- 15. allergic_sinusitis: {'relationship': 'less_likely_to_have'}
+fever -- 1. hiv_initial_infection: {'relationship': 'has_symptom'}
+fever -- 1. ebola: {'relationship': 'has_symptom'}
+fever -- 1. influenza: {'relationship': 'has_symptom'}
+fever -- 2. acute_otitis_media: {'relationship': 'has_symptom'}
+fever -- 6. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+fever -- 1. infectious_diseases: {'relationship': 'has_symptom'}
+fever -- 5. boerhaave: {'relationship': 'has_symptom'}
+14. bronchiolitis -- for_severe_cases: {'relationship': 'may_require_hospitalization'}
+15. bronchiolitis -- that_differ_from_other_respiratory_conditions: {'relationship': 'has_disease_progression'}
+2. bronchitis -- production_of_sputum: {'relationship': 'has_symptom'}
+4. bronchitis -- shortness_of_breath: {'relationship': 'has_symptom'}
+4. bronchitis -- productive_cough_with_mucus: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. bronchospasm_acute_asthma_exacerbation: {'relationship': 'has_symptom'}
+shortness_of_breath -- 4. pulmonary_neoplasm: {'relationship': 'has_symptom'}
+shortness_of_breath -- 3. pneumonia: {'relationship': 'has_symptom'}
+shortness_of_breath -- 3. atrial_fibrillation: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. myocarditis: {'relationship': 'has_symptom'}
+shortness_of_breath -- 4. pericarditis: {'relationship': 'has_associated_symptom'}
+shortness_of_breath -- 2. possible_nstemi_stemi: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. unstable_angina: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. sarcoidosis: {'relationship': 'has_symptom'}
+shortness_of_breath -- 1. anaphylaxis: {'relationship': 'has_symptom'}
+shortness_of_breath -- 1. asthma: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. heart_failure: {'relationship': 'has_symptom'}
+shortness_of_breath -- 4. hematological_disorders: {'relationship': 'has_symptom'}
+shortness_of_breath -- 2. possible_nstemi__stemi: {'relationship': 'has_symptom'}
+5. bronchitis -- infection (viral or bacterial): {'relationship': 'is_caused_by'}
+6. bronchitis -- pneumonia (by absence of focal consolidation on chest X-ray): {'relationship': 'is_distinguished_from'}
+7. bronchitis -- asthma (by responsiveness to bronchodilators): {'relationship': 'is_distinguished_from'}
+8. bronchitis -- fever (mild): {'relationship': 'may_present_with'}
+10. bronchitis -- cough_variant_asthma (by different cough character and duration): {'relationship': 'is_distinguished_from'}
+11. bronchitis -- bronchial_reactivity: {'relationship': 'can_lead_to'}
+12. bronchitis -- smokers_and_individuals_with_allergies: {'relationship': 'most_common_in'}
+13. bronchitis -- air_pollution_or_allergens: {'relationship': 'may_be_triggered_by'}
+3. bronchospasm_acute_asthma_exacerbation -- coughing: {'relationship': 'has_symptom'}
+4. bronchospasm_acute_asthma_exacerbation -- certain_allergens: {'relationship': 'is_triggered_by'}
+5. bronchospasm_acute_asthma_exacerbation -- exercise: {'relationship': 'is_triggered_by'}
+exercise -- 4. acute_asthma_exacerbation: {'relationship': 'has_trigger'}
+6. bronchospasm_acute_asthma_exacerbation -- viral_infections: {'relationship': 'is_triggered_by'}
+7. bronchospasm_acute_asthma_exacerbation -- smoke: {'relationship': 'can_be_exacerbated_by'}
+8. bronchospasm_acute_asthma_exacerbation -- cold_air: {'relationship': 'can_be_exacerbated_by'}
+9. bronchospasm_acute_asthma_exacerbation -- chronic_obstructive_pulmonary_disease: {'relationship': 'can_be_differentiated_from'}
+11. bronchospasm_acute_asthma_exacerbation -- bronchodilators: {'relationship': 'treatment_includes'}
+bronchodilators -- 7. acute_asthma_exacerbation: {'relationship': 'has_treatment'}
+bronchodilators -- 9. acute_copd_exacerbation__infection: {'relationship': 'has_different_treatment'}
+12. bronchospasm_acute_asthma_exacerbation -- corticosteroids: {'relationship': 'treatment_includes'}
+corticosteroids -- 4. croup: {'relationship': 'decreases_with'}
+13. bronchospasm_acute_asthma_exacerbation -- family_history_of_asthma: {'relationship': 'has_risk_factor'}
+14. bronchospasm_acute_asthma_exacerbation -- allergic_rhinitis: {'relationship': 'associated_with'}
+allergic_rhinitis -- 8. URTI: {'relationship': 'may_be_related_to'}
+allergic_rhinitis -- 12. allergic_sinusitis: {'relationship': 'may_coexist_with'}
+allergic_rhinitis -- 12. acute_rhinosinusitis: {'relationship': 'differentiates_from'}
+allergic_rhinitis -- 5. chronic_rhinosinusitis: {'relationship': 'associated_with'}
+15. bronchospasm_acute_asthma_exacerbation -- chest_tightness: {'relationship': 'can_lead_to'}
+1. pulmonary_embolism -- sudden_onset_shortness_of_breath: {'relationship': 'has_symptom'}
+2. pulmonary_embolism -- chest_pain_worsening_with_breathing: {'relationship': 'has_symptom'}
+3. pulmonary_embolism -- cough_with_blood_streaks: {'relationship': 'has_symptom'}
+4. pulmonary_embolism -- blood_clots_from_venous_system: {'relationship': 'is_caused_by'}
+5. pulmonary_embolism -- d_dimer_test_positive: {'relationship': 'is_differentiated_by'}
+6. pulmonary_embolism -- computed_tomography_angio_graphy_positive: {'relationship': 'is_differentiated_by'}
+6. pulmonary_embolism -- sudden_onset_of_shortness_of_breath: {'relationship': 'has_symptom'}
+7. pulmonary_embolism -- prolonged immobility: {'relationship': 'has_risk_factor'}
+8. pulmonary_embolism -- history_of_deep_vein_thrombosis: {'relationship': 'has_risk_factor'}
+9. pulmonary_embolism -- heart_attack: {'relationship': 'is_similar_to'}
+10. heart_attack -- chest_pain_not_worsening_with_breathing: {'relationship': 'has_symptom'}
+11. heart_attack -- electrocardiogram_changes: {'relationship': 'is_differentiated_by'}
+12. pulmonary_embolism -- active_cancer: {'relationship': 'has_risk_factor'}
+13. pulmonary_embolism -- tachycardia: {'relationship': 'has_symptom'}
+14. pulmonary_embolism -- echocardiogram_findings: {'relationship': 'is_differentiated_by'}
+15. pulmonary_embolism -- oxygen_saturation_levels: {'relationship': 'is_differentiated_by'}
+17. pneumonia -- productive_cough: {'relationship': 'has_symptom'}
+17. pneumonia -- crackles_on_physical_exam: {'relationship': 'can_present_with'}
+18. pneumonia -- chest_X-ray: {'relationship': 'diagnosed_by'}
+1. pulmonary_neoplasm -- cough_with_blood: {'relationship': 'has_symptom'}
+2. pulmonary_neoplasm -- weight_loss: {'relationship': 'has_symptom'}
+weight_loss -- 2. pancreatic_neoplasm: {'relationship': 'has_symptom'}
+weight_loss -- 3. tuberculosis: {'relationship': 'has_symptom'}
+3. pulmonary_neoplasm -- chest_pain: {'relationship': 'has_symptom'}
+chest_pain -- 4. pneumonia: {'relationship': 'has_symptom'}
+chest_pain -- 4. atrial_fibrillation: {'relationship': 'has_symptom'}
+chest_pain -- 1. myocarditis: {'relationship': 'has_symptom'}
+chest_pain -- 1. pericarditis: {'relationship': 'has_symptom'}
+chest_pain -- 1. possible_nstemi_stemi: {'relationship': 'has_symptom'}
+chest_pain -- 1. unstable_angina: {'relationship': 'has_symptom'}
+chest_pain -- 2. boerhaave_syndrome: {'relationship': 'has_symptom'}
+chest_pain -- 5. tuberculosis: {'relationship': 'has_symptom'}
+chest_pain -- 1. myocardial_infarction: {'relationship': 'has_symptom'}
+chest_pain -- 2. boerhaave: {'relationship': 'has_symptom'}
+chest_pain -- 1. possible_nstemi__stemi: {'relationship': 'has_symptom'}
+5. pulmonary_neoplasm -- smoking_history: {'relationship': 'has_risk_factor'}
+6. pulmonary_neoplasm -- exposure_to_asbestos: {'relationship': 'has_risk_factor'}
+7. pulmonary_neoplasm -- previous_radical_radiation: {'relationship': 'has_risk_factor'}
+11. pulmonary_neoplasm -- metastatic_disease: {'relationship': 'can_lead_to'}
+12. pulmonary_neoplasm -- lung_infection: {'relationship': 'requires_differential_diagnosis'}
+13. pulmonary_neoplasm -- pleural_effusion: {'relationship': 'can_manifest_as'}
+pleural_effusion -- 14. boerhaave: {'relationship': 'may_lead_to'}
+14. pulmonary_neoplasm -- paraneoplastic_syptoms: {'relationship': 'associated_with'}
+15. pulmonary_neoplasm -- CT_scan: {'relationship': 'detected_by'}
+CT_scan -- 9. pancreatic_neoplasm: {'relationship': 'has_diagnostic_procedure'}
+1. spontaneous_pneumothorax -- sudden_sharp_chest_pain: {'relationship': 'has_symptom'}
+3. spontaneous_pneumothorax -- young_male_population: {'relationship': 'associates_with'}
+4. spontaneous_pneumothorax -- tension_pneumothorax: {'relationship': 'can_be_complicated_by'}
+7. spontaneous_pneumothorax -- cyanosis: {'relationship': 'can_present_with'}
+8. spontaneous_pneumothorax -- chest_X-ray: {'relationship': 'diagnosed_via'}
+10. spontaneous_pneumothorax -- thoracostomy: {'relationship': 'has_treatment'}
+2. URTI -- sore_throat: {'relationship': 'has_symptom'}
+sore_throat -- 1. viral_pharyngitis: {'relationship': 'has_symptom'}
+sore_throat -- 1. acute_laryngitis: {'relationship': 'has_symptom'}
+sore_throat -- 10. influenza: {'relationship': 'has_symptom'}
+sore_throat -- 18. pharyngitis: {'relationship': 'has_symptom'}
+sore_throat -- 2. hiv_initial_infection: {'relationship': 'has_symptom'}
+sore_throat -- 3. influenza: {'relationship': 'has_symptom'}
+3. URTI -- nasal_congestion: {'relationship': 'has_symptom'}
+nasal_congestion -- 16. allergic_rhinitis: {'relationship': 'has_symptom'}
+nasal_congestion -- 1. allergic_sinusitis: {'relationship': 'has_symptom'}
+nasal_congestion -- 1. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+6. URTI -- malaise: {'relationship': 'typically_presenting_with'}
+7. URTI -- less_than_10_days: {'relationship': 'has_duration'}
+13. URTI -- seasonal_changes: {'relationship': 'commonly_associated_with'}
+14. URTI -- good_hygiene: {'relationship': 'can_be_prevented_by'}
+15. URTI -- pneumonia_in_at_risk_population: {'relationship': 'may_progress_to'}
+4. viral_pharyngitis -- rhinorrhea: {'relationship': 'has_symptom'}
+5. viral_pharyngitis -- swollen_lymph_nodes: {'relationship': 'has_symptom'}
+swollen_lymph_nodes -- 11. autoimmune_and_immunological_diseases: {'relationship': 'has_symptom'}
+7. viral_pharyngitis -- bacterial_pharyngitis: {'relationship': 'distinguished_from'}
+8. bacterial_pharyngitis -- severe_sore_throat: {'relationship': 'has_symptom'}
+severe_sore_throat -- 1. epiglottitis: {'relationship': 'has_symptom'}
+9. bacterial_pharyngitis -- tender_or_enlarged_lymph_nodes: {'relationship': 'has_symptom'}
+10. bacterial_pharyngitis -- foul_breath: {'relationship': 'typically_has'}
+11. viral_pharyngitis -- upper_respiratory_infections: {'relationship': 'commonly_occurs_with'}
+12. influenza -- body_aches: {'relationship': 'has_symptom'}
+12. influenza -- COVID-19_by_symptom(loss_of_taste_or_smell): {'relationship': 'differentiates_from'}
+body_aches -- 7. influenza: {'relationship': 'has_symptom'}
+body_aches -- 5. infectious_diseases: {'relationship': 'has_symptom'}
+13. influenza -- headache: {'relationship': 'has_symptom'}
+13. influenza -- allergy_by_symptom(seasonal_pattern): {'relationship': 'differentiates_from'}
+headache -- 5. hiv_initial_infection: {'relationship': 'has_symptom'}
+headache -- 6. influenza: {'relationship': 'has_symptom'}
+headache -- 7. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+headache -- 4. hypertension: {'relationship': 'has_symptom'}
+14. influenza -- vaccination: {'relationship': 'commonly_prevented_by'}
+15. allergies -- itchy_throat: {'relationship': 'has_symptom'}
+16. allergies -- sneezing: {'relationship': 'has_symptom'}
+sneezing -- 15. allergic_rhinitis: {'relationship': 'has_symptom'}
+sneezing -- 2. allergic_sinusitis: {'relationship': 'has_symptom'}
+18. streptococcal_pharyngitis -- white_patches_on_tonsils: {'relationship': 'can_present_with'}
+19. streptococcal_pharyngitis -- high_fever: {'relationship': 'can_present_with'}
+20. mononucleosis -- severe_fatigue: {'relationship': 'has_symptom'}
+21. mononucleosis -- enlarged_spleen: {'relationship': 'can_present_with'}
+23. viral_pharyngitis -- 1_to_2_weeks: {'relationship': 'typically_last_for'}
+24. bacterial_pharyngitis -- antibiotic_treatment: {'relationship': 'requires'}
+25. viral_pharyngitis -- symptomatic_care: {'relationship': 'typically_treated_with'}
+1. whooping_cough -- severe_cough_with_whooping_sound: {'relationship': 'has_symptom'}
+2. whooping_cough -- post_coughing_vomiting: {'relationship': 'has_symptom'}
+3. whooping_cough -- Bordetella_pertussis: {'relationship': 'is_caused_by'}
+4. whooping_cough -- 7_to_10_days: {'relationship': 'has_incubation_period'}
+5. whooping_cough -- paroxysmal_coughing: {'relationship': 'has_symptom'}
+6. whooping_cough -- complications_in_infants: {'relationship': 'can_lead_to'}
+7. whooping_cough -- respiratory_droplets: {'relationship': 'transmitted_by'}
+8. whooping_cough -- influenza_by_prescience_of_whooping_cough: {'relationship': 'differentiates_from'}
+9. whooping_cough -- bronchitis_by_duration_and_character_of_cough: {'relationship': 'differentiates_from'}
+10. whooping_cough -- DTaP_or_Tdap: {'relationship': 'has_vaccine'}
+2. acute_laryngitis -- hoarseness: {'relationship': 'has_symptom'}
+hoarseness -- 11. influenza: {'relationship': 'has_symptom'}
+hoarseness -- 3. croup: {'relationship': 'has_symptom'}
+hoarseness -- 14. GERD: {'relationship': 'least_likely_to_cause'}
+4. acute_laryngitis -- difficulty_swallowing: {'relationship': 'has_symptom'}
+difficulty_swallowing -- 19. pharyngitis: {'relationship': 'has_symptom'}
+difficulty_swallowing -- 2. epiglottitis: {'relationship': 'has_symptom'}
+6. acute_laryngitis -- bacterial_infection: {'relationship': 'is_caused_by'}
+bacterial_infection -- 5. pneumonia: {'relationship': 'is_caused_by'}
+bacterial_infection -- 16. acute_rhinosinusitis: {'relationship': 'causes_by'}
+bacterial_infection -- 6. gastrointestinal_system: {'relationship': 'is_caused_by'}
+7. acute_laryngitis -- upper_respiratory_infection: {'relationship': 'has_common_cause'}
+9. influenza -- cold_by_symptom(severity_and_duration): {'relationship': 'differentiates_from'}
+10. influenza -- cold_by_onset(rapid_onset): {'relationship': 'differentiates_from'}
+11. influenza -- strep_throat_by_symptom(absence_of_severe_sore_throat_and_enlarged_lymph_nodes): {'relationship': 'differentiates_from'}
+13. acute_laryngitis -- influenza_by_duration_of_symptoms: {'relationship': 'distinguished_from'}
+14. acute_laryngitis -- allergic_rhinitis_by_nasal_syptoms: {'relationship': 'distinguished_from'}
+17. acute_laryngitis -- pharyngitis_by_location_of_inflammation: {'relationship': 'distinguished_from'}
+20. acute_laryngitis -- resting_voice: {'relationship': 'has_treatment'}
+21. acute_laryngitis -- human_steam_inhalation: {'relationship': 'has_treatment'}
+These relationships highlight key symptoms -- and distinctions that are relevant for differentiating acute laryngitis from other similar conditions.: {'relationship': 'causes'}
+1. acute_pulmonary_edema -- sudden_shortness_of_breath: {'relationship': 'has_symptom'}
+2. acute_pulmonary_edema -- orthopnea: {'relationship': 'has_symptom'}
+3. acute_pulmonary_edema -- peripheral_edema: {'relationship': 'has_symptom'}
+4. acute_pulmonary_edema -- heart_failure: {'relationship': 'associated_with'}
+heart_failure -- 13. atrial_fibrillation: {'relationship': 'difference_from'}
+heart_failure -- 6. myocarditis: {'relationship': 'can_lead_to'}
+heart_failure -- 8. localized_edema: {'relationship': 'can_be_caused_by'}
+5. acute_pulmonary_edema -- hypertension: {'relationship': 'can_result_in'}
+hypertension -- 6. atrial_fibrillation: {'relationship': 'can_be_caused_by'}
+hypertension -- 13. stable_angina: {'relationship': 'has_risk_factor'}
+hypertension -- 6. possible_nstemi__stemi: {'relationship': 'has_risk_factor'}
+6. acute_pulmonary_edema -- crackles_in_lungs: {'relationship': 'can_cause'}
+9. acute_pulmonary_edema -- asthma_exacerbation: {'relationship': 'differentiates_from'}
+10. acute_pulmonary_edema -- coronary_artery_disease: {'relationship': 'risk_factor'}
+coronary_artery_disease -- 7. atrial_fibrillation: {'relationship': 'can_be_caused_by'}
+coronary_artery_disease -- 5. stable_angina: {'relationship': 'is_related_to'}
+coronary_artery_disease -- 5. unstable_angina: {'relationship': 'is_related_to'}
+11. acute_pulmonary_edema -- fluid_overload: {'relationship': 'can_occur_due_to'}
+12. acute_pulmonary_edema -- chest_X-ray_showing_kerley_B_lines: {'relationship': 'has_diagnostic_test'}
+13. acute_pulmonary_edema -- tachypnea: {'relationship': 'can_present_with'}
+14. acute_pulmonary_edema -- diuretics: {'relationship': 'treatment_includes'}
+15. acute_pulmonary_edema -- hypoxemia: {'relationship': 'can_lead_to'}
+1. croup -- barking_cough: {'relationship': 'has_symptom'}
+2. croup -- stridor: {'relationship': 'has_symptom'}
+7. croup -- upper_airway_inflammation: {'relationship': 'characterized_by'}
+8. croup -- children_under_5_years: {'relationship': 'occurs_most_frequently_in'}
+9. croup -- epiglottitis (by presence of drooling): {'relationship': 'differentiates_from'}
+10. croup -- asthma (by absence of wheezing): {'relationship': 'differentiates_from'}
+11. croup -- laryngotracheobronchitis: {'relationship': 'commonly_associated_with'}
+13. croup -- seasonal_flu epidemics: {'relationship': 'can_be_associated_with'}
+14. croup -- respiratory_distress (if severe): {'relationship': 'can_lead_to'}
+15. croup -- allergic_reactions: {'relationship': 'has_different_treatment_plan_than'}
+1. laryngospasm -- temporary_loss_of_ability_to_breath: {'relationship': 'has_symptom'}
+2. laryngospasm -- irritants_or_allergens: {'relationship': 'is_triggered_by'}
+3. laryngospasm -- asthma_in_presence_of_audible_stridor: {'relationship': 'differs_from'}
+4. laryngospasm -- anxiety_or_stress: {'relationship': 'can_be_caused_by'}
+5. laryngospasm -- hoarseness_or_change_in_voice: {'relationship': 'has_symptom'}
+6. laryngospasm -- foreign_body_obstruction_by_lack_of_audible_cough: {'relationship': 'distinguished_from'}
+7. laryngospasm -- throat_tightness: {'relationship': 'may_present_with'}
+8. laryngospasm -- reflux_condition: {'relationship': 'related_to'}
+9. laryngospasm -- sleep_or_waking: {'relationship': 'can_occur_during'}
+10. laryngospasm -- history_of_vocal_abuse_or_use: {'relationship': 'associated_with'}
+4. epiglottitis -- ablility_to_breathe_difficulty: {'relationship': 'has_symptom'}
+5. epiglottitis -- tripod_position: {'relationship': 'has_symptom'}
+6. epiglottitis -- haemophilus_influenzae_infection: {'relationship': 'can_be_caused_by'}
+7. epiglottitis -- unvaccinated_children: {'relationship': 'occurs_more_in'}
+8. epiglottitis -- immunocompromised_state: {'relationship': 'has_risk_factor'}
+immunocompromised_state -- 9. tuberculosis: {'relationship': 'is_related_to'}
+9. epiglottitis -- airway_obstruction: {'relationship': 'can_lead_to'}
+10. epiglottitis -- laryngitis_by_epiglottal_swelling_on_imaging: {'relationship': 'can_be_differentiated_from'}
+11. epiglottitis -- pharyngitis_due_to_more_severe_symptoms: {'relationship': 'can_be_differentiated_from'}
+12. epiglottitis -- emergency_intervention_for_airway_protection: {'relationship': 'requires_treatment'}
+13. epiglottitis -- croup_due_to_similar_symptoms: {'relationship': 'can_be_misdiagnosed_as'}
+14. epiglottitis -- swelling_of_the_epiglottis_visible_in_laryngoscopy: {'relationship': 'has_differentiating_feature'}
+15. epiglottitis -- hoarseness_or_stridor: {'relationship': 'can_present_with'}
+1. pneumonia -- cough_with_sputum: {'relationship': 'has_symptom'}
+3. pneumonia -- fever_and_chills: {'relationship': 'has_symptom'}
+7. pneumonia -- fungal_infection: {'relationship': 'is_caused_by'}
+8. pneumonia -- antibiotics: {'relationship': 'treated_with'}
+antibiotics -- 11. gastrointestinal_system: {'relationship': 'affects_treatment'}
+antibiotics -- 12. infectious_diseases: {'relationship': 'can_be_treated_with'}
+9. pneumonia -- antiviral_medications: {'relationship': 'treated_with'}
+11. pneumonia -- advanced_age: {'relationship': 'has_risk_factor'}
+12. pneumonia -- chronic_illness: {'relationship': 'has_risk_factor'}
+13. pneumonia -- bronchitis_by_time_of_symptoms: {'relationship': 'differentiated_from'}
+14. pneumonia -- asthma_by_imaging: {'relationship': 'differentiated_from'}
+15. pneumonia -- chronic_obstructive_pulmonary_disease_by_symptom_duration: {'relationship': 'differentiated_from'}
+16. pneumonia -- respiratory_failure: {'relationship': 'can_lead_to'}
+respiratory_failure -- 14. infectious_diseases: {'relationship': 'can_cause_complications'}
+respiratory_failure -- 9. acute_asthma_exacerbation: {'relationship': 'can_lead_to'}
+respiratory_failure -- 7. acute_copd_exacerbation__infection: {'relationship': 'can_lead_to'}
+respiratory_failure -- 16. guillainbarré_syndrome: {'relationship': 'can_lead_to'}
+19. pneumonia -- sputum_culture: {'relationship': 'diagnosed_by'}
+sputum_culture -- 6. tuberculosis: {'relationship': 'can_be_diagnosed_by'}
+20. pneumonia -- vaccination: {'relationship': 'can_be_prevented_by'}
+vaccination -- 11. infectious_diseases: {'relationship': 'can_be_prevented_by'}
+1. atrial_fibrillation -- irregular_heartbeat: {'relationship': 'has_symptom'}
+irregular_heartbeat -- 3. arrhythmia: {'relationship': 'has_symptom'}
+2. atrial_fibrillation -- palpitations: {'relationship': 'has_symptom'}
+palpitations -- 1. psvt: {'relationship': 'has_symptom'}
+5. atrial_fibrillation -- stroke: {'relationship': 'can_lead_to'}
+stroke -- 6. guillain_barre_syndrome: {'relationship': 'differentiated_from'}
+8. atrial_fibrillation -- valvular_heart_disease: {'relationship': 'can_be_caused_by'}
+9. atrial_fibrillation -- excessive_alcohol_consumption: {'relationship': 'can_be_triggered_by'}
+10. atrial_fibrillation -- stress: {'relationship': 'can_be_triggered_by'}
+stress -- 7. psvt: {'relationship': 'can_be_triggered_by'}
+11. atrial_fibrillation -- supraventricular_tachycardia: {'relationship': 'difference_from'}
+12. atrial_fibrillation -- ventricular_tachycardia: {'relationship': 'difference_from'}
+14. atrial_fibrillation -- anticoagulant_medications: {'relationship': 'requires_treatment'}
+15. atrial_fibrillation -- rate_control_medications: {'relationship': 'requires_treatment'}
+3. myocarditis -- heart_palpitations: {'relationship': 'has_symptom'}
+5. myocarditis -- autoimmune_disorder: {'relationship': 'is_caused_by'}
+12. myocarditis -- systemic_inflammatory_response: {'relationship': 'commonly_associated_with'}
+13. myocarditis -- cardiac_biopsy: {'relationship': 'diagnosed_by'}
+14. myocarditis -- fever_and_fatigue: {'relationship': 'can_present_with'}
+15. myocarditis -- immunosuppressive_therapy_in_certain_cases: {'relationship': 'can_be_treated_by'}
+2. pericarditis -- pericardial_friction_rub: {'relationship': 'shows_signs'}
+3. pericarditis -- myocardial_infarction: {'relationship': 'is_often_mistaken_for'}
+myocardial_infarction -- 8. possible_nstemi_stemi: {'relationship': 'can_be_differentiated_from'}
+myocardial_infarction -- 9. stable_angina: {'relationship': 'has_differential_diagnosis'}
+myocardial_infarction -- 10. unstable_angina: {'relationship': 'can_progress_to'}
+myocardial_infarction -- 9. boerhaave: {'relationship': 'has_differential_diagnosis'}
+5. pericarditis -- lying_down: {'relationship': 'can_be_worsened_by'}
+lying_down -- 6. GERD: {'relationship': 'exacerbated_by'}
+8. pericarditis -- by_lack_of_pleuritic_chest_pain: {'relationship': 'distinguishes_from_pneumonia'}
+9. pericarditis -- because_of_radiation_to_the_shoulders_or_neck: {'relationship': 'is_different_from_angina'}
+10. pericarditis -- pleurisy: {'relationship': 'requires_differential_diagnosis_with'}
+11. pericarditis -- by_ECG_changes: {'relationship': 'can_show_different_imaging_findings_than_congestive_heart_failure'}
+12. pericarditis -- pericardial_effusion: {'relationship': 'can_be_accompanied_by'}
+14. pericarditis -- treatment_of_underlying_causes: {'relationship': 'can_resolve_with'}
+15. pericarditis -- lung_embolism: {'relationship': 'may_require_differentiation_from'}
+2. psvt -- dizziness_or_lightheadedness: {'relationship': 'has_symptom'}
+dizziness_or_lightheadedness -- 5. panic_attack: {'relationship': 'has_symptom'}
+dizziness_or_lightheadedness -- 3. anemia: {'relationship': 'has_symptom'}
+3. psvt -- chest_discomfort: {'relationship': 'has_symptom'}
+4. psvt -- ectopic_atrial_tissue: {'relationship': 'has_cause'}
+5. psvt -- accessory_conduction_pathways: {'relationship': 'has_cause'}
+6. psvt -- hemodynamic_instability: {'relationship': 'can_result_in'}
+8. psvt -- caffeine: {'relationship': 'can_be_triggered_by'}
+11. psvt -- carotid_sinus_massage: {'relationship': 'can_be_mitigated_by'}
+12. psvt -- 12_lead_ecg: {'relationship': 'can_be_diagnosed_by'}
+13. psvt -- compared_to_sinus_tachycardia: {'relationship': 'has_different_treatment_options'}
+14. psvt -- left_untreated_long_term: {'relationship': 'can_damage_heart_if'}
+15. psvt -- hyperthyroidism: {'relationship': 'can_be_related_to'}
+3. possible_nstemi_stemi -- nausea_or_vomiting: {'relationship': 'has_symptom'}
+nausea_or_vomiting -- 8. unstable_angina: {'relationship': 'may_present_with'}
+nausea_or_vomiting -- 2. gastrointestinal_system: {'relationship': 'has_symptom'}
+nausea_or_vomiting -- 6. infectious_diseases: {'relationship': 'has_symptom'}
+nausea_or_vomiting -- 3. possible_nstemi__stemi: {'relationship': 'has_symptom'}
+4. possible_nstemi_stemi -- sweating: {'relationship': 'has_symptom'}
+sweating -- 9. unstable_angina: {'relationship': 'may_present_with'}
+5. possible_nstemi_stemi -- ECG_abnormalities: {'relationship': 'has_test'}
+6. possible_nstemi_stemi -- cardiac_enzyme_levels: {'relationship': 'has_test'}
+10. possible_nstemi_stemi -- pleuritis: {'relationship': 'can_be_differentiated_from'}
+pleuritis -- 14. tuberculosis: {'relationship': 'can_complicate_with'}
+11. possible_nstemi_stemi -- risk_factors_for_cardiovascular_disease: {'relationship': 'is_related_to'}
+12. possible_nstemi_stemi -- antiplatelet_agents: {'relationship': 'treatment_options'}
+13. possible_nstemi_stemi -- coronary_intervention: {'relationship': 'treatment_options'}
+1. stable_angina -- chest_pain_on_exertion: {'relationship': 'has_symptom'}
+2. stable_angina -- relief_with_rest_or_nitroglycerin: {'relationship': 'has_symptom'}
+3. stable_angina -- physical_exertion: {'relationship': 'is_triggered_by'}
+7. stable_angina -- esophageal_spasm: {'relationship': 'has_differential_diagnosis'}
+8. stable_angina -- non-cardiac_chest_pain: {'relationship': 'has_differential_diagnosis'}
+10. stable_angina -- stress_test: {'relationship': 'can_be_evaluated_by'}
+11. stable_angina -- angiogram: {'relationship': 'can_be_evaluated_by'}
+14. stable_angina -- hyperlipidemia: {'relationship': 'has_risk_factor'}
+15. stable_angina -- acute_coronary_syndrome if not managed: {'relationship': 'can_lead_to'}
+3. unstable_angina -- physical_activity: {'relationship': 'can_be_triggered_by'}
+4. unstable_angina -- emotional_stress: {'relationship': 'can_be_triggered_by'}
+11. unstable_angina -- ECG_changes: {'relationship': 'can_be_diagnosed_with'}
+12. unstable_angina -- stress_testing: {'relationship': 'can_be_diagnosed_with'}
+13. unstable_angina -- antiplatelet_medications: {'relationship': 'is_managed_with'}
+14. unstable_angina -- coronary_angiography: {'relationship': 'may_require'}
+15. unstable_angina -- increased_risk_of_heart_attack: {'relationship': 'indicates'}
+1. myasthenia_gravis -- fluctuating_muscle_weakness: {'relationship': 'has_symptom'}
+fluctuating_muscle_weakness -- 3. myasthenia_gravis: {'relationship': 'has_symptom'}
+2. myasthenia_gravis -- lambert_eaton_myasthenic_syndrome: {'relationship': 'can_be_misdiagnosed_as'}
+3. myasthenia_gravis -- amyotrophic_lateral_sclerosis: {'relationship': 'can_be_misdiagnosed_as'}
+amyotrophic_lateral_sclerosis -- 5. guillainbarré_syndrome: {'relationship': 'is_differentiated_from'}
+4. myasthenia_gravis -- thymoma: {'relationship': 'has_association'}
+5. myasthenia_gravis -- anticholinesterase_medications: {'relationship': 'improves_with'}
+6. myasthenia_gravis -- respiratory_failure_if_severe: {'relationship': 'can_lead_to'}
+7. myasthenia_gravis -- anti-acetylcholine_receptor_antibodies: {'relationship': 'has_differentiating_test'}
+8. myasthenia_gravis -- edrophonium_test: {'relationship': 'has_differentiating_test'}
+9. myasthenia_gravis -- stress_or_infection: {'relationship': 'exacerbated_by'}
+10. myasthenia_gravis -- ocular_muscles_first: {'relationship': 'typically_affects'}
+1. guillain_barre_syndrome -- rapid_onset_of_muscle_weakness: {'relationship': 'has_symptom'}
+2. guillain_barre_syndrome -- tingling_or_prickling_sensation: {'relationship': 'has_symptom'}
+3. guillain_barre_syndrome -- autoimmune_reaction: {'relationship': 'is_caused_by'}
+autoimmune_reaction -- 4. guillainbarré_syndrome: {'relationship': 'causes'}
+4. guillain_barre_syndrome -- preceding_infection: {'relationship': 'has_related_condition'}
+5. guillain_barre_syndrome -- loss_of_reflexes: {'relationship': 'has_symptom'}
+loss_of_reflexes -- 7. guillainbarré_syndrome: {'relationship': 'has_symptom'}
+8. guillain_barre_syndrome -- peripheral_neuropathy: {'relationship': 'differentiated_from'}
+9. guillain_barre_syndrome -- progressive_weakenings_and_recovery: {'relationship': 'has_course'}
+10. guillain_barre_syndrome -- respiratory_difficulty: {'relationship': 'has_symptom'}
+11. guillain_barre_syndrome -- autonomic_symptoms: {'relationship': 'may_present_with'}
+12. guillain_barre_syndrome -- intravenous_immunoglobulin: {'relationship': 'treated_with'}
+13. guillain_barre_syndrome -- plasma_exchange: {'relationship': 'treated_with'}
+14. guillain_barre_syndrome -- diabetes_related_neuropathy: {'relationship': 'differentiated_from'}
+15. guillain_barre_syndrome -- primarily_affecting_young_and_middle-aged_adults: {'relationship': 'has_demographics'}
+1. cluster_headache -- severe_one_sided_headache: {'relationship': 'has_symptom'}
+2. cluster_headache -- tearing_of_the_eye: {'relationship': 'has_symptom'}
+3. cluster_headache -- nasal_congestion_on_the_affected_side: {'relationship': 'has_symptom'}
+4. cluster_headache -- ptosis_on_the_affected_side: {'relationship': 'has_symptom'}
+5. cluster_headache -- restlessness_or_agitation_during_attack: {'relationship': 'has_symptom'}
+6. cluster_headache -- yes: {'relationship': 'occurs_in_cyclical_patterns'}
+yes -- 14. anaphylaxis: {'relationship': 'is_life-threatening_if_not_treated'}
+yes -- 10. ebola: {'relationship': 'vaccine_available'}
+7. cluster_headache -- alcohol_intake: {'relationship': 'triggered_by'}
+8. cluster_headache -- where_intensity_is_high: {'relationship': 'has_different_levels_of_intensity'}
+9. cluster_headache -- migraine: {'relationship': 'is_different_from'}
+10. migraine -- photophobia_and_phonophobia: {'relationship': 'has_symptom'}
+11. tension_headache -- mild_to_moderate_pain_on_both_sides: {'relationship': 'has_symptom'}
+12. cluster_headache -- more_common_in_males: {'relationship': 'affects_gender'}
+13. cluster_headache -- 15_minutes_to_3_hours: {'relationship': 'average_duration_of_attack'}
+14. cluster_headache -- sudden_onset: {'relationship': 'associated_with'}
+15. cluster_headache -- other_clinical_conditions_like_unilateral_neuralgia: {'relationship': 'can_be_combined_with'}
+1. acute_dystonic_reactions -- abnormal_postures: {'relationship': 'has_symptom'}
+2. acute_dystonic_reactions -- antipsychotic_medications: {'relationship': 'associates_with'}
+3. acute_dystonic_reactions -- neuroleptic_malignant_syndrome: {'relationship': 'may_occur_during'}
+4. acute_dystonic_reactions -- acute_torticollis: {'relationship': 'differentiates_from'}
+5. acute_dystonic_reactions -- shortly_after_medication_change: {'relationship': 'has_onset'}
+6. acute_dystonic_reactions -- anticholinergic_agents: {'relationship': 'is_reversible_with'}
+7. acute_dystonic_reactions -- facial_twitching: {'relationship': 'has_symptom'}
+8. acute_dystonic_reactions -- eye_movement_disorders: {'relationship': 'has_symptom'}
+9. acute_dystonic_reactions -- seizure_disorder: {'relationship': 'can_be_misdiagnosed_as'}
+10. acute_dystonic_reactions -- other_extrapyramidal_symptoms: {'relationship': 'may_occur_with'}
+1. sle -- photosensitivity: {'relationship': 'has_symptom'}
+2. sle -- discoid_lesions: {'relationship': 'has_symptom'}
+3. sle -- renal_impairment: {'relationship': 'has_symptom'}
+4. sle -- oral_ulcers: {'relationship': 'has_symptom'}
+5. sle -- arthritis: {'relationship': 'has_symptom'}
+6. sle -- positive_antinuclear_antibody_(ANA): {'relationship': 'has_lab_test'}
+7. sle -- positive_double_stranded_DNA_antibody: {'relationship': 'has_lab_test'}
+8. sle -- anti_Smith_antibody: {'relationship': 'has_lab_test'}
+10. sle -- myalgia: {'relationship': 'has_symptom'}
+11. rheumatoid_arthritis -- morning_stiffness: {'relationship': 'has_symptom'}
+12. rheumatoid_arthritis -- symmetric_joint_swelling: {'relationship': 'has_symptom'}
+13. rheumatoid_arthritis -- positive_rheumatoid_factor: {'relationship': 'has_lab_test'}
+14. rheumatoid_arthritis -- anti_citrullinated_protein_antibody: {'relationship': 'has_lab_test'}
+15. psoriasis -- skin_scaling: {'relationship': 'has_symptom'}
+16. psoriasis -- joint_pain (psoriatic arthritis): {'relationship': 'has_symptom'}
+17. psoriasis -- negative_antinuclear_antibody: {'relationship': 'has_lab_test'}
+19. infection -- fatigue: {'relationship': 'has_symptom'}
+fatigue -- 1. sarcoidosis: {'relationship': 'has_symptom'}
+fatigue -- 5. influenza: {'relationship': 'has_symptom'}
+fatigue -- 8. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+fatigue -- 1. autoimmune_and_immunological_diseases: {'relationship': 'has_symptom'}
+fatigue -- 1. hematological_disorders: {'relationship': 'has_symptom'}
+20. infection -- culture_of_pathogen: {'relationship': 'has_lab_test'}
+3. sarcoidosis -- skin_rash: {'relationship': 'has_symptom'}
+4. sarcoidosis -- erythema_nodosum: {'relationship': 'has_symptom'}
+5. sarcoidosis -- lymphadenopathy: {'relationship': 'has_symptom'}
+lymphadenopathy -- 3. hiv_initial_infection: {'relationship': 'has_symptom'}
+lymphadenopathy -- 3. Chagas_disease: {'relationship': 'has_symptom'}
+6. sarcoidosis -- visual_disturbances: {'relationship': 'has_symptom'}
+7. sarcoidosis -- hypocalcemia: {'relationship': 'may_have_symptom'}
+8. sarcoidosis -- hypercalcemia: {'relationship': 'may_have_symptom'}
+9. sarcoidosis -- african_american_population: {'relationship': 'commonly_found_in'}
+10. sarcoidosis -- tuberculosis_by_biopsy_findings: {'relationship': 'differentiates_from'}
+11. sarcoidosis -- lupus_by_serological_tests: {'relationship': 'differentiates_from'}
+12. sarcoidosis -- pulmonary_fibrosis: {'relationship': 'can_progress_to'}
+13. sarcoidosis -- noncaseating_granulomas: {'relationship': 'can_present_with'}
+14. sarcoidosis -- other_autoimmune_disorders: {'relationship': 'has_association_with'}
+15. sarcoidosis -- CT_scan_or_biopsy: {'relationship': 'diagnosed_by'}
+These relationships can assist in differentiating sarcoidosis from diseases such as tuberculosis -- or other systemic inflammatory conditions that may present similar symptoms.: {'relationship': 'lupus'}
+2. anaphylaxis -- urticaria_or_hives: {'relationship': 'has_symptom'}
+3. anaphylaxis -- swelling_of_face_or_throat: {'relationship': 'has_symptom'}
+4. anaphylaxis -- rapid_or_weak_pulse: {'relationship': 'has_symptom'}
+5. anaphylaxis -- exposure_to_allergen: {'relationship': 'has_trigger'}
+6. anaphylaxis -- abdominal_cramps_or_nausea: {'relationship': 'has_symptom'}
+7. anaphylaxis -- lightheadedness_or_fainting: {'relationship': 'has_symptom'}
+8. anaphylaxis -- asthma: {'relationship': 'differentiates_from'}
+asthma -- 10. GERD: {'relationship': 'associated_with'}
+asthma -- 7. chronic_rhinosinusitis: {'relationship': 'commonly_coexists_with'}
+10. anaphylaxis -- cardiac_arrhythmias: {'relationship': 'differentiates_from'}
+11. anaphylaxis -- minutes_after_exposure_to_allergen: {'relationship': 'typically_occurs_within'}
+12. anaphylaxis -- epinephrine_administration: {'relationship': 'requires_treatment'}
+13. anaphylaxis -- cardiovascular_collaps: {'relationship': 'can_lead_to'}
+15. anaphylaxis -- throat_tightness_or_lump_in_throat: {'relationship': 'has_symptom'}
+3. allergic_sinusitis -- itchy_eyes: {'relationship': 'has_symptom'}
+4. allergic_sinusitis -- post_nasal_drip: {'relationship': 'has_symptom'}
+5. allergic_sinusitis -- allergens: {'relationship': 'has_trigger'}
+allergens -- 3. acute_asthma_exacerbation: {'relationship': 'has_trigger'}
+6. allergic_sinusitis -- clear_mucus_discharge: {'relationship': 'has_symptom'}
+7. allergic_sinusitis -- viral_sinusitis: {'relationship': 'different_from'}
+8. viral_sinusitis -- yellow_or_green_mucus_discharge: {'relationship': 'has_symptom'}
+9. allergic_sinusitis -- bacterial_sinusitis: {'relationship': 'different_from'}
+10. bacterial_sinusitis -- facial_pain_or_pressure: {'relationship': 'has_symptom'}
+facial_pain_or_pressure -- 3. acute_rhinosinusitis: {'relationship': 'has_symptom'}
+facial_pain_or_pressure -- 2. chronic_rhinosinusitis: {'relationship': 'has_symptom'}
+11. allergic_sinusitis -- antihistamines: {'relationship': 'improves_with'}
+1. panic_attack -- sudden_onset_of_intense_fear_or_discomfort: {'relationship': 'has_symptom'}
+2. panic_attack -- palpitations_or_acceleration_of_heart_rate: {'relationship': 'has_symptom'}
+3. panic_attack -- absence_of_threat_or_real_danger: {'relationship': 'occurs_in_context'}
+4. panic_attack -- shortness_of_breath_or_sensation_of_choking: {'relationship': 'has_symptom'}
+6. panic_attack -- anxiety_disorder_based_on_duration_of_symptoms: {'relationship': 'is_differentiated_from'}
+7. panic_attack -- physical_symptoms_without_medical_explanation: {'relationship': 'occurs_with'}
+8. panic_attack -- agoraphobia_if_fear_of_future_attacks_develops: {'relationship': 'can_lead_to'}
+9. panic_attack -- nausea_or_stomach_distress: {'relationship': 'has_symptom'}
+10. panic_attack -- myocardial_infarction_based_on_electrocardiogram_findings: {'relationship': 'is_differentiated_from'}
+11. panic_attack -- sense_of_detachment_from_reality_or_self: {'relationship': 'has_symptom'}
+12. panic_attack -- cognitive_behavioral_therapy_and/or_medications: {'relationship': 'is_treated_with'}
+1. spontaneous_rib_fracture -- acute_sharp_chest_pain: {'relationship': 'has_symptom'}
+2. spontaneous_rib_fracture -- crepitus_on_palpation_of_rib_area: {'relationship': 'has_symptom'}
+3. spontaneous_rib_fracture -- osteoporosis: {'relationship': 'is_caused_by'}
+4. spontaneous_rib_fracture -- metabolic_bone_disease: {'relationship': 'is_caused_by'}
+5. spontaneous_rib_fracture -- intercostal_muscle_strain: {'relationship': 'can_be_misdiagnosed_as'}
+6. spontaneous_rib_fracture -- pleuritic_chest_pain: {'relationship': 'can_be_misdiagnosed_as'}
+7. spontaneous_rib_fracture -- history_of_bone_density_issues: {'relationship': 'is_distinguished_by'}
+8. spontaneous_rib_fracture -- X-ray_showing_rib_fractures_without_trauma: {'relationship': 'is_differentiated_by'}
+9. spontaneous_rib_fracture -- pain_increased_with_breathing_or_movement: {'relationship': 'has_symptom'}
+10. spontaneous_rib_fracture -- patients_with_long-term_steroid_use: {'relationship': 'may_occur_in'}
+1. inguinal_hernia -- pain_or_discomfort_in_the_groin: {'relationship': 'has_symptom'}
+2. inguinal_hernia -- visible_or_palpitating_bulge_in_the_groin: {'relationship': 'has_symptom'}
+3. inguinal_hernia -- incarceration_or_strangulation: {'relationship': 'may_be_complicated_by'}
+4. inguinal_hernia -- males: {'relationship': 'occurs_more_common_in'}
+5. inguinal_hernia -- nausea_or_vomiting_if_strangulated: {'relationship': 'can_present_with'}
+6. inguinal_hernia -- epididymitis: {'relationship': 'is_differentially_diagnosed_with'}
+7. inguinal_hernia -- heavy_lifting_or_straining: {'relationship': 'can_be_onset_with'}
+8. inguinal_hernia -- indirect_and_direct_hernia: {'relationship': 'has_different_types'}
+9. inguinal_hernia -- varicocele_in_symptomatology: {'relationship': 'is_different_from'}
+10. inguinal_hernia -- spermatic_cord_or_round_ligament: {'relationship': 'can_involve_structures_like_the'}
+1. anemia -- fatigue_or_weakness: {'relationship': 'has_symptom'}
+fatigue_or_weakness -- 4. tuberculosis: {'relationship': 'has_symptom'}
+2. anemia -- pallor_of_skin_and_mucous_membranes: {'relationship': 'has_symptom'}
+4. anemia -- dietary_deficiency_of_iron_or_vitamins: {'relationship': 'associated_with'}
+5. anemia -- chronic_blood_loss: {'relationship': 'has_causes'}
+6. anemia -- laboratory_test_for_hemoglobin_levels: {'relationship': 'can_be_differentiated_by'}
+7. anemia -- peripheral_blood_smear: {'relationship': 'can_be_differentiated_by'}
+8. anemia -- chronic_diseases: {'relationship': 'associated_with'}
+9. anemia -- increased_heart_rate: {'relationship': 'has_symptom'}
+10. anemia -- shortness_of_breath_with_exertion: {'relationship': 'has_symptom'}
+1. GERD -- heartburn: {'relationship': 'has_symptom'}
+2. GERD -- regurgitation: {'relationship': 'has_symptom'}
+3. GERD -- esophagitis: {'relationship': 'associated_with'}
+4. GERD -- obesity: {'relationship': 'has_risk_factor'}
+5. GERD -- antacids: {'relationship': 'improves_with'}
+antacids -- 12. gastrointestinal_system: {'relationship': 'affects_treatment'}
+8. GERD -- chocolate: {'relationship': 'has_triggering_foods'}
+9. GERD -- Barrett's_esophagus: {'relationship': 'can_lead_to'}
+11. GERD -- hiatal_hernia: {'relationship': 'can_coexist_with'}
+13. GERD -- overweight_individuals: {'relationship': 'noted_in'}
+15. GERD -- certain_medications: {'relationship': 'aggravated_by'}
+These relationships provide insights into symptoms -- and differentiators between GERD and other conditions.: {'relationship': 'associations'}
+1. boerhaave_syndrome -- vomiting_with_blood: {'relationship': 'has_symptom'}
+3. boerhaave_syndrome -- dysphagia: {'relationship': 'has_symptom'}
+4. boerhaave_syndrome -- sudden_onset_of_substernal_pain: {'relationship': 'has_symptom'}
+5. boerhaave_syndrome -- forceful_vomiting: {'relationship': 'has_causes'}
+6. boerhaave_syndrome -- esophageal_contrast_study: {'relationship': 'has_test'}
+7. boerhaave_syndrome -- chest_X-ray_showing_pneumothorax: {'relationship': 'has_test'}
+8. boerhaave_syndrome -- mallory-weiss_tear: {'relationship': 'has_related_condition'}
+9. boerhaave_syndrome -- mediastinitis: {'relationship': 'has_complication'}
+mediastinitis -- 8. boerhaave: {'relationship': 'has_differential_diagnosis'}
+10. boerhaave_syndrome -- surgical_repair: {'relationship': 'treatment_includes'}
+11. boerhaave_syndrome -- esophageal_perforation: {'relationship': 'differentiates_from'}
+esophageal_perforation -- 7. boerhaave: {'relationship': 'has_differential_diagnosis'}
+12. esophageal_perforation -- acute_abdominal_pain: {'relationship': 'has_symptom'}
+13. esophageal_perforation -- CT_scan_revealing_free_air: {'relationship': 'has_test'}
+14. boerhaave_syndrome -- alcohol_abuse: {'relationship': 'has_risk_factor'}
+alcohol_abuse -- 12. boerhaave: {'relationship': 'has_risk_factor'}
+15. boerhaave_syndrome -- emergency_intervention_required: {'relationship': 'has_treatment_prognosis'}
+1. pancreatic_neoplasm -- jaundice: {'relationship': 'has_symptom'}
+3. pancreatic_neoplasm -- abdominal_pain: {'relationship': 'has_symptom'}
+abdominal_pain -- 11. ebola: {'relationship': 'has_symptom'}
+abdominal_pain -- 7. aortic_aneurysm: {'relationship': 'has_symptom'}
+abdominal_pain -- 1. gastrointestinal_system: {'relationship': 'has_symptom'}
+4. pancreatic_neoplasm -- diabetes_mellitus: {'relationship': 'associated_with'}
+diabetes_mellitus -- 7. possible_nstemi__stemi: {'relationship': 'has_risk_factor'}
+5. pancreatic_neoplasm -- malabsorption: {'relationship': 'associated_with'}
+7. pancreatic_neoplasm -- age_above_50: {'relationship': 'has_risk_factor'}
+8. pancreatic_neoplasm -- endoscopic_ultrasound: {'relationship': 'has_diagnostic_procedure'}
+10. pancreatic_neoplasm -- CA19-9_marker_level: {'relationship': 'distinguished_by'}
+11. pancreatic_neoplasm -- acute_pancreatitis: {'relationship': 'differentiates_from'}
+12. pancreatic_neoplasm -- chronic_pancreatitis: {'relationship': 'differentiates_from'}
+13. pancreatic_neoplasm -- gastric_ulcer: {'relationship': 'differentiates_from'}
+14. pancreatic_neoplasm -- liver_cirrhosis: {'relationship': 'differentiates_from'}
+15. pancreatic_neoplasm -- thromboembolism: {'relationship': 'may_present_with'}
+These relationships can assist healthcare professionals in recognizing and distinguishing pancreatic neoplasm from other similar conditions based on clinical symptoms -- and associated risk factors.: {'relationship': 'diagnostic procedures'}
+1. scombroid_food_poisoning -- nausea: {'relationship': 'has_symptom'}
+2. scombroid_food_poisoning -- vomiting: {'relationship': 'has_symptom'}
+vomiting -- 7. ebola: {'relationship': 'has_symptom'}
+3. scombroid_food_poisoning -- rash: {'relationship': 'has_symptom'}
+rash -- 4. hiv_initial_infection: {'relationship': 'has_symptom'}
+4. scombroid_food_poisoning -- abdominal_cramps: {'relationship': 'has_symptom'}
+5. scombroid_food_poisoning -- diarrhea: {'relationship': 'has_symptom'}
+diarrhea -- 8. ebola: {'relationship': 'has_symptom'}
+diarrhea -- 3. gastrointestinal_system: {'relationship': 'has_symptom'}
+diarrhea -- 4. infectious_diseases: {'relationship': 'has_symptom'}
+6. scombroid_food_poisoning -- histamine_overproduction: {'relationship': 'has_cause'}
+7. scombroid_food_poisoning -- histamine_intoxication_from_fish: {'relationship': 'has_cause'}
+8. scombroid_food_poisoning -- within_minutes_to_hours_after_consummation: {'relationship': 'has_onset_time'}
+9. scombroid_food_poisoning -- other_food_poisonings_due_to_histamine: {'relationship': 'is_distinguished_from'}
+10. scombroid_food_poisoning -- salmonella_food_poisoning_due_to_vomiting_and_rash: {'relationship': 'is_different_from'}
+11. scombroid_food_poisoning -- detection_of_histamine_in_food: {'relationship': 'can_be_differentiated_by'}
+12. scombroid_food_poisoning -- usually_resolves_in_24_hours: {'relationship': 'has_length_of_illness'}
+13. scombroid_food_poisoning -- reactions_in_allergic_individuals: {'relationship': 'can_trigger'}
+14. scombroid_food_poisoning -- consumption_of_improperly_stored_tuna_or_mackerel: {'relationship': 'is_more_common_in'}
+15. scombroid_food_poisoning -- tachycardia_and_facial_flushing: {'relationship': 'can_present_with'}
+2. tuberculosis -- night_sweats: {'relationship': 'has_symptom'}
+night_sweats -- 7. hiv_initial_infection: {'relationship': 'has_symptom'}
+7. tuberculosis -- airborne_particles: {'relationship': 'is_transmitted_by'}
+8. tuberculosis -- Tuberculin_skin_test: {'relationship': 'can_be_tested_by'}
+8. tuberculosis -- persistent_cough_with_blood: {'relationship': 'has_symptom'}
+10. tuberculosis -- HIV/AIDS: {'relationship': 'has_common_comorbidity'}
+11. tuberculosis -- lung_infiltrates: {'relationship': 'shows_radiologic_findings'}
+12. tuberculosis -- mycobacterium_tuberculosis: {'relationship': 'has_different_pathogen'}
+13. tuberculosis -- antituberculosis_medications: {'relationship': 'requires_long_term_treatment'}
+15. tuberculosis -- extrapulmonary_tuberculosis: {'relationship': 'may_present_as'}
+6. hiv_initial_infection -- muscle_aches: {'relationship': 'has_symptom'}
+muscle_aches -- 4. influenza: {'relationship': 'has_symptom'}
+8. hiv_initial_infection -- acute_phase: {'relationship': 'has_time_frame'}
+9. hiv_initial_infection -- positive_HIV_antibody_test: {'relationship': 'is_differentiated_by'}
+10. hiv_initial_infection -- positive_HIV_p24_antigen_test: {'relationship': 'is_differentiated_by'}
+11. hiv_initial_infection -- history_of_high-risk_behaviors: {'relationship': 'is_differentiated_by'}
+12. hiv_initial_infection -- chronic_HIV_infection: {'relationship': 'can_lead_to'}
+15. hiv_initial_infection -- syphilis: {'relationship': 'can_present_similarly_to'}
+syphilis -- 9. Chagas_disease: {'relationship': 'mimics_symptoms'}
+2. ebola -- hemorrhagic_manifestations: {'relationship': 'has_symptom'}
+3. ebola -- muscle_pain: {'relationship': 'has_symptom'}
+4. ebola -- body_fluids: {'relationship': 'transmission_route'}
+5. ebola -- 2_to_21_days: {'relationship': 'incubation_period'}
+6. ebola -- fruit_bats: {'relationship': 'originated_from'}
+9. ebola -- RT-PCR: {'relationship': 'diagnostic_test'}
+12. ebola -- organ_failure: {'relationship': 'complication'}
+13. ebola -- other_viral_infections: {'relationship': 'comorbidity'}
+14. ebola -- Africa: {'relationship': 'geographical_distribution'}
+15. ebola -- conjunctivitis: {'relationship': 'has_symptom'}
+8. influenza -- runny_or_stuffy_nose: {'relationship': 'has_symptom'}
+15. influenza -- fall_and_winter_months: {'relationship': 'seasonal_occurrence'}
+1. Chagas_disease -- acute_fever: {'relationship': 'has_symptom'}
+2. Chagas_disease -- swelling_at_infection_site: {'relationship': 'has_symptom'}
+4. Chagas_disease -- Triatomine_bugs: {'relationship': 'transmitted_by'}
+5. Chagas_disease -- Trypanosoma_cruzi: {'relationship': 'caused_by'}
+6. Chagas_disease -- cardiomyopathy: {'relationship': 'has_late_symptom'}
+7. Chagas_disease -- megacolon: {'relationship': 'has_late_symptom'}
+8. Chagas_disease -- leishmaniasis: {'relationship': 'mimics_symptoms'}
+10. Chagas_disease -- serological_testing: {'relationship': 'diagnosed_by'}
+11. Chagas_disease -- benznidazole: {'relationship': 'requires_different_treatment'}
+12. Chagas_disease -- Latin_America_residence: {'relationship': 'demographic_risk_factor'}
+13. Chagas_disease -- asymptomatic_phase_in_chronic_stage: {'relationship': 'has_differential_feature'}
+1. acute_otitis_media -- ear_pain: {'relationship': 'has_symptom'}
+3. acute_otitis_media -- hearing_loss: {'relationship': 'has_symptom'}
+4. acute_otitis_media -- cold_symptoms: {'relationship': 'can_occur_with'}
+5. acute_otitis_media -- children: {'relationship': 'common_in_population'}
+6. acute_otitis_media -- bulging_ear_drum: {'relationship': 'differentiated_by'}
+7. acute_otitis_media -- acute_sinusitis: {'relationship': 'compared_to'}
+9. acute_otitis_media -- antibiotics_if_bacterial: {'relationship': 'treatment_involves'}
+10. acute_otitis_media -- hearing_impairment: {'relationship': 'can_lead_to'}
+11. acute_otitis_media -- irritability_in_children: {'relationship': 'can_present_with'}
+12. acute_otitis_media -- presence_of_pus_in_middle_ear: {'relationship': 'differentiated_by'}
+13. acute_otitis_media -- duration_of_symptoms: {'relationship': 'differentiated_by'}
+14. acute_otitis_media -- updated_vaccination: {'relationship': 'can_be_prevented_by'}
+15. acute_otitis_media -- allergies_and_asthma: {'relationship': 'associated_with'}
+2. acute_rhinosinusitis -- purulent_nasal_discharge: {'relationship': 'has_symptom'}
+4. acute_rhinosinusitis -- reduced_olfactory_function: {'relationship': 'has_symptom'}
+9. acute_rhinosinusitis -- decongestants: {'relationship': 'treats_with'}
+10. acute_rhinosinusitis -- nasal_steroids: {'relationship': 'treats_with'}
+14. acute_rhinosinusitis -- common_cold: {'relationship': 'differentiates_from'}
+17. acute_rhinosinusitis -- less_than_4_weeks: {'relationship': 'has_duration'}
+18. acute_rhinosinusitis -- acute: {'relationship': 'has_onset'}
+19. acute_rhinosinusitis -- orbital_complications: {'relationship': 'may_complicate_to'}
+20. acute_rhinosinusitis -- mucocele: {'relationship': 'may_complicate_to'}
+1. chronic_rhinosinusitis -- persistent_nasal_congestion: {'relationship': 'has_symptom'}
+3. chronic_rhinosinusitis -- reduced_or_lost_sense_of_smell: {'relationship': 'has_symptom'}
+6. chronic_rhinosinusitis -- acute_sinusitis_by_duration: {'relationship': 'distinguished_from'}
+8. chronic_rhinosinusitis -- polyp_formation: {'relationship': 'differentiated_by'}
+9. chronic_rhinosinusitis -- chronic_allergies: {'relationship': 'can_be_caused_by'}
+10. chronic_rhinosinusitis -- exposure_to_environmental_irritants: {'relationship': 'related_to'}
+5. lung_cancer -- unexplained_weight_loss: {'relationship': 'has_symptom'}
+7. allergic_rhinitis -- sneezing_and_nasal_congestion: {'relationship': 'has_symptom'}
+9. respiratory_infection -- mild_fever_and_body_aches: {'relationship': 'has_symptom'}
+10. interstitial_lung_disease -- progressive_shortness_of_breath_over_time: {'relationship': 'has_symptom'}
+5. coronary_artery_disease -- angina_pectoris: {'relationship': 'has_symptom'}
+6. peripheral_artery_disease -- pain_in_legs_when_walking: {'relationship': 'has_symptom'}
+8. valve_disease -- fluid_retention: {'relationship': 'has_symptom'}
+9. endocarditis -- fever_with_chills: {'relationship': 'has_symptom'}
+10. cardiomyopathy -- swelling_of_legs_or_feet: {'relationship': 'has_symptom'}
+4. gastrointestinal_system -- constipation: {'relationship': 'has_symptom'}
+5. gastrointestinal_system -- bloating_or_gas: {'relationship': 'has_symptom'}
+8. gastrointestinal_system -- food_intolerance: {'relationship': 'is_caused_by'}
+9. gastrointestinal_system -- inflammatory_conditions: {'relationship': 'is_caused_by'}
+10. gastrointestinal_system -- dietary_modifications: {'relationship': 'affects_treatment'}
+13. gastrointestinal_system -- irritable_bowel_syndrome: {'relationship': 'is_related_to'}
+14. gastrointestinal_system -- celiac_disease: {'relationship': 'is_related_to'}
+15. gastrointestinal_system -- peptic_ulcer_disease: {'relationship': 'is_related_to'}
+16. gastrointestinal_system -- intestinal_inflammation: {'relationship': 'histological_feature'}
+17. gastrointestinal_system -- mucosal_damage: {'relationship': 'histological_feature'}
+18. gastrointestinal_system -- endoscopy: {'relationship': 'imaging_study_required'}
+19. gastrointestinal_system -- laboratory_tests: {'relationship': 'diagnosed_by'}
+20. gastrointestinal_system -- malnutrition: {'relationship': 'can_lead_to'}
+3. infectious_diseases -- runny_nose: {'relationship': 'has_symptom'}
+7. infectious_diseases -- person_to_person_contact: {'relationship': 'has_mode_of_transmission'}
+8. infectious_diseases -- vector_borne: {'relationship': 'has_mode_of_transmission'}
+9. infectious_diseases -- contaminated_food_or_water: {'relationship': 'has_mode_of_transmission'}
+10. infectious_diseases -- 2_to_14_days: {'relationship': 'has_incubation_period'}
+13. infectious_diseases -- immunocompromised_individuals: {'relationship': 'common_in'}
+15. infectious_diseases -- laboratory_test_results: {'relationship': 'differentiated_by'}
+1. amyotrophic_lateral_sclerosis -- muscle_weakness: {'relationship': 'has_symptom'}
+muscle_weakness -- 1. guillainbarré_syndrome: {'relationship': 'has_symptom'}
+2. multiple_sclerosis -- numbness_or_tingling: {'relationship': 'has_symptom'}
+4. Guillain-Barré_syndrome -- rapid_onset_weakness: {'relationship': 'has_symptom'}
+5. Parkinson's_disease -- tremors: {'relationship': 'has_symptom'}
+6. diabetic_neuropathy -- peripheral_numbness: {'relationship': 'has_symptom'}
+7. peripheral_neuropathy -- pain_in_limbs: {'relationship': 'has_symptom'}
+8. stroke -- sudden_numbness_or_weakness: {'relationship': 'has_symptom'}
+9. spinal_muscular_atrophy -- progressive_muscle_weakness: {'relationship': 'has_symptom'}
+10. restless_legs_syndrome -- urge_to_move_legs: {'relationship': 'has_symptom'}
+11. Huntington's_disease -- mood_changes_and_movement_disorders: {'relationship': 'has_symptom'}
+12. cervical_spondylosis -- neck_pain_and_radiculopathy: {'relationship': 'has_symptom'}
+13. fibromyalgia -- widespread_pain: {'relationship': 'has_symptom'}
+14. myopathy -- muscle_pain_and_weakness: {'relationship': 'has_symptom'}
+15. neuropathy_due_to_vitamin_B12_deficiency -- paresthesia_and_weakness: {'relationship': 'has_symptom'}
+2. autoimmune_and_immunological_diseases -- joint_pain: {'relationship': 'has_symptom'}
+3. autoimmune_and_immunological_diseases -- immune_system_malfunction: {'relationship': 'is_caused_by'}
+4. autoimmune_and_immunological_diseases -- skin_rashes: {'relationship': 'has_symptom'}
+5. autoimmune_and_immunological_diseases -- rheumatoid_arthritis: {'relationship': 'includes_disease'}
+6. autoimmune_and_immunological_diseases -- lupus: {'relationship': 'includes_disease'}
+7. autoimmune_and_immunological_diseases -- organ_damage: {'relationship': 'can_lead_to'}
+8. autoimmune_and_immunological_diseases -- autoimmune_anemia: {'relationship': 'has_symptom'}
+10. autoimmune_and_immunological_diseases -- autoantibodies: {'relationship': 'has_diagnostic_marker'}
+12. autoimmune_and_immunological_diseases -- neurological_symptoms: {'relationship': 'can_cause'}
+13. autoimmune_and_immunological_diseases -- febrile_illness: {'relationship': 'may_present_with'}
+14. autoimmune_and_immunological_diseases -- immunosuppressive_medications: {'relationship': 'can_be_treated_with'}
+15. autoimmune_and_immunological_diseases -- histological_analysis: {'relationship': 'differentiated_by'}
+2. hematological_disorders -- pallor: {'relationship': 'has_symptom'}
+3. hematological_disorders -- bleeding_or_bruising: {'relationship': 'has_symptom'}
+5. hematological_disorders -- rapid_heart_rate: {'relationship': 'has_symptom'}
+6. hematological_disorders -- abnormal_blood_cells: {'relationship': 'is_caused_by'}
+7. hematological_disorders -- blood_smear: {'relationship': 'has_diagnostic_test'}
+9. hematological_disorders -- leukopenia: {'relationship': 'can_lead_to'}
+10. hematological_disorders -- thrombocytopenia: {'relationship': 'can_lead_to'}
+11. hematological_disorders -- iron_deficiency_anemia: {'relationship': 'is_differentially_diagnosed_with'}
+12. hematological_disorders -- autoimmune_disorders: {'relationship': 'is_differentially_diagnosed_with'}
+13. hematological_disorders -- malignant_conditions: {'relationship': 'associated_with'}
+14. hematological_disorders -- chronic_fatigue: {'relationship': 'can_result_in'}
+15. hematological_disorders -- immunotherapy_or_chemo: {'relationship': 'requires_treatment_with'}
+1. psychiatric_and_stress_related_disorders -- anxiety: {'relationship': 'has_symptom'}
+2. psychiatric_and_stress_related_disorders -- depression: {'relationship': 'has_symptom'}
+3. psychiatric_and_stress_related_disorders -- psychosomatic_symptoms: {'relationship': 'has_symptom'}
+4. psychiatric_and_stress_related_disorders -- psychological_stressors: {'relationship': 'is_caused_by'}
+5. psychiatric_and_stress_related_disorders -- post_traumatic_stress_disorder: {'relationship': 'has_related_condition'}
+6. psychiatric_and_stress_related_disorders -- adjustment_disorder: {'relationship': 'has_related_condition'}
+7. psychiatric_and_stress_related_disorders -- clinical_interview: {'relationship': 'requires_diagnosis_method'}
+8. psychiatric_and_stress_related_disorders -- psychological_testing: {'relationship': 'requires_diagnosis_method'}
+9. psychiatric_and_stress_related_disorders -- cognitive_behavioral_therapy: {'relationship': 'treats_with'}
+10. psychiatric_and_stress_related_disorders -- medication_antidepressants: {'relationship': 'treats_with'}
+11. psychiatric_and_stress_related_disorders -- physical_health_conditions: {'relationship': 'differentiates_from'}
+12. psychiatric_and_stress_related_disorders -- substance_use_disorders: {'relationship': 'can_lead_to'}
+13. psychiatric_and_stress_related_disorders -- poor_coping_skills: {'relationship': 'associated_with'}
+1. trauma_and_injury_related_conditions -- acute_pain_at_injury_site: {'relationship': 'has_symptom'}
+2. trauma_and_injury_related_conditions -- fractures_or_dislocations: {'relationship': 'may_result_in'}
+3. trauma_and_injury_related_conditions -- swelling_and_inflammation: {'relationship': 'can_trigger'}
+4. trauma_and_injury_related_conditions -- external_force_or_impact: {'relationship': 'has_cause'}
+5. trauma_and_injury_related_conditions -- X-rays_or_MRI: {'relationship': 'requires_diagnostic_imaging'}
+6. trauma_and_injury_related_conditions -- physical_therapy: {'relationship': 'has_treatment'}
+7. trauma_and_injury_related_conditions -- bruising_or_hematoma: {'relationship': 'can_present_with'}
+8. trauma_and_injury_related_conditions -- soft_tissue_injury: {'relationship': 'may_accompany'}
+9. trauma_and_injury_related_conditions -- osteoarthritis_in_the_presence_of_recent_injury: {'relationship': 'differs_from'}
+10. trauma_and_injury_related_conditions -- increased_risk_of_complications_if_left_untreated: {'relationship': 'associated_with'}
+1. boerhaave -- retching: {'relationship': 'has_symptom'}
+3. boerhaave -- subcutaneous_emphysema: {'relationship': 'has_symptom'}
+4. boerhaave -- dyspnea: {'relationship': 'has_symptom'}
+6. boerhaave -- violent_vomiting: {'relationship': 'has_cause'}
+10. boerhaave -- esophageal_ct_scan: {'relationship': 'is_differentiated_by'}
+11. boerhaave -- contrast_esophagography: {'relationship': 'is_differentiated_by'}
+13. boerhaave -- high_intrathoracic_pressure: {'relationship': 'has_risk_factor'}
+15. boerhaave -- shock: {'relationship': 'may_lead_to'}
+4. possible_nstemi__stemi -- diaphoresis: {'relationship': 'has_symptom'}
+5. possible_nstemi__stemi -- lightheadedness_or_dizziness: {'relationship': 'has_symptom'}
+8. possible_nstemi__stemi -- higher_age: {'relationship': 'has_risk_factor'}
+9. possible_nstemi__stemi -- family_history_of_heart_disease: {'relationship': 'has_risk_factor'}
+13. possible_nstemi__stemi -- cardiac_arrest: {'relationship': 'can_lead_to'}
+14. possible_nstemi__stemi -- ECG: {'relationship': 'requires_diagnostic_test'}
+15. possible_nstemi__stemi -- blood_biomarkers: {'relationship': 'requires_diagnostic_test'}
+16. possible_nstemi__stemi -- ST_segment_changes_on_ECG: {'relationship': 'can_present_with'}
+17. possible_nstemi__stemi -- anxiety_attack: {'relationship': 'may_be_misdiagnosed_as'}
+18. possible_nstemi__stemi -- antiplatelet_therapy: {'relationship': 'treatment_includes'}
+19. possible_nstemi__stemi -- beta_blockers: {'relationship': 'treatment_includes'}
+20. possible_nstemi__stemi -- angioplasty_if_stemi_confirmed: {'relationship': 'treatment_includes'}
+1. localized_edema -- swelling_in_a_specific_area: {'relationship': 'has_symptom'}
+2. localized_edema -- injury_or_trama: {'relationship': 'can_be_caused_by'}
+3. localized_edema -- infection: {'relationship': 'can_be_caused_by'}
+4. localized_edema -- allergic_reaction: {'relationship': 'can_be_caused_by'}
+5. localized_edema -- venous_insufficiency: {'relationship': 'can_be_caused_by'}
+6. localized_edema -- liver_disease: {'relationship': 'can_be_caused_by'}
+7. localized_edema -- kidney_disease: {'relationship': 'can_be_caused_by'}
+9. localized_edema -- lymphatic_obstruction: {'relationship': 'can_be_associated_with'}
+10. localized_edema -- by_presentation_in_a_specific_region: {'relationship': 'is_different_from_generalized_edema'}
+11. localized_edema -- with_elevation_of_the_afflicted_area: {'relationship': 'may_show_improvement'}
+12. localized_edema -- by_absence_of_skin_redness_and_heat: {'relationship': 'can_be_differentiated_from_cellulitis'}
+13. localized_edema -- ultrasound_or_imaging_studies: {'relationship': 'can_be_assessed_with'}
+14. localized_edema -- with_other_conditions_like_venous_thrombosis: {'relationship': 'may_require_differential_diagnosis'}
+15. localized_edema -- like_diabetes_or_hypertension: {'relationship': 'can_have_underlying_conditions'}
+8. acute_asthma_exacerbation -- inhaled_corticosteroids: {'relationship': 'has_treatment'}
+10. acute_asthma_exacerbation -- specific_allergic_conditions: {'relationship': 'associated_with'}
+These relationships can help in identifying and differentiating acute asthma exacerbation from other respiratory conditions based on their specific symptoms -- and treatment protocols.: {'relationship': 'triggers'}
+1. acute_copd_exacerbation__infection -- increased_sputum_production: {'relationship': 'has_symptom'}
+2. acute_copd_exacerbation__infection -- worsening_dyspnea: {'relationship': 'has_symptom'}
+4. acute_copd_exacerbation__infection -- respiratory_infection: {'relationship': 'is_caused_by'}
+5. acute_copd_exacerbation__infection -- pulmonary_function_tests: {'relationship': 'is_differentiated_by'}
+8. acute_copd_exacerbation__infection -- air_pollution: {'relationship': 'can_be_triggered_by'}
+10. acute_copd_exacerbation__infection -- fever_and_malaise: {'relationship': 'can_present_with'}
+2. guillainbarré_syndrome -- rapid_onset_of_symptoms: {'relationship': 'has_symptom'}
+3. guillainbarré_syndrome -- tingling_or_prickling_sensations: {'relationship': 'has_symptom'}
+6. guillainbarré_syndrome -- after_infection: {'relationship': 'typical_onset'}
+9. guillainbarré_syndrome -- common_in_young_adults_and_middle-aged_individuals: {'relationship': 'demographics'}
+10. guillainbarré_syndrome -- acute_flaccid_paralysis: {'relationship': 'has_symptom'}
+11. guillainbarré_syndrome -- often_resolves_within_months: {'relationship': 'has_symptom'}
+12. guillainbarré_syndrome -- positional_pain: {'relationship': 'has_symptom'}
+13. guillainbarré_syndrome -- diabetic_polyneuropathy: {'relationship': 'is_differentiated_from'}
+14. guillainbarré_syndrome -- Campylobacter_jejuni_infection: {'relationship': 'is_associated_with'}
+15. guillainbarré_syndrome -- paresthesia_in_lower_extremities: {'relationship': 'common_sign'}
+These relationships highlight specific symptoms -- and other relevant clinical aspects that differentiate Guillain-Barré Syndrome from other similar conditions.: {'relationship': 'distinguishing features'}
